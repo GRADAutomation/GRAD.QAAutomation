@@ -1,0 +1,7 @@
+bin/
+CustomOutput/
+Screenshots/
+ReportsArchive/
+test-output/
+build/
+XSLT_Reports/
