@@ -1,0 +1,1021 @@
+09/18/2013 10:10:49 devpinoyLogger Starting the test suite
+09/18/2013 10:10:49 devpinoyLogger Loading config files
+09/18/2013 10:10:49 devpinoyLogger Browser chosen is: Firefox
+09/18/2013 10:11:17 devpinoyLogger Started the driver
+09/18/2013 10:11:17 devpinoyLogger Loading Object XPATHS
+09/18/2013 10:11:49 devpinoyLogger Skipping the test TC0001
+09/18/2013 10:11:49 devpinoyLogger ***********************************TC0001 --- Skip
+09/18/2013 10:11:50 devpinoyLogger Skipping the test TC0002
+09/18/2013 10:11:50 devpinoyLogger ***********************************TC0002 --- Skip
+09/18/2013 10:11:50 devpinoyLogger Skipping the test TC0003
+09/18/2013 10:11:50 devpinoyLogger ***********************************TC0003 --- Skip
+09/18/2013 10:11:51 devpinoyLogger Skipping the test TC0004
+09/18/2013 10:11:51 devpinoyLogger ***********************************TC0004 --- Skip
+09/18/2013 10:11:51 devpinoyLogger Skipping the test TC0005
+09/18/2013 10:11:51 devpinoyLogger ***********************************TC0005 --- Skip
+09/18/2013 10:11:51 devpinoyLogger Skipping the test TC0006
+09/18/2013 10:11:51 devpinoyLogger ***********************************TC0006 --- Skip
+09/18/2013 10:11:51 devpinoyLogger Skipping the test TC0007
+09/18/2013 10:11:51 devpinoyLogger ***********************************TC0007 --- Skip
+09/18/2013 10:11:52 devpinoyLogger Skipping the test TC0008
+09/18/2013 10:11:52 devpinoyLogger ***********************************TC0008 --- Skip
+09/18/2013 10:11:52 devpinoyLogger Skipping the test TC0009
+09/18/2013 10:11:52 devpinoyLogger ***********************************TC0009 --- Skip
+09/18/2013 10:11:52 devpinoyLogger Skipping the test TC0010
+09/18/2013 10:11:52 devpinoyLogger ***********************************TC0010 --- Skip
+09/18/2013 10:11:52 devpinoyLogger Skipping the test TC0011
+09/18/2013 10:11:52 devpinoyLogger ***********************************TC0011 --- Skip
+09/18/2013 10:11:53 devpinoyLogger Skipping the test TC0012
+09/18/2013 10:11:53 devpinoyLogger ***********************************TC0012 --- Skip
+09/18/2013 10:11:53 devpinoyLogger Skipping the test TC0013
+09/18/2013 10:11:53 devpinoyLogger ***********************************TC0013 --- Skip
+09/18/2013 10:11:53 devpinoyLogger Skipping the test TC0014
+09/18/2013 10:11:53 devpinoyLogger ***********************************TC0014 --- Skip
+09/18/2013 10:11:53 devpinoyLogger Skipping the test TC0015
+09/18/2013 10:11:53 devpinoyLogger ***********************************TC0015 --- Skip
+09/18/2013 10:11:53 devpinoyLogger Skipping the test TC0016
+09/18/2013 10:11:53 devpinoyLogger ***********************************TC0016 --- Skip
+09/18/2013 10:11:54 devpinoyLogger Skipping the test TC0017
+09/18/2013 10:11:54 devpinoyLogger ***********************************TC0017 --- Skip
+09/18/2013 10:11:54 devpinoyLogger Skipping the test TC0018
+09/18/2013 10:11:54 devpinoyLogger ***********************************TC0018 --- Skip
+09/18/2013 10:11:54 devpinoyLogger Skipping the test TC0019
+09/18/2013 10:11:54 devpinoyLogger ***********************************TC0019 --- Skip
+09/18/2013 10:11:54 devpinoyLogger Skipping the test TC0020
+09/18/2013 10:11:54 devpinoyLogger ***********************************TC0020 --- Skip
+09/18/2013 10:11:55 devpinoyLogger Skipping the test TC0021
+09/18/2013 10:11:55 devpinoyLogger ***********************************TC0021 --- Skip
+09/18/2013 10:11:55 devpinoyLogger Skipping the test TC0022
+09/18/2013 10:11:55 devpinoyLogger ***********************************TC0022 --- Skip
+09/18/2013 10:11:55 devpinoyLogger Skipping the test TC0023
+09/18/2013 10:11:55 devpinoyLogger ***********************************TC0023 --- Skip
+09/18/2013 10:11:55 devpinoyLogger Skipping the test TC0024
+09/18/2013 10:11:55 devpinoyLogger ***********************************TC0024 --- Skip
+09/18/2013 10:11:55 devpinoyLogger Skipping the test TC0025
+09/18/2013 10:11:55 devpinoyLogger ***********************************TC0025 --- Skip
+09/18/2013 10:11:56 devpinoyLogger Skipping the test TC0026
+09/18/2013 10:11:56 devpinoyLogger ***********************************TC0026 --- Skip
+09/18/2013 10:11:56 devpinoyLogger Skipping the test TC0027
+09/18/2013 10:11:56 devpinoyLogger ***********************************TC0027 --- Skip
+09/18/2013 10:11:56 devpinoyLogger Skipping the test TC0028
+09/18/2013 10:11:56 devpinoyLogger ***********************************TC0028 --- Skip
+09/18/2013 10:11:56 devpinoyLogger Skipping the test TC0029
+09/18/2013 10:11:56 devpinoyLogger ***********************************TC0029 --- Skip
+09/18/2013 10:11:57 devpinoyLogger Skipping the test TC0030
+09/18/2013 10:11:57 devpinoyLogger ***********************************TC0030 --- Skip
+09/18/2013 10:11:57 devpinoyLogger Skipping the test TC0031
+09/18/2013 10:11:57 devpinoyLogger ***********************************TC0031 --- Skip
+09/18/2013 10:11:57 devpinoyLogger Skipping the test TC0032
+09/18/2013 10:11:57 devpinoyLogger ***********************************TC0032 --- Skip
+09/18/2013 10:11:57 devpinoyLogger Skipping the test TC0033
+09/18/2013 10:11:57 devpinoyLogger ***********************************TC0033 --- Skip
+09/18/2013 10:11:57 devpinoyLogger Skipping the test TC0034
+09/18/2013 10:11:57 devpinoyLogger ***********************************TC0034 --- Skip
+09/18/2013 10:11:58 devpinoyLogger Skipping the test TC0035
+09/18/2013 10:11:58 devpinoyLogger ***********************************TC0035 --- Skip
+09/18/2013 10:11:58 devpinoyLogger Skipping the test TC0036
+09/18/2013 10:11:58 devpinoyLogger ***********************************TC0036 --- Skip
+09/18/2013 10:11:58 devpinoyLogger Skipping the test TC0037
+09/18/2013 10:11:58 devpinoyLogger ***********************************TC0037 --- Skip
+09/18/2013 10:11:58 devpinoyLogger Skipping the test TC0038
+09/18/2013 10:11:58 devpinoyLogger ***********************************TC0038 --- Skip
+09/18/2013 10:11:58 devpinoyLogger Skipping the test TC0039
+09/18/2013 10:11:58 devpinoyLogger ***********************************TC0039 --- Skip
+09/18/2013 10:11:59 devpinoyLogger Skipping the test TC0040
+09/18/2013 10:11:59 devpinoyLogger ***********************************TC0040 --- Skip
+09/18/2013 10:11:59 devpinoyLogger Skipping the test TC0041
+09/18/2013 10:11:59 devpinoyLogger ***********************************TC0041 --- Skip
+09/18/2013 10:11:59 devpinoyLogger Skipping the test TC0042
+09/18/2013 10:11:59 devpinoyLogger ***********************************TC0042 --- Skip
+09/18/2013 10:11:59 devpinoyLogger Skipping the test TC0043
+09/18/2013 10:11:59 devpinoyLogger ***********************************TC0043 --- Skip
+09/18/2013 10:11:59 devpinoyLogger Skipping the test TC0044
+09/18/2013 10:11:59 devpinoyLogger ***********************************TC0044 --- Skip
+09/18/2013 10:12:00 devpinoyLogger Skipping the test TC0045
+09/18/2013 10:12:00 devpinoyLogger ***********************************TC0045 --- Skip
+09/18/2013 10:12:00 devpinoyLogger Skipping the test TC0046
+09/18/2013 10:12:00 devpinoyLogger ***********************************TC0046 --- Skip
+09/18/2013 10:12:00 devpinoyLogger Skipping the test TC0047
+09/18/2013 10:12:00 devpinoyLogger ***********************************TC0047 --- Skip
+09/18/2013 10:12:00 devpinoyLogger Skipping the test TC0048
+09/18/2013 10:12:00 devpinoyLogger ***********************************TC0048 --- Skip
+09/18/2013 10:12:00 devpinoyLogger Skipping the test TC0049
+09/18/2013 10:12:00 devpinoyLogger ***********************************TC0049 --- Skip
+09/18/2013 10:12:01 devpinoyLogger Skipping the test TC0050
+09/18/2013 10:12:01 devpinoyLogger ***********************************TC0050 --- Skip
+09/18/2013 10:12:01 devpinoyLogger Skipping the test TC0051
+09/18/2013 10:12:01 devpinoyLogger ***********************************TC0051 --- Skip
+09/18/2013 10:12:01 devpinoyLogger Skipping the test TC0052
+09/18/2013 10:12:01 devpinoyLogger ***********************************TC0052 --- Skip
+09/18/2013 10:12:01 devpinoyLogger Skipping the test TC0053
+09/18/2013 10:12:01 devpinoyLogger ***********************************TC0053 --- Skip
+09/18/2013 10:12:01 devpinoyLogger Skipping the test TC0054
+09/18/2013 10:12:01 devpinoyLogger ***********************************TC0054 --- Skip
+09/18/2013 10:12:02 devpinoyLogger Skipping the test TC0055
+09/18/2013 10:12:02 devpinoyLogger ***********************************TC0055 --- Skip
+09/18/2013 10:12:02 devpinoyLogger Skipping the test TC0056
+09/18/2013 10:12:02 devpinoyLogger ***********************************TC0056 --- Skip
+09/18/2013 10:12:02 devpinoyLogger Skipping the test TC0057
+09/18/2013 10:12:02 devpinoyLogger ***********************************TC0057 --- Skip
+09/18/2013 10:12:02 devpinoyLogger Skipping the test TC0058
+09/18/2013 10:12:02 devpinoyLogger ***********************************TC0058 --- Skip
+09/18/2013 10:12:02 devpinoyLogger Skipping the test TC0059
+09/18/2013 10:12:02 devpinoyLogger ***********************************TC0059 --- Skip
+09/18/2013 10:12:03 devpinoyLogger Skipping the test TC0060
+09/18/2013 10:12:03 devpinoyLogger ***********************************TC0060 --- Skip
+09/18/2013 10:12:03 devpinoyLogger Skipping the test TC0061
+09/18/2013 10:12:03 devpinoyLogger ***********************************TC0061 --- Skip
+09/18/2013 10:12:03 devpinoyLogger Skipping the test TC0062
+09/18/2013 10:12:03 devpinoyLogger ***********************************TC0062 --- Skip
+09/18/2013 10:12:03 devpinoyLogger Skipping the test TC0063
+09/18/2013 10:12:03 devpinoyLogger ***********************************TC0063 --- Skip
+09/18/2013 10:12:03 devpinoyLogger Skipping the test TC0064
+09/18/2013 10:12:03 devpinoyLogger ***********************************TC0064 --- Skip
+09/18/2013 10:12:03 devpinoyLogger Skipping the test TC0065
+09/18/2013 10:12:03 devpinoyLogger ***********************************TC0065 --- Skip
+09/18/2013 10:12:04 devpinoyLogger Skipping the test TC0066
+09/18/2013 10:12:04 devpinoyLogger ***********************************TC0066 --- Skip
+09/18/2013 10:12:04 devpinoyLogger Skipping the test TC0067
+09/18/2013 10:12:04 devpinoyLogger ***********************************TC0067 --- Skip
+09/18/2013 10:12:04 devpinoyLogger Skipping the test TC0068
+09/18/2013 10:12:04 devpinoyLogger ***********************************TC0068 --- Skip
+09/18/2013 10:12:04 devpinoyLogger Skipping the test TC0069
+09/18/2013 10:12:04 devpinoyLogger ***********************************TC0069 --- Skip
+09/18/2013 10:12:04 devpinoyLogger Skipping the test TC0070
+09/18/2013 10:12:04 devpinoyLogger ***********************************TC0070 --- Skip
+09/18/2013 10:12:05 devpinoyLogger Skipping the test TC0071
+09/18/2013 10:12:05 devpinoyLogger ***********************************TC0071 --- Skip
+09/18/2013 10:12:05 devpinoyLogger Skipping the test TC0072
+09/18/2013 10:12:05 devpinoyLogger ***********************************TC0072 --- Skip
+09/18/2013 10:12:05 devpinoyLogger Skipping the test TC0073
+09/18/2013 10:12:05 devpinoyLogger ***********************************TC0073 --- Skip
+09/18/2013 10:12:05 devpinoyLogger Skipping the test TC0074
+09/18/2013 10:12:05 devpinoyLogger ***********************************TC0074 --- Skip
+09/18/2013 10:12:05 devpinoyLogger Skipping the test TC0075
+09/18/2013 10:12:05 devpinoyLogger ***********************************TC0075 --- Skip
+09/18/2013 10:12:05 devpinoyLogger Executing the test Complete_Regression under the Test name Addition and Elimination Quiz
+09/18/2013 10:12:05 devpinoyLogger Inside Suite 1 CompleteflowTestTopicalQuiz
+09/18/2013 10:12:06 devpinoyLogger Executing Navigate to: JspLog_QAURL
+09/18/2013 10:12:06 devpinoyLogger Verifying the title match: JspLog_Title
+09/18/2013 10:12:06 devpinoyLogger Executing clear and input Keyword: JspLog_KecUsername
+09/18/2013 10:12:07 devpinoyLogger Executing clear and input Keyword: JspLog_KecPassword
+09/18/2013 10:12:07 devpinoyLogger Executing clear and input Keyword: JspLog_JasperUsername
+09/18/2013 10:12:07 devpinoyLogger Executing clear and input Keyword: JspLog_JasperPassword
+09/18/2013 10:12:08 devpinoyLogger Executing selectfromSelectList Keyword: JspLog_JasperProduct
+09/18/2013 10:12:11 devpinoyLogger Executing mouse click: JspLog_Login
+09/18/2013 10:12:11 devpinoyLogger Jasper Login step is completed
+09/18/2013 10:12:12 devpinoyLogger Verifying the title match: Addition and Elimination Quiz
+09/18/2013 10:12:12 devpinoyLogger MCAT All Resources page is launched
+09/18/2013 10:12:12 devpinoyLogger Executing Linktext: Addition and Elimination Quiz
+09/18/2013 10:12:16 devpinoyLogger Executing verifyObjectText Jsp_Footer_Logo
+09/18/2013 10:12:16 devpinoyLogger 1-800-­Kap-Test (1-800-­527-8378)
+09/18/2013 10:12:16 devpinoyLogger 1-800-­Kap-Test (1-800-­527-8378)
+09/18/2013 10:12:16 devpinoyLogger Executing verifyObjectText Jsp_Footer_Twitter_Text
+09/18/2013 10:12:16 devpinoyLogger Follow Us On Twitter
+09/18/2013 10:12:16 devpinoyLogger Follow Us On Twitter
+09/18/2013 10:12:16 devpinoyLogger Executing verifyObjectText Jsp_Footer_FB_Text
+09/18/2013 10:12:17 devpinoyLogger Like Us On Facebook
+09/18/2013 10:12:17 devpinoyLogger Like Us On Facebook
+09/18/2013 10:12:17 devpinoyLogger Executing verifyObjectText Jsp_Header_Logo
+09/18/2013 10:12:17 devpinoyLogger Kaplan Test Prep
+09/18/2013 10:12:17 devpinoyLogger Kaplan Test Prep
+09/18/2013 10:12:17 devpinoyLogger Executing clickLink: JspStart_Allres_link
+09/18/2013 10:12:18 devpinoyLogger Executing Linktext: Addition and Elimination Quiz
+09/18/2013 10:12:19 devpinoyLogger Executing verifyObjectTextWithParameter: Addition and Elimination Quiz
+09/18/2013 10:12:19 devpinoyLogger Addition and Elimination Quiz
+09/18/2013 10:12:19 devpinoyLogger Addition and Elimination Quiz
+09/18/2013 10:12:19 devpinoyLogger Executing verifyObjectText JspStart_Message_Text
+09/18/2013 10:12:20 devpinoyLogger You have not started this online test yet. Click the Start Test button below.
+09/18/2013 10:12:20 devpinoyLogger You have not started this online quiz yet. Click the Start Quiz button below.
+09/18/2013 10:12:20 devpinoyLogger Error in text - JspStart_Message_Text
+09/18/2013 10:12:20 devpinoyLogger Actual - You have not started this online quiz yet. Click the Start Quiz button below.
+09/18/2013 10:12:20 devpinoyLogger Expected -You have not started this online test yet. Click the Start Test button below.
+09/18/2013 10:12:20 devpinoyLogger Executing clickButton Keyword: JspStart_Start_Button
+09/18/2013 10:12:21 devpinoyLogger Jasper Start Test Page is launched
+09/18/2013 10:12:23 devpinoyLogger Executing TestUtil - Test Page Headers method
+09/18/2013 10:12:23 devpinoyLogger Executing verifyObjectTextWithParameter: Addition and Elimination Quiz
+09/18/2013 10:12:23 devpinoyLogger Addition and Elimination Quiz
+09/18/2013 10:12:23 devpinoyLogger Addition and Elimination Quiz
+09/18/2013 10:12:23 devpinoyLogger Executing verifyAttributeValue: TstPg_Header_Logo_Suite2
+09/18/2013 10:12:23 devpinoyLogger Executing Get Attribute: TstPg_Header_Logo_Suite2
+09/18/2013 10:12:24 devpinoyLogger http://jasperqa.kaplan.com/content/media/99/151799.84.mcatKaplanLogo.png
+09/18/2013 10:12:24 devpinoyLogger http://jasperqa.kaplan.com/content/media/96/87296.66.KaplanLogo.gif
+09/18/2013 10:12:24 devpinoyLogger Error in attribute value of object - TstPg_Header_Logo_Suite2
+09/18/2013 10:12:24 devpinoyLogger Actual - http://jasperqa.kaplan.com/content/media/96/87296.66.KaplanLogo.gif
+09/18/2013 10:12:24 devpinoyLogger Expected -http://jasperqa.kaplan.com/content/media/99/151799.84.mcatKaplanLogo.png
+09/18/2013 10:12:24 devpinoyLogger Executing Test Page Footers
+09/18/2013 10:12:24 devpinoyLogger Executing verifyObjectText TstPg_Footer_CH
+09/18/2013 10:12:24 devpinoyLogger CH.
+09/18/2013 10:12:24 devpinoyLogger CH.
+09/18/2013 10:12:24 devpinoyLogger Executing verifyObjectTextWithParameter: 1.0 of 10
+09/18/2013 10:12:24 devpinoyLogger 1.0 of 10
+09/18/2013 10:12:24 devpinoyLogger 1 of 10
+09/18/2013 10:12:24 devpinoyLogger Error in text - TstPg_Footer_QueNum_Text
+09/18/2013 10:12:24 devpinoyLogger Actual - 1 of 10
+09/18/2013 10:12:24 devpinoyLogger Expected -1.0 of 10
+09/18/2013 10:12:24 devpinoyLogger Executing verifyAttributeValue: TstPg_Footer_Help_Button
+09/18/2013 10:12:24 devpinoyLogger Executing Get Attribute: TstPg_Footer_Help_Button
+09/18/2013 10:12:35 devpinoyLogger Error locating the findElement: imgleft.helpUnable to locate element: {"method":"id","selector":"imgleft.help"}
+Command duration or timeout: 10.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:33:32'
+System info: os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_11'
+Session ID: bc00b8c0-69b8-47c1-a181-665bef45de7d
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=21.0}]
+09/18/2013 10:12:35 devpinoyLogger Error in getting attribute value - TstPg_Footer_Help_Button
+09/18/2013 10:12:35 devpinoyLogger http://jasperqa.kaplan.com/content/media/42/239942.3.GL3navTestHelp_hi.gif
+09/18/2013 10:12:35 devpinoyLogger Fail
+09/18/2013 10:12:35 devpinoyLogger Error in attribute value of object - TstPg_Footer_Help_Button
+09/18/2013 10:12:35 devpinoyLogger Actual - Fail
+09/18/2013 10:12:35 devpinoyLogger Expected -http://jasperqa.kaplan.com/content/media/42/239942.3.GL3navTestHelp_hi.gif
+09/18/2013 10:12:35 devpinoyLogger Executing verifyAttributeValue: TstPg_Footer_Back_Button
+09/18/2013 10:12:35 devpinoyLogger Executing Get Attribute: TstPg_Footer_Back_Button
+09/18/2013 10:12:35 devpinoyLogger http://jasperqa.kaplan.com/content/media/42/239942.3.mcatBack_hi.gif
+09/18/2013 10:12:35 devpinoyLogger http://jasperqa.kaplan.com/content/media/96/87296.66.navPrevPositionGL_d.gif
+09/18/2013 10:12:35 devpinoyLogger Error in attribute value of object - TstPg_Footer_Back_Button
+09/18/2013 10:12:35 devpinoyLogger Actual - http://jasperqa.kaplan.com/content/media/96/87296.66.navPrevPositionGL_d.gif
+09/18/2013 10:12:35 devpinoyLogger Expected -http://jasperqa.kaplan.com/content/media/42/239942.3.mcatBack_hi.gif
+09/18/2013 10:12:36 devpinoyLogger Answering questions in section - quiz
+09/18/2013 10:12:36 devpinoyLogger Completed all initialization
+09/18/2013 10:12:36 devpinoyLogger Executing verifyCustomObjectText: Item 1
+09/18/2013 10:12:36 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:12:36 devpinoyLogger Item 1
+09/18/2013 10:12:36 devpinoyLogger Item 1
+09/18/2013 10:12:36 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:12:36 devpinoyLogger Executing verifyCustomObjectText: If the following reaction is allowed to go to completion, what will the dominant product be?
+09/18/2013 10:12:36 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:12:36 devpinoyLogger If the following reaction is allowed to go to completion, what will the dominant product be?
+09/18/2013 10:12:36 devpinoyLogger If the following reaction is allowed to go to completion, what will the dominant product be?
+09/18/2013 10:12:36 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:12:36 devpinoyLogger Executing verifyCustomObjectText: 2-bromo-2-methylbutane
+09/18/2013 10:12:36 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:12:36 devpinoyLogger 2-bromo-2-methylbutane
+09/18/2013 10:12:36 devpinoyLogger 2-bromo-2-methylbutane
+09/18/2013 10:12:36 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:12:36 devpinoyLogger Executing verifyCustomObjectText: 3-bromo-3-methylbutane
+09/18/2013 10:12:36 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:12:37 devpinoyLogger 3-bromo-3-methylbutane
+09/18/2013 10:12:37 devpinoyLogger 3-bromo-3-methylbutane
+09/18/2013 10:12:37 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:12:37 devpinoyLogger Executing verifyCustomObjectText: 3-bromo-2-methylbutane
+09/18/2013 10:12:37 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:12:37 devpinoyLogger 3-bromo-2-methylbutane
+09/18/2013 10:12:37 devpinoyLogger 3-bromo-2-methylbutane
+09/18/2013 10:12:37 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:12:37 devpinoyLogger Executing verifyCustomObjectText: 2-bromo-3-methylbutane
+09/18/2013 10:12:37 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:12:37 devpinoyLogger 2-bromo-3-methylbutane
+09/18/2013 10:12:37 devpinoyLogger 2-bromo-3-methylbutane
+09/18/2013 10:12:37 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:12:37 devpinoyLogger Executing verifyObjectTextWithParameter: This question is not based on a passage.
+09/18/2013 10:12:37 devpinoyLogger This question is not based on a passage.
+09/18/2013 10:12:37 devpinoyLogger This question is not based on a passage.
+09/18/2013 10:12:37 devpinoyLogger Completed answering questions in section - quiz
+09/18/2013 10:12:37 devpinoyLogger Executing clickButton Keyword: TstPg_Footer_Next_Button_Suite2
+09/18/2013 10:12:39 devpinoyLogger Answering questions in section - quiz
+09/18/2013 10:12:40 devpinoyLogger Completed all initialization
+09/18/2013 10:12:40 devpinoyLogger Executing verifyCustomObjectText: Item 2
+09/18/2013 10:12:40 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:12:40 devpinoyLogger Item 2
+09/18/2013 10:12:40 devpinoyLogger Item 2
+09/18/2013 10:12:40 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:12:40 devpinoyLogger Executing verifyCustomObjectText: An alkene reacts with hydrogen gas in the presence of platinum. What will the dominant product be?
+09/18/2013 10:12:40 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:12:40 devpinoyLogger An alkene reacts with hydrogen gas in the presence of platinum. What will the dominant product be?
+09/18/2013 10:12:40 devpinoyLogger An alkene reacts with hydrogen gas in the presence of platinum. What will the dominant product be?
+09/18/2013 10:12:40 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:12:40 devpinoyLogger Executing verifyCustomObjectText: (R)-1-chloro-2-flouro-2-iodoethane
+09/18/2013 10:12:40 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:12:40 devpinoyLogger (R)-1-chloro-2-flouro-2-iodoethane
+09/18/2013 10:12:40 devpinoyLogger (R)-1-chloro-2-flouro-2-iodoethane
+09/18/2013 10:12:40 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:12:40 devpinoyLogger Executing verifyCustomObjectText: (S)-1-chloro-2-flouro-2-iodoethane
+09/18/2013 10:12:40 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:12:40 devpinoyLogger (S)-1-chloro-2-flouro-2-iodoethane
+09/18/2013 10:12:40 devpinoyLogger (S)-1-chloro-2-flouro-2-iodoethane
+09/18/2013 10:12:40 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:12:40 devpinoyLogger Executing verifyCustomObjectText: A racemic mixture
+09/18/2013 10:12:40 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:12:40 devpinoyLogger A racemic mixture
+09/18/2013 10:12:40 devpinoyLogger A racemic mixture
+09/18/2013 10:12:40 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:12:40 devpinoyLogger Executing verifyCustomObjectText: A mesocompound
+09/18/2013 10:12:40 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:12:41 devpinoyLogger A mesocompound
+09/18/2013 10:12:41 devpinoyLogger A mesocompound
+09/18/2013 10:12:41 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:12:41 devpinoyLogger Executing verifyObjectTextWithParameter: This question is not based on a passage.
+09/18/2013 10:12:41 devpinoyLogger This question is not based on a passage.
+09/18/2013 10:12:41 devpinoyLogger This question is not based on a passage.
+09/18/2013 10:12:41 devpinoyLogger Completed answering questions in section - quiz
+09/18/2013 10:12:41 devpinoyLogger Executing clickButton Keyword: TstPg_Footer_Next_Button_Suite2
+09/18/2013 10:12:44 devpinoyLogger Answering questions in section - quiz
+09/18/2013 10:12:44 devpinoyLogger Completed all initialization
+09/18/2013 10:12:44 devpinoyLogger Executing verifyCustomObjectText: Item 3
+09/18/2013 10:12:44 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:12:44 devpinoyLogger Item 3
+09/18/2013 10:12:44 devpinoyLogger Item 3
+09/18/2013 10:12:44 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:12:44 devpinoyLogger Executing verifyCustomObjectText: 2-methyl-1-propene is reacted with HBr and H2O2. Which of the following is the dominant product?
+09/18/2013 10:12:44 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:12:44 devpinoyLogger 2-methyl-1-propene is reacted with HBr and H2O2. Which of the following is the dominant product?
+09/18/2013 10:12:44 devpinoyLogger 2-methyl-1-propene is reacted with HBr and H2O2. Which of the following is the dominant product?
+09/18/2013 10:12:44 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:12:44 devpinoyLogger Executing verifyCustomObjectText: 2-methyl-2-bromopropane
+09/18/2013 10:12:44 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:12:45 devpinoyLogger 2-methyl-2-bromopropane
+09/18/2013 10:12:45 devpinoyLogger 2-methyl-2-bromopropane
+09/18/2013 10:12:45 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:12:45 devpinoyLogger Executing verifyCustomObjectText: 2-methyl-1-bromopropane
+09/18/2013 10:12:45 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:12:45 devpinoyLogger 2-methyl-1-bromopropane
+09/18/2013 10:12:45 devpinoyLogger 2-methyl-1-bromopropane
+09/18/2013 10:12:45 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:12:45 devpinoyLogger Executing verifyCustomObjectText: 2-methyl-2-hydroxypropane
+09/18/2013 10:12:45 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:12:45 devpinoyLogger 2-methyl-2-hydroxypropane
+09/18/2013 10:12:45 devpinoyLogger 2-methyl-2-hydroxypropane
+09/18/2013 10:12:45 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:12:45 devpinoyLogger Executing verifyCustomObjectText: 2-methyl-1-hydroxy-2-hydroxypropane
+09/18/2013 10:12:45 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:12:45 devpinoyLogger 2-methyl-1-hydroxy-2-hydroxypropane
+09/18/2013 10:12:45 devpinoyLogger 2-methyl-1-hydroxy-2-hydroxypropane
+09/18/2013 10:12:45 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:12:46 devpinoyLogger Executing verifyObjectTextWithParameter: This question is not based on a passage.
+09/18/2013 10:12:46 devpinoyLogger This question is not based on a passage.
+09/18/2013 10:12:46 devpinoyLogger This question is not based on a passage.
+09/18/2013 10:12:46 devpinoyLogger Completed answering questions in section - quiz
+09/18/2013 10:12:46 devpinoyLogger Executing clickButton Keyword: TstPg_Footer_Next_Button_Suite2
+09/18/2013 10:12:48 devpinoyLogger Answering questions in section - quiz
+09/18/2013 10:12:49 devpinoyLogger Completed all initialization
+09/18/2013 10:12:49 devpinoyLogger Executing verifyCustomObjectText: Item 4
+09/18/2013 10:12:49 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:12:49 devpinoyLogger Item 4
+09/18/2013 10:12:49 devpinoyLogger Item 4
+09/18/2013 10:12:49 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:12:49 devpinoyLogger Executing verifyCustomObjectText: A student reacts cyclohexene with bromine gas. Which of the following is true about this reaction?
+09/18/2013 10:12:49 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:12:49 devpinoyLogger A student reacts cyclohexene with bromine gas. Which of the following is true about this reaction?
+09/18/2013 10:12:49 devpinoyLogger A student reacts cyclohexene with bromine gas. Which of the following is true about this reaction?
+09/18/2013 10:12:49 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:12:49 devpinoyLogger Executing verifyCustomObjectText: The product is the result of syn addition
+09/18/2013 10:12:49 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:12:49 devpinoyLogger The product is the result of syn addition
+09/18/2013 10:12:49 devpinoyLogger The product is the result of syn addition
+09/18/2013 10:12:49 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:12:49 devpinoyLogger Executing verifyCustomObjectText: The reaction proceeds via a carbocation intermediate
+09/18/2013 10:12:49 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:12:49 devpinoyLogger The reaction proceeds via a carbocation intermediate
+09/18/2013 10:12:49 devpinoyLogger The reaction proceeds via a carbocation intermediate
+09/18/2013 10:12:49 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:12:49 devpinoyLogger Executing verifyCustomObjectText: The product is chiral
+09/18/2013 10:12:49 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:12:49 devpinoyLogger The product is chiral
+09/18/2013 10:12:49 devpinoyLogger The product is chiral
+09/18/2013 10:12:49 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:12:50 devpinoyLogger Executing verifyCustomObjectText: This type of reaction is classified as a Hofmann addition
+09/18/2013 10:12:50 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:12:50 devpinoyLogger This type of reaction is classified as a Hofmann addition
+09/18/2013 10:12:50 devpinoyLogger This type of reaction is classified as a Hofmann addition
+09/18/2013 10:12:50 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:12:50 devpinoyLogger Executing verifyObjectTextWithParameter: This question is not based on a passage.
+09/18/2013 10:12:50 devpinoyLogger This question is not based on a passage.
+09/18/2013 10:12:50 devpinoyLogger This question is not based on a passage.
+09/18/2013 10:12:50 devpinoyLogger Completed answering questions in section - quiz
+09/18/2013 10:12:50 devpinoyLogger Executing clickButton Keyword: TstPg_Footer_Next_Button_Suite2
+09/18/2013 10:12:53 devpinoyLogger Answering questions in section - quiz
+09/18/2013 10:12:53 devpinoyLogger Completed all initialization
+09/18/2013 10:12:53 devpinoyLogger Executing verifyCustomObjectText: Item 5
+09/18/2013 10:12:53 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:12:53 devpinoyLogger Item 5
+09/18/2013 10:12:53 devpinoyLogger Item 5
+09/18/2013 10:12:53 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:12:53 devpinoyLogger Executing verifyCustomObjectText: What is the product when the compound illustrated below is heated in water?
+09/18/2013 10:12:53 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:12:54 devpinoyLogger What is the product when the compound illustrated below is heated in water?
+09/18/2013 10:12:54 devpinoyLogger What is the product when the compound illustrated below is heated in water?
+09/18/2013 10:12:54 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:12:54 devpinoyLogger Executing verifyCustomObjectText: No reaction
+09/18/2013 10:12:54 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:12:54 devpinoyLogger No reaction
+09/18/2013 10:12:54 devpinoyLogger No reaction
+09/18/2013 10:12:54 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:12:54 devpinoyLogger Executing verifyCustomObjectText: An alcohol
+09/18/2013 10:12:54 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:12:54 devpinoyLogger An alcohol
+09/18/2013 10:12:54 devpinoyLogger An alcohol
+09/18/2013 10:12:54 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:12:54 devpinoyLogger Executing verifyCustomObjectText: An alkene
+09/18/2013 10:12:54 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:12:54 devpinoyLogger An alkene
+09/18/2013 10:12:54 devpinoyLogger An alkene
+09/18/2013 10:12:54 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:12:54 devpinoyLogger Executing verifyCustomObjectText: A mixture of alcohol and alkene
+09/18/2013 10:12:54 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:12:54 devpinoyLogger A mixture of alcohol and alkene
+09/18/2013 10:12:54 devpinoyLogger A mixture of alcohol and alkene
+09/18/2013 10:12:54 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:12:55 devpinoyLogger Executing verifyObjectTextWithParameter: This question is not based on a passage.
+09/18/2013 10:12:55 devpinoyLogger This question is not based on a passage.
+09/18/2013 10:12:55 devpinoyLogger This question is not based on a passage.
+09/18/2013 10:12:55 devpinoyLogger Completed answering questions in section - quiz
+09/18/2013 10:12:55 devpinoyLogger Executing clickButton Keyword: TstPg_Footer_Next_Button_Suite2
+09/18/2013 10:12:58 devpinoyLogger Answering questions in section - quiz
+09/18/2013 10:12:58 devpinoyLogger Completed all initialization
+09/18/2013 10:12:58 devpinoyLogger Executing verifyCustomObjectText: Item 6
+09/18/2013 10:12:58 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:12:58 devpinoyLogger Item 6
+09/18/2013 10:12:58 devpinoyLogger Item 6
+09/18/2013 10:12:58 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:12:58 devpinoyLogger Executing verifyCustomObjectText: Which of the following would not be used as the base in an E2 reaction?
+09/18/2013 10:12:58 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:12:58 devpinoyLogger Which of the following would not be used as the base in an E2 reaction?
+09/18/2013 10:12:58 devpinoyLogger Which of the following would not be used as the base in an E2 reaction?
+09/18/2013 10:12:58 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:12:58 devpinoyLogger Executing verifyCustomObjectText: Sodium hydroxide
+09/18/2013 10:12:58 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:12:58 devpinoyLogger Sodium hydroxide
+09/18/2013 10:12:58 devpinoyLogger Sodium hydroxide
+09/18/2013 10:12:58 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:12:58 devpinoyLogger Executing verifyCustomObjectText: Sodium iodide
+09/18/2013 10:12:58 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:12:58 devpinoyLogger Sodium iodide
+09/18/2013 10:12:58 devpinoyLogger Sodium iodide
+09/18/2013 10:12:58 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:12:58 devpinoyLogger Executing verifyCustomObjectText: Sodium ethoxide
+09/18/2013 10:12:58 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:12:58 devpinoyLogger Sodium ethoxide
+09/18/2013 10:12:58 devpinoyLogger Sodium ethoxide
+09/18/2013 10:12:58 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:12:58 devpinoyLogger Executing verifyCustomObjectText: Potassium cyanide
+09/18/2013 10:12:58 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:12:58 devpinoyLogger Potassium cyanide
+09/18/2013 10:12:58 devpinoyLogger Potassium cyanide
+09/18/2013 10:12:58 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:12:59 devpinoyLogger Executing verifyObjectTextWithParameter: This question is not based on a passage.
+09/18/2013 10:12:59 devpinoyLogger This question is not based on a passage.
+09/18/2013 10:12:59 devpinoyLogger This question is not based on a passage.
+09/18/2013 10:12:59 devpinoyLogger Completed answering questions in section - quiz
+09/18/2013 10:12:59 devpinoyLogger Executing clickButton Keyword: TstPg_Footer_Next_Button_Suite2
+09/18/2013 10:13:01 devpinoyLogger Answering questions in section - quiz
+09/18/2013 10:13:01 devpinoyLogger Completed all initialization
+09/18/2013 10:13:01 devpinoyLogger Executing verifyCustomObjectText: Item 7
+09/18/2013 10:13:01 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:13:01 devpinoyLogger Item 7
+09/18/2013 10:13:01 devpinoyLogger Item 7
+09/18/2013 10:13:01 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:13:01 devpinoyLogger Executing verifyCustomObjectText: A student is studying eliminations. He reacts 2-bromo-2–methylbutane with tert-butanol. He then isolates the alkene component of the product mixture. Which of the following best describes the reaction mechanism underlying the elimination?
+09/18/2013 10:13:01 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:13:01 devpinoyLogger A student is studying eliminations. He reacts 2-bromo-2–methylbutane with tert-butanol. He then isolates the alkene component of the product mixture. Which of the following best describes the reaction mechanism underlying the elimination?
+09/18/2013 10:13:01 devpinoyLogger A student is studying eliminations. He reacts 2-bromo-2–methylbutane with tert-butanol. He then isolates the alkene component of the product mixture. Which of the following best describes the reaction mechanism underlying the elimination?
+09/18/2013 10:13:01 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:13:01 devpinoyLogger Executing verifyCustomObjectText: Zaitsev
+09/18/2013 10:13:01 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:13:02 devpinoyLogger Zaitsev
+09/18/2013 10:13:02 devpinoyLogger Zaitsev
+09/18/2013 10:13:02 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:13:02 devpinoyLogger Executing verifyCustomObjectText: Hoffman
+09/18/2013 10:13:02 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:13:02 devpinoyLogger Hoffman
+09/18/2013 10:13:02 devpinoyLogger Hoffman
+09/18/2013 10:13:02 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:13:02 devpinoyLogger Executing verifyCustomObjectText: Anti-Markovnikov
+09/18/2013 10:13:02 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:13:02 devpinoyLogger Anti-Markovnikov
+09/18/2013 10:13:02 devpinoyLogger Anti-Markovnikov
+09/18/2013 10:13:02 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:13:02 devpinoyLogger Executing verifyCustomObjectText: A mixture of Zaitsev and Hoffman
+09/18/2013 10:13:02 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:13:02 devpinoyLogger A mixture of Zaitsev and Hoffman
+09/18/2013 10:13:02 devpinoyLogger A mixture of Zaitsev and Hoffman
+09/18/2013 10:13:02 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:13:03 devpinoyLogger Executing verifyObjectTextWithParameter: This question is not based on a passage.
+09/18/2013 10:13:03 devpinoyLogger This question is not based on a passage.
+09/18/2013 10:13:03 devpinoyLogger This question is not based on a passage.
+09/18/2013 10:13:03 devpinoyLogger Completed answering questions in section - quiz
+09/18/2013 10:13:03 devpinoyLogger Executing clickButton Keyword: TstPg_Footer_Next_Button_Suite2
+09/18/2013 10:13:06 devpinoyLogger Answering questions in section - quiz
+09/18/2013 10:13:06 devpinoyLogger Completed all initialization
+09/18/2013 10:13:06 devpinoyLogger Executing verifyCustomObjectText: Item 8
+09/18/2013 10:13:06 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:13:06 devpinoyLogger Item 8
+09/18/2013 10:13:06 devpinoyLogger Item 8
+09/18/2013 10:13:06 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:13:06 devpinoyLogger Executing verifyCustomObjectText: Which of the following favors Hoffman type eliminations?
+09/18/2013 10:13:06 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:13:06 devpinoyLogger Which of the following favors Hoffman type eliminations?
+09/18/2013 10:13:06 devpinoyLogger Which of the following favors Hoffman type eliminations?
+09/18/2013 10:13:06 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:13:06 devpinoyLogger Executing verifyCustomObjectText: The presence of peroxides
+09/18/2013 10:13:06 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:13:06 devpinoyLogger The presence of peroxides
+09/18/2013 10:13:06 devpinoyLogger The presence of peroxides
+09/18/2013 10:13:06 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:13:06 devpinoyLogger Executing verifyCustomObjectText: UV light
+09/18/2013 10:13:06 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:13:06 devpinoyLogger UV light
+09/18/2013 10:13:06 devpinoyLogger UV light
+09/18/2013 10:13:06 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:13:06 devpinoyLogger Executing verifyCustomObjectText: Bulky bases
+09/18/2013 10:13:06 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:13:07 devpinoyLogger Bulky bases
+09/18/2013 10:13:07 devpinoyLogger Bulky bases
+09/18/2013 10:13:07 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:13:07 devpinoyLogger Executing verifyCustomObjectText: Polar aprotic solvents
+09/18/2013 10:13:07 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:13:07 devpinoyLogger Polar aprotic solvents
+09/18/2013 10:13:07 devpinoyLogger Polar aprotic solvents
+09/18/2013 10:13:07 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:13:07 devpinoyLogger Executing verifyObjectTextWithParameter: This question is not based on a passage.
+09/18/2013 10:13:08 devpinoyLogger This question is not based on a passage.
+09/18/2013 10:13:08 devpinoyLogger This question is not based on a passage.
+09/18/2013 10:13:08 devpinoyLogger Completed answering questions in section - quiz
+09/18/2013 10:13:08 devpinoyLogger Executing clickButton Keyword: TstPg_Footer_Next_Button_Suite2
+09/18/2013 10:13:10 devpinoyLogger Answering questions in section - quiz
+09/18/2013 10:13:10 devpinoyLogger Completed all initialization
+09/18/2013 10:13:10 devpinoyLogger Executing verifyCustomObjectText: Item 9
+09/18/2013 10:13:10 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:13:11 devpinoyLogger Item 9
+09/18/2013 10:13:11 devpinoyLogger Item 9
+09/18/2013 10:13:11 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:13:11 devpinoyLogger Executing verifyCustomObjectText: The illustrated reaction results in the formation of an alkyl halide. Which of the following would be the best starting material, X, for this reaction?
+09/18/2013 10:13:11 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:13:11 devpinoyLogger The illustrated reaction results in the formation of an alkyl halide. Which of the following would be the best starting material, X, for this reaction?
+09/18/2013 10:13:11 devpinoyLogger The illustrated reaction results in the formation of an alkyl halide. Which of the following would be the best starting material, X, for this reaction?
+09/18/2013 10:13:11 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:13:11 devpinoyLogger Executing verifyCustomObjectText: 2-pentanol
+09/18/2013 10:13:11 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:13:11 devpinoyLogger 2-pentanol
+09/18/2013 10:13:11 devpinoyLogger 2-pentanol
+09/18/2013 10:13:11 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:13:11 devpinoyLogger Executing verifyCustomObjectText: 1-pentanol
+09/18/2013 10:13:11 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:13:11 devpinoyLogger 1-pentanol
+09/18/2013 10:13:11 devpinoyLogger 1-pentanol
+09/18/2013 10:13:11 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:13:11 devpinoyLogger Executing verifyCustomObjectText: Pentanal
+09/18/2013 10:13:11 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:13:11 devpinoyLogger Pentanal
+09/18/2013 10:13:11 devpinoyLogger Pentanal
+09/18/2013 10:13:11 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:13:11 devpinoyLogger Executing verifyCustomObjectText: 2-pentanone
+09/18/2013 10:13:11 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:13:12 devpinoyLogger 2-pentanone
+09/18/2013 10:13:12 devpinoyLogger 2-pentanone
+09/18/2013 10:13:12 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:13:12 devpinoyLogger Executing verifyObjectTextWithParameter: This question is not based on a passage.
+09/18/2013 10:13:12 devpinoyLogger This question is not based on a passage.
+09/18/2013 10:13:12 devpinoyLogger This question is not based on a passage.
+09/18/2013 10:13:12 devpinoyLogger Completed answering questions in section - quiz
+09/18/2013 10:13:12 devpinoyLogger Executing clickButton Keyword: TstPg_Footer_Next_Button_Suite2
+09/18/2013 10:13:15 devpinoyLogger Answering questions in section - quiz
+09/18/2013 10:13:15 devpinoyLogger Completed all initialization
+09/18/2013 10:13:15 devpinoyLogger Executing verifyCustomObjectText: Item 10
+09/18/2013 10:13:15 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:13:15 devpinoyLogger Item 10
+09/18/2013 10:13:15 devpinoyLogger Item 10
+09/18/2013 10:13:15 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:13:15 devpinoyLogger Executing verifyCustomObjectText: Given the reaction outlined below, what will the dominant product be?
+09/18/2013 10:13:15 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:13:16 devpinoyLogger Given the reaction outlined below, what will the dominant product be?
+09/18/2013 10:13:16 devpinoyLogger Given the reaction outlined below, what will the dominant product be?
+09/18/2013 10:13:16 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:13:16 devpinoyLogger Executing verifyCustomObjectText: A
+09/18/2013 10:13:16 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:13:16 devpinoyLogger A
+09/18/2013 10:13:16 devpinoyLogger A
+09/18/2013 10:13:16 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:13:16 devpinoyLogger Executing verifyCustomObjectText: B
+09/18/2013 10:13:16 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:13:16 devpinoyLogger B
+09/18/2013 10:13:16 devpinoyLogger B
+09/18/2013 10:13:16 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:13:16 devpinoyLogger Executing verifyCustomObjectText: C
+09/18/2013 10:13:16 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:13:16 devpinoyLogger C
+09/18/2013 10:13:16 devpinoyLogger C
+09/18/2013 10:13:16 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:13:16 devpinoyLogger Executing verifyCustomObjectText: D
+09/18/2013 10:13:16 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:13:16 devpinoyLogger D
+09/18/2013 10:13:16 devpinoyLogger D
+09/18/2013 10:13:16 devpinoyLogger Verified Custom ObjectText
+09/18/2013 10:13:17 devpinoyLogger Executing verifyObjectTextWithParameter: This question is not based on a passage.
+09/18/2013 10:13:17 devpinoyLogger This question is not based on a passage.
+09/18/2013 10:13:17 devpinoyLogger This question is not based on a passage.
+09/18/2013 10:13:17 devpinoyLogger Completed answering questions in section - quiz
+09/18/2013 10:13:17 devpinoyLogger Executing clickButton Keyword: TstPg_Footer_Next_Button_Suite2
+09/18/2013 10:13:17 devpinoyLogger Executing clickButton Keyword: TstPg_Footer_EndTest_Button
+09/18/2013 10:13:28 devpinoyLogger Error while clicking on Button -TstPg_Footer_EndTest_Buttoncan't access dead object
+Command duration or timeout: 10.07 seconds
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:33:32'
+System info: os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_11'
+Session ID: bc00b8c0-69b8-47c1-a181-665bef45de7d
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=21.0}]
+09/18/2013 10:13:31 devpinoyLogger MCATTest: MCAT Diagnostic Test Successfully navigated
+09/18/2013 10:13:31 devpinoyLogger Inside ReviewPageTestTopicalQuiz
+09/18/2013 10:13:31 devpinoyLogger Executing Navigate to: JspLog_QAURL
+09/18/2013 10:13:32 devpinoyLogger Verifying the title match: JspLog_Title
+09/18/2013 10:13:32 devpinoyLogger Executing clear and input Keyword: JspLog_KecUsername
+09/18/2013 10:13:32 devpinoyLogger Executing clear and input Keyword: JspLog_KecPassword
+09/18/2013 10:13:33 devpinoyLogger Executing clear and input Keyword: JspLog_JasperUsername
+09/18/2013 10:13:33 devpinoyLogger Executing clear and input Keyword: JspLog_JasperPassword
+09/18/2013 10:13:34 devpinoyLogger Executing selectfromSelectList Keyword: JspLog_JasperProduct
+09/18/2013 10:13:36 devpinoyLogger Executing mouse click: JspLog_Login
+09/18/2013 10:13:37 devpinoyLogger Jasper Login step is completed
+09/18/2013 10:13:38 devpinoyLogger Verifying the title match: Addition and Elimination Quiz
+09/18/2013 10:13:38 devpinoyLogger MCAT All Resources page is launched
+09/18/2013 10:13:38 devpinoyLogger Executing Linktext: Addition and Elimination Quiz
+09/18/2013 10:13:44 devpinoyLogger Executing verifyObjectText Jsp_Header_Logo
+09/18/2013 10:13:44 devpinoyLogger Kaplan Test Prep
+09/18/2013 10:13:44 devpinoyLogger Kaplan Test Prep
+09/18/2013 10:13:44 devpinoyLogger Executing verifyObjectTextWithParameter: Item Review
+09/18/2013 10:13:44 devpinoyLogger Item Review
+09/18/2013 10:13:44 devpinoyLogger Item Review
+09/18/2013 10:13:44 devpinoyLogger Executing verifyObjectText Jsp_Header_PoweredBy_Text
+09/18/2013 10:13:44 devpinoyLogger POWERED BY SMART REPORTS™
+Kaplan's adaptive learning technology
+09/18/2013 10:13:44 devpinoyLogger POWERED BY SMART REPORTS™
+Kaplan's adaptive learning technology
+09/18/2013 10:13:44 devpinoyLogger Executing verifyObjectText Jsp_Footer_Logo
+09/18/2013 10:13:45 devpinoyLogger 1-800-­Kap-Test (1-800-­527-8378)
+09/18/2013 10:13:45 devpinoyLogger 1-800-­Kap-Test (1-800-­527-8378)
+09/18/2013 10:13:45 devpinoyLogger Executing verifyObjectText Jsp_Footer_Twitter_Text
+09/18/2013 10:13:45 devpinoyLogger Follow Us On Twitter
+09/18/2013 10:13:45 devpinoyLogger Follow Us On Twitter
+09/18/2013 10:13:45 devpinoyLogger Executing verifyObjectText Jsp_Footer_FB_Text
+09/18/2013 10:13:45 devpinoyLogger Like Us On Facebook
+09/18/2013 10:13:45 devpinoyLogger Like Us On Facebook
+09/18/2013 10:13:45 devpinoyLogger Executing verifyObjectTextWithParameter: Item Review: Addition and Elimination Quiz
+09/18/2013 10:13:45 devpinoyLogger Item Review: Addition and Elimination Quiz
+09/18/2013 10:13:45 devpinoyLogger Item Review: Addition and Elimination Quiz
+09/18/2013 10:13:45 devpinoyLogger Executing clickLink and Verify: Jsp_Header_Pgtxt
+09/18/2013 10:13:45 devpinoyLogger Executing clickLink: ItmRw_Nav_Review_Link
+09/18/2013 10:13:56 devpinoyLogger Error locating the findElement: //*[@id='testanalysisNav']/div[4]Unable to locate element: {"method":"xpath","selector":"//*[@id='testanalysisNav']/div[4]"}
+Command duration or timeout: 10.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:33:32'
+System info: os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_11'
+Session ID: bc00b8c0-69b8-47c1-a181-665bef45de7d
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=21.0}]
+09/18/2013 10:13:56 devpinoyLogger Error while clicking on link -ItmRw_Nav_Review_Linknull
+09/18/2013 10:13:57 devpinoyLogger Executing verifyObjectTextWithParameter: Item Review
+09/18/2013 10:13:58 devpinoyLogger Item Review
+09/18/2013 10:13:58 devpinoyLogger Item Review
+09/18/2013 10:13:58 devpinoyLogger Error while clicking Link and Verifying -
+09/18/2013 10:13:58 devpinoyLogger Executing clickLink and Verify: Jsp_Header_Pgtxt
+09/18/2013 10:13:58 devpinoyLogger Executing clickLink: ItmRw_Nav_Performance_Link
+09/18/2013 10:14:00 devpinoyLogger Executing verifyObjectTextWithParameter: Performance Summary
+09/18/2013 10:14:01 devpinoyLogger Performance Summary
+09/18/2013 10:14:01 devpinoyLogger Performance Summary
+09/18/2013 10:14:01 devpinoyLogger Executing clickLink and Verify: Jsp_Header_Pgtxt
+09/18/2013 10:14:01 devpinoyLogger Executing clickLink: PS_Nav_Review_Link
+09/18/2013 10:14:02 devpinoyLogger Executing verifyObjectTextWithParameter: Item Review
+09/18/2013 10:14:03 devpinoyLogger Item Review
+09/18/2013 10:14:03 devpinoyLogger Item Review
+09/18/2013 10:14:03 devpinoyLogger Executing verifyObjectText ItmRw_Score_Correct_label
+09/18/2013 10:14:03 devpinoyLogger CORRECT
+09/18/2013 10:14:03 devpinoyLogger CORRECT
+09/18/2013 10:14:03 devpinoyLogger quiz
+09/18/2013 10:14:03 devpinoyLogger Executing Get Attribute: //table[@id='test-analysis-table']/tbody/tr[1]/td[1]/span
+09/18/2013 10:14:03 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:03 devpinoyLogger Question # 1 from quiz has correct response. Testcase is passed.
+09/18/2013 10:14:03 devpinoyLogger Executing get text custom element Keyword: Item Review Topic
+09/18/2013 10:14:03 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:04 devpinoyLogger Question # 1 from quiz has correct topic. Testcase is passed.
+09/18/2013 10:14:04 devpinoyLogger quiz
+09/18/2013 10:14:04 devpinoyLogger Executing Get Attribute: //table[@id='test-analysis-table']/tbody/tr[2]/td[1]/span
+09/18/2013 10:14:04 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:04 devpinoyLogger Question # 2 from quiz has correct response. Testcase is passed.
+09/18/2013 10:14:04 devpinoyLogger Executing get text custom element Keyword: Item Review Topic
+09/18/2013 10:14:04 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:04 devpinoyLogger Question # 2 from quiz has correct topic. Testcase is passed.
+09/18/2013 10:14:04 devpinoyLogger quiz
+09/18/2013 10:14:04 devpinoyLogger Executing Get Attribute: //table[@id='test-analysis-table']/tbody/tr[3]/td[1]/span
+09/18/2013 10:14:04 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:05 devpinoyLogger Question # 3 from quiz has correct response. Testcase is passed.
+09/18/2013 10:14:05 devpinoyLogger Executing get text custom element Keyword: Item Review Topic
+09/18/2013 10:14:05 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:05 devpinoyLogger Question # 3 from quiz has correct topic. Testcase is passed.
+09/18/2013 10:14:05 devpinoyLogger quiz
+09/18/2013 10:14:05 devpinoyLogger Executing Get Attribute: //table[@id='test-analysis-table']/tbody/tr[4]/td[1]/span
+09/18/2013 10:14:05 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:05 devpinoyLogger Question # 4 from quiz has correct response. Testcase is passed.
+09/18/2013 10:14:05 devpinoyLogger Executing get text custom element Keyword: Item Review Topic
+09/18/2013 10:14:05 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:06 devpinoyLogger Question # 4 from quiz has correct topic. Testcase is passed.
+09/18/2013 10:14:06 devpinoyLogger quiz
+09/18/2013 10:14:06 devpinoyLogger Executing Get Attribute: //table[@id='test-analysis-table']/tbody/tr[5]/td[1]/span
+09/18/2013 10:14:06 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:06 devpinoyLogger Question # 5 from quiz has correct response. Testcase is passed.
+09/18/2013 10:14:06 devpinoyLogger Executing get text custom element Keyword: Item Review Topic
+09/18/2013 10:14:06 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:06 devpinoyLogger Question # 5 from quiz has correct topic. Testcase is passed.
+09/18/2013 10:14:06 devpinoyLogger quiz
+09/18/2013 10:14:06 devpinoyLogger Executing Get Attribute: //table[@id='test-analysis-table']/tbody/tr[6]/td[1]/span
+09/18/2013 10:14:06 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:06 devpinoyLogger Question # 6 from quiz has correct response. Testcase is passed.
+09/18/2013 10:14:06 devpinoyLogger Executing get text custom element Keyword: Item Review Topic
+09/18/2013 10:14:06 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:06 devpinoyLogger Question # 6 from quiz has correct topic. Testcase is passed.
+09/18/2013 10:14:06 devpinoyLogger quiz
+09/18/2013 10:14:06 devpinoyLogger Executing Get Attribute: //table[@id='test-analysis-table']/tbody/tr[7]/td[1]/span
+09/18/2013 10:14:06 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:06 devpinoyLogger Question # 7 from quiz has correct response. Testcase is passed.
+09/18/2013 10:14:06 devpinoyLogger Executing get text custom element Keyword: Item Review Topic
+09/18/2013 10:14:06 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:06 devpinoyLogger Question # 7 from quiz has correct topic. Testcase is passed.
+09/18/2013 10:14:06 devpinoyLogger quiz
+09/18/2013 10:14:06 devpinoyLogger Executing Get Attribute: //table[@id='test-analysis-table']/tbody/tr[8]/td[1]/span
+09/18/2013 10:14:06 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:06 devpinoyLogger Question # 8 from quiz has correct response. Testcase is passed.
+09/18/2013 10:14:06 devpinoyLogger Executing get text custom element Keyword: Item Review Topic
+09/18/2013 10:14:06 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:06 devpinoyLogger Question # 8 from quiz has correct topic. Testcase is passed.
+09/18/2013 10:14:06 devpinoyLogger quiz
+09/18/2013 10:14:06 devpinoyLogger Executing Get Attribute: //table[@id='test-analysis-table']/tbody/tr[9]/td[1]/span
+09/18/2013 10:14:06 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:07 devpinoyLogger Question # 9 from quiz has correct response. Testcase is passed.
+09/18/2013 10:14:07 devpinoyLogger Executing get text custom element Keyword: Item Review Topic
+09/18/2013 10:14:07 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:07 devpinoyLogger Question # 9 from quiz has correct topic. Testcase is passed.
+09/18/2013 10:14:07 devpinoyLogger quiz
+09/18/2013 10:14:07 devpinoyLogger Executing Get Attribute: //table[@id='test-analysis-table']/tbody/tr[10]/td[1]/span
+09/18/2013 10:14:07 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:07 devpinoyLogger Question # 10 from quiz has correct response. Testcase is passed.
+09/18/2013 10:14:07 devpinoyLogger Executing get text custom element Keyword: Item Review Topic
+09/18/2013 10:14:07 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:07 devpinoyLogger Question # 10 from quiz has correct topic. Testcase is passed.
+09/18/2013 10:14:07 devpinoyLogger Executing clickLink: ItmRw_QueTopic_First_Suite2
+09/18/2013 10:14:09 devpinoyLogger Executing TestUtil - Test Page Headers method
+09/18/2013 10:14:09 devpinoyLogger Executing verifyObjectTextWithParameter: Addition and Elimination Quiz
+09/18/2013 10:14:09 devpinoyLogger Addition and Elimination Quiz
+09/18/2013 10:14:09 devpinoyLogger Addition and Elimination Quiz
+09/18/2013 10:14:09 devpinoyLogger Executing verifyAttributeValue: TstPg_Header_Logo_Suite2
+09/18/2013 10:14:09 devpinoyLogger Executing Get Attribute: TstPg_Header_Logo_Suite2
+09/18/2013 10:14:09 devpinoyLogger http://jasperqa.kaplan.com/content/media/99/151799.84.mcatKaplanLogo.png
+09/18/2013 10:14:09 devpinoyLogger http://jasperqa.kaplan.com/content/media/97/87297.58.KaplanLogo.gif
+09/18/2013 10:14:09 devpinoyLogger Error in attribute value of object - TstPg_Header_Logo_Suite2
+09/18/2013 10:14:09 devpinoyLogger Actual - http://jasperqa.kaplan.com/content/media/97/87297.58.KaplanLogo.gif
+09/18/2013 10:14:09 devpinoyLogger Expected -http://jasperqa.kaplan.com/content/media/99/151799.84.mcatKaplanLogo.png
+09/18/2013 10:14:09 devpinoyLogger Executing Test Page Footers
+09/18/2013 10:14:09 devpinoyLogger Executing verifyObjectText TstPg_Footer_CH
+09/18/2013 10:14:10 devpinoyLogger CH.
+09/18/2013 10:14:10 devpinoyLogger CH.
+09/18/2013 10:14:10 devpinoyLogger Executing verifyObjectTextWithParameter: 1.0 of 10
+09/18/2013 10:14:10 devpinoyLogger 1.0 of 10
+09/18/2013 10:14:10 devpinoyLogger 1 of 10
+09/18/2013 10:14:10 devpinoyLogger Error in text - TstPg_Footer_QueNum_Text
+09/18/2013 10:14:10 devpinoyLogger Actual - 1 of 10
+09/18/2013 10:14:10 devpinoyLogger Expected -1.0 of 10
+09/18/2013 10:14:10 devpinoyLogger Executing verifyAttributeValue: TstPg_Footer_Help_Button
+09/18/2013 10:14:10 devpinoyLogger Executing Get Attribute: TstPg_Footer_Help_Button
+09/18/2013 10:14:21 devpinoyLogger Error locating the findElement: imgleft.helpUnable to locate element: {"method":"id","selector":"imgleft.help"}
+Command duration or timeout: 10.14 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:33:32'
+System info: os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_11'
+Session ID: bc00b8c0-69b8-47c1-a181-665bef45de7d
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=21.0}]
+09/18/2013 10:14:21 devpinoyLogger Error in getting attribute value - TstPg_Footer_Help_Button
+09/18/2013 10:14:21 devpinoyLogger http://jasperqa.kaplan.com/content/media/42/239942.3.GL3navTestHelp_hi.gif
+09/18/2013 10:14:21 devpinoyLogger Fail
+09/18/2013 10:14:21 devpinoyLogger Error in attribute value of object - TstPg_Footer_Help_Button
+09/18/2013 10:14:21 devpinoyLogger Actual - Fail
+09/18/2013 10:14:21 devpinoyLogger Expected -http://jasperqa.kaplan.com/content/media/42/239942.3.GL3navTestHelp_hi.gif
+09/18/2013 10:14:21 devpinoyLogger Executing verifyAttributeValue: TstPg_Footer_Back_Button
+09/18/2013 10:14:21 devpinoyLogger Executing Get Attribute: TstPg_Footer_Back_Button
+09/18/2013 10:14:21 devpinoyLogger http://jasperqa.kaplan.com/content/media/42/239942.3.mcatBack_hi.gif
+09/18/2013 10:14:21 devpinoyLogger http://jasperqa.kaplan.com/content/media/97/87297.58.GL4mcatBack_d.gif
+09/18/2013 10:14:21 devpinoyLogger Error in attribute value of object - TstPg_Footer_Back_Button
+09/18/2013 10:14:21 devpinoyLogger Actual - http://jasperqa.kaplan.com/content/media/97/87297.58.GL4mcatBack_d.gif
+09/18/2013 10:14:21 devpinoyLogger Expected -http://jasperqa.kaplan.com/content/media/42/239942.3.mcatBack_hi.gif
+09/18/2013 10:14:22 devpinoyLogger Executing verifyAttributeValue: TstPg_Footer_Exit_Button_Suite2
+09/18/2013 10:14:22 devpinoyLogger Executing Get Attribute: TstPg_Footer_Exit_Button_Suite2
+09/18/2013 10:14:22 devpinoyLogger http://jasperqa.kaplan.com/content/media/43/239943.0.mcatListGL_hi.gif
+09/18/2013 10:14:22 devpinoyLogger http://jasperqa.kaplan.com/content/media/97/87297.58.mcatGLSubmit_lo.gif
+09/18/2013 10:14:22 devpinoyLogger Error in attribute value of object - TstPg_Footer_Exit_Button_Suite2
+09/18/2013 10:14:22 devpinoyLogger Actual - http://jasperqa.kaplan.com/content/media/97/87297.58.mcatGLSubmit_lo.gif
+09/18/2013 10:14:22 devpinoyLogger Expected -http://jasperqa.kaplan.com/content/media/43/239943.0.mcatListGL_hi.gif
+09/18/2013 10:14:22 devpinoyLogger Executing verifyObjectText TstPg_Footer_Feedbackmain_Text
+09/18/2013 10:14:23 devpinoyLogger Have feedback? Email us at
+09/18/2013 10:14:23 devpinoyLogger Have feedback? Email us at
+09/18/2013 10:14:23 devpinoyLogger Executing verifyObjectText TstPg_Footer_Feedbackemail_Text
+09/18/2013 10:14:23 devpinoyLogger KaplanMCATFeedback@kaplan.com
+09/18/2013 10:14:23 devpinoyLogger KaplanMCATFeedback@kaplan.com
+09/18/2013 10:14:23 devpinoyLogger Completed all initialization
+09/18/2013 10:14:23 devpinoyLogger Executing Get Attribute: //*[@id='subitem0.singleAnswerMultipleChoice.answerChoiceRow1.content']
+09/18/2013 10:14:23 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:23 devpinoyLogger Correct Answer is highlighted for question #1
+09/18/2013 10:14:23 devpinoyLogger Executing verifyCustomAttributeValue: //*[@id="divQuestions"]/div/div/div/div[2]/span/img
+09/18/2013 10:14:23 devpinoyLogger Executing Get Attribute: //*[@id="divQuestions"]/div/div/div/div[2]/span/img
+09/18/2013 10:14:23 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:23 devpinoyLogger Show/hide explanation
+09/18/2013 10:14:23 devpinoyLogger Show/hide explanation
+09/18/2013 10:14:23 devpinoyLogger Verifying if object displayed: //*[@id='exp-m005110']/p[1]
+09/18/2013 10:14:23 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:24 devpinoyLogger Element with objectname -//*[@id='exp-m005110']/p[1] - is displayed
+09/18/2013 10:14:24 devpinoyLogger Executing clickbyXpath Keyword: //*[@id="divQuestions"]/div/div/div/div[2]/span/img
+09/18/2013 10:14:24 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:24 devpinoyLogger Object at xpath: //*[@id="divQuestions"]/div/div/div/div[2]/span/img is clicked
+09/18/2013 10:14:24 devpinoyLogger Executing verifyObjectTextWithParameter: Please include ID m005110
+09/18/2013 10:14:24 devpinoyLogger Please include ID m005110
+09/18/2013 10:14:24 devpinoyLogger Please include ID m005110
+09/18/2013 10:14:24 devpinoyLogger Completed answering questions in section - quiz
+09/18/2013 10:14:24 devpinoyLogger Executing clickButton Keyword: TstPg_Footer_Next_Button_Suite2
+09/18/2013 10:14:26 devpinoyLogger Completed all initialization
+09/18/2013 10:14:26 devpinoyLogger Executing Get Attribute: //*[@id='subitem0.singleAnswerMultipleChoice.answerChoiceRow3.content']
+09/18/2013 10:14:26 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:26 devpinoyLogger Correct Answer is highlighted for question #2
+09/18/2013 10:14:26 devpinoyLogger Executing verifyCustomAttributeValue: //*[@id="divQuestions"]/div/div/div/div[2]/span/img
+09/18/2013 10:14:26 devpinoyLogger Executing Get Attribute: //*[@id="divQuestions"]/div/div/div/div[2]/span/img
+09/18/2013 10:14:26 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:26 devpinoyLogger Show/hide explanation
+09/18/2013 10:14:26 devpinoyLogger Show/hide explanation
+09/18/2013 10:14:26 devpinoyLogger Verifying if object displayed: //*[@id='exp-m005111']/p[1]
+09/18/2013 10:14:26 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:27 devpinoyLogger Element with objectname -//*[@id='exp-m005111']/p[1] - is displayed
+09/18/2013 10:14:27 devpinoyLogger Executing clickbyXpath Keyword: //*[@id="divQuestions"]/div/div/div/div[2]/span/img
+09/18/2013 10:14:27 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:27 devpinoyLogger Object at xpath: //*[@id="divQuestions"]/div/div/div/div[2]/span/img is clicked
+09/18/2013 10:14:27 devpinoyLogger Executing verifyObjectTextWithParameter: Please include ID m005111
+09/18/2013 10:14:27 devpinoyLogger Please include ID m005111
+09/18/2013 10:14:27 devpinoyLogger Please include ID m005111
+09/18/2013 10:14:27 devpinoyLogger Completed answering questions in section - quiz
+09/18/2013 10:14:27 devpinoyLogger Executing clickButton Keyword: TstPg_Footer_Next_Button_Suite2
+09/18/2013 10:14:30 devpinoyLogger Completed all initialization
+09/18/2013 10:14:30 devpinoyLogger Executing Get Attribute: //*[@id='subitem0.singleAnswerMultipleChoice.answerChoiceRow2.content']
+09/18/2013 10:14:30 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:30 devpinoyLogger Correct Answer is highlighted for question #3
+09/18/2013 10:14:30 devpinoyLogger Executing verifyCustomAttributeValue: //*[@id="divQuestions"]/div/div/div/div[2]/span/img
+09/18/2013 10:14:30 devpinoyLogger Executing Get Attribute: //*[@id="divQuestions"]/div/div/div/div[2]/span/img
+09/18/2013 10:14:30 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:30 devpinoyLogger Show/hide explanation
+09/18/2013 10:14:30 devpinoyLogger Show/hide explanation
+09/18/2013 10:14:30 devpinoyLogger Verifying if object displayed: //*[@id='exp-m005112']/p[1]
+09/18/2013 10:14:30 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:30 devpinoyLogger Element with objectname -//*[@id='exp-m005112']/p[1] - is displayed
+09/18/2013 10:14:30 devpinoyLogger Executing clickbyXpath Keyword: //*[@id="divQuestions"]/div/div/div/div[2]/span/img
+09/18/2013 10:14:30 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:30 devpinoyLogger Object at xpath: //*[@id="divQuestions"]/div/div/div/div[2]/span/img is clicked
+09/18/2013 10:14:30 devpinoyLogger Executing verifyObjectTextWithParameter: Please include ID m005112
+09/18/2013 10:14:31 devpinoyLogger Please include ID m005112
+09/18/2013 10:14:31 devpinoyLogger Please include ID m005112
+09/18/2013 10:14:31 devpinoyLogger Completed answering questions in section - quiz
+09/18/2013 10:14:31 devpinoyLogger Executing clickButton Keyword: TstPg_Footer_Next_Button_Suite2
+09/18/2013 10:14:33 devpinoyLogger Completed all initialization
+09/18/2013 10:14:33 devpinoyLogger Executing Get Attribute: //*[@id='subitem0.singleAnswerMultipleChoice.answerChoiceRow3.content']
+09/18/2013 10:14:33 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:33 devpinoyLogger Correct Answer is highlighted for question #4
+09/18/2013 10:14:33 devpinoyLogger Executing verifyCustomAttributeValue: //*[@id="divQuestions"]/div/div/div/div[2]/span/img
+09/18/2013 10:14:33 devpinoyLogger Executing Get Attribute: //*[@id="divQuestions"]/div/div/div/div[2]/span/img
+09/18/2013 10:14:33 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:33 devpinoyLogger Show/hide explanation
+09/18/2013 10:14:33 devpinoyLogger Show/hide explanation
+09/18/2013 10:14:33 devpinoyLogger Verifying if object displayed: //*[@id='exp-m005113']/p[1]
+09/18/2013 10:14:33 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:34 devpinoyLogger Element with objectname -//*[@id='exp-m005113']/p[1] - is displayed
+09/18/2013 10:14:34 devpinoyLogger Executing clickbyXpath Keyword: //*[@id="divQuestions"]/div/div/div/div[2]/span/img
+09/18/2013 10:14:34 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:34 devpinoyLogger Object at xpath: //*[@id="divQuestions"]/div/div/div/div[2]/span/img is clicked
+09/18/2013 10:14:34 devpinoyLogger Executing verifyObjectTextWithParameter: Please include ID m005113
+09/18/2013 10:14:34 devpinoyLogger Please include ID m005113
+09/18/2013 10:14:34 devpinoyLogger Please include ID m005113
+09/18/2013 10:14:34 devpinoyLogger Completed answering questions in section - quiz
+09/18/2013 10:14:34 devpinoyLogger Executing clickButton Keyword: TstPg_Footer_Next_Button_Suite2
+09/18/2013 10:14:36 devpinoyLogger Completed all initialization
+09/18/2013 10:14:36 devpinoyLogger Executing Get Attribute: //*[@id='subitem0.singleAnswerMultipleChoice.answerChoiceRow4.content']
+09/18/2013 10:14:36 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:37 devpinoyLogger Correct Answer is highlighted for question #5
+09/18/2013 10:14:37 devpinoyLogger Executing verifyCustomAttributeValue: //*[@id="divQuestions"]/div/div/div/div[2]/span/img
+09/18/2013 10:14:37 devpinoyLogger Executing Get Attribute: //*[@id="divQuestions"]/div/div/div/div[2]/span/img
+09/18/2013 10:14:37 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:37 devpinoyLogger Show/hide explanation
+09/18/2013 10:14:37 devpinoyLogger Show/hide explanation
+09/18/2013 10:14:37 devpinoyLogger Verifying if object displayed: //*[@id='exp-m005114']/p[1]
+09/18/2013 10:14:37 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:37 devpinoyLogger Element with objectname -//*[@id='exp-m005114']/p[1] - is displayed
+09/18/2013 10:14:37 devpinoyLogger Executing clickbyXpath Keyword: //*[@id="divQuestions"]/div/div/div/div[2]/span/img
+09/18/2013 10:14:37 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:37 devpinoyLogger Object at xpath: //*[@id="divQuestions"]/div/div/div/div[2]/span/img is clicked
+09/18/2013 10:14:37 devpinoyLogger Executing verifyObjectTextWithParameter: Please include ID m005114
+09/18/2013 10:14:38 devpinoyLogger Please include ID m005114
+09/18/2013 10:14:38 devpinoyLogger Please include ID m005114
+09/18/2013 10:14:38 devpinoyLogger Completed answering questions in section - quiz
+09/18/2013 10:14:38 devpinoyLogger Executing clickButton Keyword: TstPg_Footer_Next_Button_Suite2
+09/18/2013 10:14:40 devpinoyLogger Completed all initialization
+09/18/2013 10:14:40 devpinoyLogger Executing Get Attribute: //*[@id='subitem0.singleAnswerMultipleChoice.answerChoiceRow2.content']
+09/18/2013 10:14:40 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:40 devpinoyLogger Correct Answer is highlighted for question #6
+09/18/2013 10:14:40 devpinoyLogger Executing verifyCustomAttributeValue: //*[@id="divQuestions"]/div/div/div/div[2]/span/img
+09/18/2013 10:14:40 devpinoyLogger Executing Get Attribute: //*[@id="divQuestions"]/div/div/div/div[2]/span/img
+09/18/2013 10:14:40 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:40 devpinoyLogger Show/hide explanation
+09/18/2013 10:14:40 devpinoyLogger Show/hide explanation
+09/18/2013 10:14:40 devpinoyLogger Verifying if object displayed: //*[@id='exp-m005115']/p[1]
+09/18/2013 10:14:40 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:40 devpinoyLogger Element with objectname -//*[@id='exp-m005115']/p[1] - is displayed
+09/18/2013 10:14:40 devpinoyLogger Executing clickbyXpath Keyword: //*[@id="divQuestions"]/div/div/div/div[2]/span/img
+09/18/2013 10:14:40 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:40 devpinoyLogger Object at xpath: //*[@id="divQuestions"]/div/div/div/div[2]/span/img is clicked
+09/18/2013 10:14:40 devpinoyLogger Executing verifyObjectTextWithParameter: Please include ID m005115
+09/18/2013 10:14:41 devpinoyLogger Please include ID m005115
+09/18/2013 10:14:41 devpinoyLogger Please include ID m005115
+09/18/2013 10:14:41 devpinoyLogger Completed answering questions in section - quiz
+09/18/2013 10:14:41 devpinoyLogger Executing clickButton Keyword: TstPg_Footer_Next_Button_Suite2
+09/18/2013 10:14:43 devpinoyLogger Completed all initialization
+09/18/2013 10:14:43 devpinoyLogger Executing Get Attribute: //*[@id='subitem0.singleAnswerMultipleChoice.answerChoiceRow1.content']
+09/18/2013 10:14:43 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:43 devpinoyLogger Correct Answer is highlighted for question #7
+09/18/2013 10:14:43 devpinoyLogger Executing verifyCustomAttributeValue: //*[@id="divQuestions"]/div/div/div/div[2]/span/img
+09/18/2013 10:14:43 devpinoyLogger Executing Get Attribute: //*[@id="divQuestions"]/div/div/div/div[2]/span/img
+09/18/2013 10:14:43 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:43 devpinoyLogger Show/hide explanation
+09/18/2013 10:14:43 devpinoyLogger Show/hide explanation
+09/18/2013 10:14:43 devpinoyLogger Verifying if object displayed: //*[@id='exp-m005116']/p[1]
+09/18/2013 10:14:43 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:43 devpinoyLogger Element with objectname -//*[@id='exp-m005116']/p[1] - is displayed
+09/18/2013 10:14:43 devpinoyLogger Executing clickbyXpath Keyword: //*[@id="divQuestions"]/div/div/div/div[2]/span/img
+09/18/2013 10:14:43 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:43 devpinoyLogger Object at xpath: //*[@id="divQuestions"]/div/div/div/div[2]/span/img is clicked
+09/18/2013 10:14:43 devpinoyLogger Executing verifyObjectTextWithParameter: Please include ID m005116
+09/18/2013 10:14:43 devpinoyLogger Please include ID m005116
+09/18/2013 10:14:43 devpinoyLogger Please include ID m005116
+09/18/2013 10:14:43 devpinoyLogger Completed answering questions in section - quiz
+09/18/2013 10:14:43 devpinoyLogger Executing clickButton Keyword: TstPg_Footer_Next_Button_Suite2
+09/18/2013 10:14:45 devpinoyLogger Completed all initialization
+09/18/2013 10:14:45 devpinoyLogger Executing Get Attribute: //*[@id='subitem0.singleAnswerMultipleChoice.answerChoiceRow3.content']
+09/18/2013 10:14:45 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:45 devpinoyLogger Correct Answer is highlighted for question #8
+09/18/2013 10:14:45 devpinoyLogger Executing verifyCustomAttributeValue: //*[@id="divQuestions"]/div/div/div/div[2]/span/img
+09/18/2013 10:14:45 devpinoyLogger Executing Get Attribute: //*[@id="divQuestions"]/div/div/div/div[2]/span/img
+09/18/2013 10:14:45 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:45 devpinoyLogger Show/hide explanation
+09/18/2013 10:14:45 devpinoyLogger Show/hide explanation
+09/18/2013 10:14:45 devpinoyLogger Verifying if object displayed: //*[@id='exp-m005117']/p[1]
+09/18/2013 10:14:45 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:46 devpinoyLogger Element with objectname -//*[@id='exp-m005117']/p[1] - is displayed
+09/18/2013 10:14:46 devpinoyLogger Executing clickbyXpath Keyword: //*[@id="divQuestions"]/div/div/div/div[2]/span/img
+09/18/2013 10:14:46 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:46 devpinoyLogger Object at xpath: //*[@id="divQuestions"]/div/div/div/div[2]/span/img is clicked
+09/18/2013 10:14:46 devpinoyLogger Executing verifyObjectTextWithParameter: Please include ID m005117
+09/18/2013 10:14:46 devpinoyLogger Please include ID m005117
+09/18/2013 10:14:46 devpinoyLogger Please include ID m005117
+09/18/2013 10:14:46 devpinoyLogger Completed answering questions in section - quiz
+09/18/2013 10:14:46 devpinoyLogger Executing clickButton Keyword: TstPg_Footer_Next_Button_Suite2
+09/18/2013 10:14:48 devpinoyLogger Completed all initialization
+09/18/2013 10:14:48 devpinoyLogger Executing Get Attribute: //*[@id='subitem0.singleAnswerMultipleChoice.answerChoiceRow2.content']
+09/18/2013 10:14:48 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:48 devpinoyLogger Correct Answer is highlighted for question #9
+09/18/2013 10:14:48 devpinoyLogger Executing verifyCustomAttributeValue: //*[@id="divQuestions"]/div/div/div/div[2]/span/img
+09/18/2013 10:14:48 devpinoyLogger Executing Get Attribute: //*[@id="divQuestions"]/div/div/div/div[2]/span/img
+09/18/2013 10:14:48 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:48 devpinoyLogger Show/hide explanation
+09/18/2013 10:14:48 devpinoyLogger Show/hide explanation
+09/18/2013 10:14:48 devpinoyLogger Verifying if object displayed: //*[@id='exp-m005118']/p[1]
+09/18/2013 10:14:48 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:49 devpinoyLogger Element with objectname -//*[@id='exp-m005118']/p[1] - is displayed
+09/18/2013 10:14:49 devpinoyLogger Executing clickbyXpath Keyword: //*[@id="divQuestions"]/div/div/div/div[2]/span/img
+09/18/2013 10:14:49 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:49 devpinoyLogger Object at xpath: //*[@id="divQuestions"]/div/div/div/div[2]/span/img is clicked
+09/18/2013 10:14:49 devpinoyLogger Executing verifyObjectTextWithParameter: Please include ID m005118
+09/18/2013 10:14:49 devpinoyLogger Please include ID m005118
+09/18/2013 10:14:49 devpinoyLogger Please include ID m005118
+09/18/2013 10:14:49 devpinoyLogger Completed answering questions in section - quiz
+09/18/2013 10:14:49 devpinoyLogger Executing clickButton Keyword: TstPg_Footer_Next_Button_Suite2
+09/18/2013 10:14:52 devpinoyLogger Completed all initialization
+09/18/2013 10:14:52 devpinoyLogger Executing Get Attribute: //*[@id='subitem0.singleAnswerMultipleChoice.answerChoiceRow2.content']
+09/18/2013 10:14:52 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:52 devpinoyLogger Correct Answer is highlighted for question #10
+09/18/2013 10:14:52 devpinoyLogger Executing verifyCustomAttributeValue: //*[@id="divQuestions"]/div/div/div/div[2]/span/img
+09/18/2013 10:14:52 devpinoyLogger Executing Get Attribute: //*[@id="divQuestions"]/div/div/div/div[2]/span/img
+09/18/2013 10:14:52 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:52 devpinoyLogger Show/hide explanation
+09/18/2013 10:14:52 devpinoyLogger Show/hide explanation
+09/18/2013 10:14:52 devpinoyLogger Verifying if object displayed: //*[@id='exp-m005119']/p[1]
+09/18/2013 10:14:52 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:52 devpinoyLogger Element with objectname -//*[@id='exp-m005119']/p[1] - is displayed
+09/18/2013 10:14:52 devpinoyLogger Executing clickbyXpath Keyword: //*[@id="divQuestions"]/div/div/div/div[2]/span/img
+09/18/2013 10:14:52 devpinoyLogger Inside findCustomElememnt
+09/18/2013 10:14:52 devpinoyLogger Object at xpath: //*[@id="divQuestions"]/div/div/div/div[2]/span/img is clicked
+09/18/2013 10:14:52 devpinoyLogger Executing verifyObjectTextWithParameter: Please include ID m005119
+09/18/2013 10:14:53 devpinoyLogger Please include ID m005119
+09/18/2013 10:14:53 devpinoyLogger Please include ID m005119
+09/18/2013 10:14:53 devpinoyLogger Completed answering questions in section - quiz
+09/18/2013 10:14:53 devpinoyLogger Executing clickButton Keyword: TstPg_Footer_Next_Button_Suite2
+09/18/2013 10:14:53 devpinoyLogger Executing clickButton Keyword: TstPg_Footer_EndTest_Button
+09/18/2013 10:15:04 devpinoyLogger Error locating the findElement: imgleft.simSubmitUnable to locate element: {"method":"id","selector":"imgleft.simSubmit"}
+Command duration or timeout: 10.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:33:32'
+System info: os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_11'
+Session ID: bc00b8c0-69b8-47c1-a181-665bef45de7d
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=21.0}]
+09/18/2013 10:15:04 devpinoyLogger Error while clicking on Button -TstPg_Footer_EndTest_Buttonnull
+09/18/2013 10:15:07 devpinoyLogger MCATTest: MCAT Diagnostic Test Successfully navigated
+09/18/2013 10:15:07 devpinoyLogger ***********************************TC0076 --- Fail

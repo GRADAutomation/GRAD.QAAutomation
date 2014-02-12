@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GRAD MCAT 2012">
+
+<listeners>
+    <listener class-name="listener.TestsListenerAdapter" />
+</listeners>
+
+
+<test name="MCAT 2012">
+    <classes>
+        <class name="ParentClasses.DriverScript" ></class>  
+    </classes>
+</test>
+
+
+</suite>
