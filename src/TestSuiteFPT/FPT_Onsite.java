@@ -108,15 +108,20 @@ public class FPT_Onsite extends DriverScript{
 				Keywords.frameSwitch("activeElement");
 				int noofQueinSection = d.getNoOfMatches(currentDatasheet, "Section", currentSection);
 						
-				// Verify Q-id & Fill in the bubble		
+				// Verify Q-id & Fill in the bubble	and/or enter text	 Note: GRE text inputting works only for the first text box if there are multiple to be entered sequentially
 				if(!currentSection.equals("Writing")) {
 					for (int x = 1; x <= noofQueinSection; x++)  { 
+						
+						//Verify Q id
 						Keywords.verifyCustomObjectText("//*[@id='grid"+secCounter+"']/table/tbody/tr[" + x + "]/td[1]/span", vc.strToDblToStr(d.getCellData(currentDatasheet, "Qid", rowNum)));
+						
+						//Input text
 						if(d.getCellType(currentDatasheet, "InputAns", rowNum).equals("String")) {
+							Keywords.keysOperation("//*[@id='grid"+secCounter+"']/table/tbody/tr[" + (x+1) + "]/td[1]/span", "TAB");
 							Keywords.customInputValue("//*[@id='grid"+secCounter+"']/table/tbody/tr[" + x + "]/td[2]/input", d.getCellData(currentDatasheet, "InputAns", rowNum));
 						} else{
 							String temp = vc.strToDblToStr(d.getCellData(currentDatasheet, "InputAns", rowNum));
-							if (temp.equals("1") || temp.equals("2") || temp.equals("3") || temp.equals("4") || temp.equals("5"))
+							if (temp.equals("1") || temp.equals("2") || temp.equals("3") || temp.equals("4") || temp.equals("5")) // sometimes GRE would input numbers also in the textboxes, hence this if loop
 								Keywords.clickbyXpath("//*[@id='grid"+secCounter+"']/table/tbody/tr[" + x + "]/td[2]/fieldset/p[" + temp  + " ]/label/span");
 							else
 								Keywords.customInputValue("//*[@id='grid"+secCounter+"']/table/tbody/tr[" + x + "]/td[2]/input", temp);
