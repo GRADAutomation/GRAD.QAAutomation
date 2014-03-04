@@ -1,38 +1,38 @@
-03/04/2014 15:39:57 devpinoyLogger Starting the test suite
-03/04/2014 15:39:57 devpinoyLogger Loading config files
-03/04/2014 15:39:57 devpinoyLogger Loading Object XPATHS
-03/04/2014 15:39:58 devpinoyLogger total rows -- 446
-03/04/2014 15:39:58 devpinoyLogger total cols -- 13
-03/04/2014 15:42:40 devpinoyLogger Browser chosen is: Firefox
-03/04/2014 15:42:50 devpinoyLogger Started the driver
-03/04/2014 15:42:51 devpinoyLogger Skipping the test FPTTC001
-03/04/2014 15:42:51 devpinoyLogger ***********************************FPTTC001 --- Skip
-03/04/2014 15:42:52 devpinoyLogger Skipping the test FPTTC002
-03/04/2014 15:42:52 devpinoyLogger ***********************************FPTTC002 --- Skip
-03/04/2014 15:42:53 devpinoyLogger Skipping the test FPTTC003
-03/04/2014 15:42:53 devpinoyLogger ***********************************FPTTC003 --- Skip
-03/04/2014 15:42:54 devpinoyLogger Skipping the test FPTTC004
-03/04/2014 15:42:54 devpinoyLogger ***********************************FPTTC004 --- Skip
-03/04/2014 15:42:54 devpinoyLogger Skipping the test FPTTC005
-03/04/2014 15:42:54 devpinoyLogger ***********************************FPTTC005 --- Skip
-03/04/2014 15:42:55 devpinoyLogger Skipping the test FPTTC006
-03/04/2014 15:42:55 devpinoyLogger ***********************************FPTTC006 --- Skip
-03/04/2014 15:42:55 devpinoyLogger Skipping the test FPTTC007
-03/04/2014 15:42:55 devpinoyLogger ***********************************FPTTC007 --- Skip
-03/04/2014 15:42:56 devpinoyLogger Executing the test Complete_Regression under the Test name FPT CBT - MCAT Practice Test
-03/04/2014 15:42:56 devpinoyLogger Executing FPT CBT Test Script
-03/04/2014 15:42:56 devpinoyLogger Executing Navigate by URL to: http://preview.kaptest.int.kaplan.com/index.jhtml
-03/04/2014 15:42:59 devpinoyLogger Executing Linktext: Log In
-03/04/2014 15:43:01 devpinoyLogger Executing select Keyword: KPT_LoginID_Text
-03/04/2014 15:43:01 devpinoyLogger Inside findElememnt - only objName as parameterKPT_LoginID_Text
-03/04/2014 15:43:03 devpinoyLogger Executing select Keyword: KPT_Pwd_Text
-03/04/2014 15:43:03 devpinoyLogger Inside findElememnt - only objName as parameterKPT_Pwd_Text
-03/04/2014 15:43:04 devpinoyLogger Executing clickButton Keyword: KPT_Login_Button
-03/04/2014 15:43:04 devpinoyLogger Inside findElememnt - only objName as parameterKPT_Login_Button
-03/04/2014 15:43:12 devpinoyLogger Executing clickButton Keyword: //ul[ends-with(@class,"MCAT")]//input[4]
-03/04/2014 15:43:12 devpinoyLogger Inside findElememnt - only objName as parameter//ul[ends-with(@class,"MCAT")]//input[4]
-03/04/2014 15:43:12 devpinoyLogger Error while clicking on Button -//ul[ends-with(@class,"MCAT")]//input[4]-1
-03/04/2014 15:43:12 devpinoyLogger Inside take screenshot
-03/04/2014 15:43:12 devpinoyLogger Formatting the fileName: FPTTC008_FPTCBT-MCATPracticeTest_//ul[ends-with(@class,"MCAT")]//input[4].jpg
-03/04/2014 15:43:12 devpinoyLogger FPTTC008_FPTCBT-MCATPracticeTest_ulends-withclass"MCAT"input4.jpg
-03/04/2014 15:43:12 devpinoyLogger ***********************************FPTTC008 --- Fail
+03/04/2014 15:59:46 devpinoyLogger Starting the test suite
+03/04/2014 15:59:46 devpinoyLogger Loading config files
+03/04/2014 15:59:46 devpinoyLogger Loading Object XPATHS
+03/04/2014 15:59:48 devpinoyLogger total rows -- 446
+03/04/2014 15:59:48 devpinoyLogger total cols -- 13
+03/04/2014 16:02:32 devpinoyLogger Browser chosen is: Firefox
+03/04/2014 16:02:41 devpinoyLogger Started the driver
+03/04/2014 16:02:42 devpinoyLogger Skipping the test FPTTC001
+03/04/2014 16:02:42 devpinoyLogger ***********************************FPTTC001 --- Skip
+03/04/2014 16:02:43 devpinoyLogger Skipping the test FPTTC002
+03/04/2014 16:02:43 devpinoyLogger ***********************************FPTTC002 --- Skip
+03/04/2014 16:02:44 devpinoyLogger Skipping the test FPTTC003
+03/04/2014 16:02:44 devpinoyLogger ***********************************FPTTC003 --- Skip
+03/04/2014 16:02:45 devpinoyLogger Skipping the test FPTTC004
+03/04/2014 16:02:45 devpinoyLogger ***********************************FPTTC004 --- Skip
+03/04/2014 16:02:45 devpinoyLogger Skipping the test FPTTC005
+03/04/2014 16:02:45 devpinoyLogger ***********************************FPTTC005 --- Skip
+03/04/2014 16:02:46 devpinoyLogger Skipping the test FPTTC006
+03/04/2014 16:02:46 devpinoyLogger ***********************************FPTTC006 --- Skip
+03/04/2014 16:02:47 devpinoyLogger Skipping the test FPTTC007
+03/04/2014 16:02:47 devpinoyLogger ***********************************FPTTC007 --- Skip
+03/04/2014 16:02:47 devpinoyLogger Executing the test Complete_Regression under the Test name FPT CBT - MCAT Practice Test
+03/04/2014 16:02:47 devpinoyLogger Executing FPT CBT Test Script
+03/04/2014 16:02:48 devpinoyLogger Executing Navigate by URL to: http://preview.kaptest.int.kaplan.com/index.jhtml
+03/04/2014 16:02:49 devpinoyLogger Executing Linktext: Log In
+03/04/2014 16:02:52 devpinoyLogger Executing select Keyword: KPT_LoginID_Text
+03/04/2014 16:02:52 devpinoyLogger Inside findElememnt - only objName as parameterKPT_LoginID_Text
+03/04/2014 16:02:52 devpinoyLogger Executing select Keyword: KPT_Pwd_Text
+03/04/2014 16:02:52 devpinoyLogger Inside findElememnt - only objName as parameterKPT_Pwd_Text
+03/04/2014 16:02:54 devpinoyLogger Executing clickButton Keyword: KPT_Login_Button
+03/04/2014 16:02:54 devpinoyLogger Inside findElememnt - only objName as parameterKPT_Login_Button
+03/04/2014 16:03:00 devpinoyLogger Executing clickButton Keyword: //ul[ends-with(@class,"MCAT")]//form/input[4]
+03/04/2014 16:03:00 devpinoyLogger Inside findElememnt - only objName as parameter//ul[ends-with(@class,"MCAT")]//form/input[4]
+03/04/2014 16:03:00 devpinoyLogger Error while clicking on Button -//ul[ends-with(@class,"MCAT")]//form/input[4]-1
+03/04/2014 16:03:00 devpinoyLogger Inside take screenshot
+03/04/2014 16:03:00 devpinoyLogger Formatting the fileName: FPTTC008_FPTCBT-MCATPracticeTest_//ul[ends-with(@class,"MCAT")]//form/input[4].jpg
+03/04/2014 16:03:00 devpinoyLogger FPTTC008_FPTCBT-MCATPracticeTest_ulends-withclass"MCAT"forminput4.jpg
+03/04/2014 16:03:00 devpinoyLogger ***********************************FPTTC008 --- Fail
