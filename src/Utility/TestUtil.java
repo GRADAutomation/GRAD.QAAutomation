@@ -37,6 +37,7 @@ import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
+import org.uiautomation.ios.IOSCapabilities;
 
 import com.sun.jna.Platform;
 
@@ -219,9 +220,12 @@ public class TestUtil extends DriverScript{
 		        capab.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR,UnexpectedAlertBehaviour.ACCEPT);
 		        
 			} else if(currentBrowser.equals("Ipad")){		
-		        capab = DesiredCapabilities.ipad();
+		        //capab = DesiredCapabilities.ipad();
+				capab = IOSCapabilities.ipad();
 		        //String url = "http://"+controller.getCellData("Settings", "Value", controller.getFirstRowInstance("Settings", "Parameter", "Ipad_Ip"))+"/wd/hub";
 		        //driver = new RemoteWebDriver(new URL(url), capab);
+		        
+		        
 			}
 			
 			if (currentBrowser.equals("Ipad"))

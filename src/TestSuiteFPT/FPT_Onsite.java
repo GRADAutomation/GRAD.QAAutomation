@@ -117,7 +117,7 @@ public class FPT_Onsite extends DriverScript{
 						
 						//Input text
 						if(d.getCellType(currentDatasheet, "InputAns", rowNum).equals("String")) {
-							Keywords.keysOperation("//*[@id='grid"+secCounter+"']/table/tbody/tr[" + (x+1) + "]/td[1]/span", "TAB");
+							//Keywords.keysOperation("//*[@id='grid"+secCounter+"']/table/tbody/tr[" + (x+1) + "]/td[1]/span", "TAB");
 							Keywords.customInputValue("//*[@id='grid"+secCounter+"']/table/tbody/tr[" + x + "]/td[2]/input", d.getCellData(currentDatasheet, "InputAns", rowNum));
 						} else{
 							String temp = vc.strToDblToStr(d.getCellData(currentDatasheet, "InputAns", rowNum));

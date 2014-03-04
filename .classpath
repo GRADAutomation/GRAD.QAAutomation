@@ -105,5 +105,6 @@
 	<classpathentry kind="lib" path="C:/MyFiles/Eclipse/Projects/Work/jars/commons-lang3-3.1-javadoc.jar"/>
 	<classpathentry kind="lib" path="C:/MyFiles/Eclipse/Projects/Work/jars/commons-lang3-3.1-sources.jar"/>
 	<classpathentry kind="lib" path="C:/MyFiles/Eclipse/Projects/Work/jars/commons-lang3-3.1-tests.jar"/>
+	<classpathentry kind="lib" path="C:/MyFiles/Eclipse/Projects/Work/jars/ios-server-065.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
