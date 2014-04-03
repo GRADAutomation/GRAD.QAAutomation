@@ -105,7 +105,7 @@ public class DriverScript {
 		//evfw.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS );		
 	}
 	
-	@BeforeClass
+	@BeforeClass // Activities to be performed prior to beginning the class
 	public static void startTesting(){
 		String TimeNow = TestUtil.now("yyMMddHHmmss"); 
 		new File(System.getProperty("user.dir")+"//CustomOutput//"+TimeNow).mkdirs();
