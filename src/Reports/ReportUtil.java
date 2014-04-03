@@ -1,17 +1,12 @@
 package Reports;
 
-
+//This is for generating customized functional reporting
 
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Hashtable;
 
 import Utility.TestUtil;
-
-
-
-
-
 
 public class ReportUtil {
 	public static int scriptNumber=1;
