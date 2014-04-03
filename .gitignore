@@ -5,3 +5,4 @@ ReportsArchive/
 test-output/
 build/
 XSLT_Reports/
+src/Application.log
