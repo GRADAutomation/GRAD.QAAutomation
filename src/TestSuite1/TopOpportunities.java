@@ -18,8 +18,8 @@ import java.util.concurrent.TimeUnit;
 import javax.imageio.ImageIO;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.HasInputDevices;
-import org.openqa.selenium.Mouse;
+//import org.openqa.selenium.HasInputDevices;
+//import org.openqa.selenium.Mouse;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.TakesScreenshot;
