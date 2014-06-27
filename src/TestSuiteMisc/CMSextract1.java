@@ -31,7 +31,7 @@ public class CMSextract1 extends DriverScript {
 			String temp;
 			
 			//Initialize excel instance and variable conversion instance
-			d= new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\"+currentDataXL+".xlsx");
+			d= new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\"+currentDataXL);
 			vc = new Variable_Conversions();
 			
 			TestUtil.jasperLogin();

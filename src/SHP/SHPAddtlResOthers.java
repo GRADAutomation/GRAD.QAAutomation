@@ -54,7 +54,7 @@ public class SHPAddtlResOthers extends DriverScript{
 			getQAText = true;
 		
 		//Initialize excel instance and variable conversion instance
-		d= new Excel_Ops(System.getProperty("user.dir")+"/src/Config/"+currentDataXL+".xlsx");
+		d= new Excel_Ops(System.getProperty("user.dir")+"/src/Config/"+currentDataXL);
 		vc = new Variable_Conversions();
 		
 		//Start the test by logging into SHP

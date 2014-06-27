@@ -46,7 +46,7 @@ public class Presentations extends DriverScript{
 				getQAText = true;
 		
 			//Initialize excel instance and variable conversion instance
-			d= new Excel_Ops(System.getProperty("user.dir")+"//src//Config//"+currentDataXL+".xlsx");
+			d= new Excel_Ops(System.getProperty("user.dir")+"//src//Config//"+currentDataXL);
 			AllRes= new Excel_Ops(System.getProperty("user.dir")+"//src//Config//AllRes.xlsx");
 
 			vc = new Variable_Conversions();
@@ -81,7 +81,7 @@ public class Presentations extends DriverScript{
 					//mainmethod is called for 
 					if(completeRegression)
 						mainMethod();
-					if(!(currentDataXL.equals("LessonsOnDemand"))){
+					if(!(currentDataXL.contains("LessonsOnDemand"))){
 						ReviewPage rw = new ReviewPage();
 						rw.completeFlowTest(currentDatasheet);	
 					}
@@ -127,17 +127,17 @@ public class Presentations extends DriverScript{
 				Thread.sleep(500);
 
 				if (completeRegression ){
-					if(!(currentDataXL.equals("Workshops"))){ 
+					if(!(currentDataXL.contains("Workshops"))){ 
 						//TestUtil.verifyTestPageHeaders(d.getCellData(currentDatasheet, "PageTitle", Row),rwPgVerification);
 					}
 					
-					if(!(currentDataXL.equals("LessonsOnDemand")))
+					if(!(currentDataXL.contains("LessonsOnDemand")))
 						verifyTestPageFooters(Row);
 					else
 						verifyLODPageFooters(Row);
 					
 					//Verify Logo and Review ID 
-					if(currentDataXL.equals("ReviewChapters") || currentDataXL.contains("Premier") ) 
+					if(currentDataXL.contains("ReviewChapters") || currentDataXL.contains("Premier") ) 
 						if(completeRegression)
 							verifyAdditionalTestPageFooters(Row);
 				}
@@ -147,7 +147,7 @@ public class Presentations extends DriverScript{
 				
 					Thread.sleep(1500);
 					String chapNamePath = "";
-					if (!(currentDataXL.equals("LessonsOnDemand"))){
+					if (!(currentDataXL.contains("LessonsOnDemand"))){
 						//driver.switchTo().defaultContent();
 						//driver.switchTo().frame("testMode");
 					
@@ -159,7 +159,7 @@ public class Presentations extends DriverScript{
 					}
 					//d.setCellData(currentDatasheet, "Topic", Row, chapName );
 					
-					if (!(currentDataXL.equals("LessonsOnDemand"))){
+					if (!(currentDataXL.contains("LessonsOnDemand"))){
 						driver.switchTo().defaultContent();
 						driver.switchTo().frame("testMode");
 						reviewId = Keywords.getTextCustomElement(TestUtil.getStringValueinArray(OR, "VwPg_Footer_FeedbackID_Text", "Key"), "Review_ID" );
@@ -170,7 +170,7 @@ public class Presentations extends DriverScript{
 				
 				
 				if (completeRegression){
-					if(!(currentDataXL.equals("LessonsOnDemand"))) 	{
+					if(!(currentDataXL.contains("LessonsOnDemand"))) 	{
 						
 						//Keywords.clickButton("TstPg_Footer_Next_Button_Suite2");
 						if(Row < totalRows) {
@@ -205,7 +205,7 @@ public class Presentations extends DriverScript{
 			APPLICATION_LOGS.debug("Completed presentation - "+ d.getCellData(currentDatasheet, "PageTitle", Row-1));
 			ReportUtil.addStep(("Completion presentation - "+d.getCellData(currentDatasheet, "PageTitle", Row-1)), "Completed All", "Pass", null);
 			
-			if(!(currentDataXL.equals("LessonsOnDemand"))) {
+			if(!(currentDataXL.contains("LessonsOnDemand"))) {
 				Keywords.clickButton("VwPg_Footer_EndTest_Button");
 				if(!currentBrowser.contains("Safari"))
 					Keywords.verifyText(TestUtil.closeAlertandgetText(),TestUtil.getStringValueinArray(OR,"VwPg_Footer_EndTest_Button","Value"));
@@ -243,7 +243,7 @@ public class Presentations extends DriverScript{
 
 			
 			//verify back button
-			if(currentDataXL.equals("ReviewChapters") || currentDataXL.contains("Premier") ) {
+			if(currentDataXL.contains("ReviewChapters") || currentDataXL.contains("Premier") ) {
 				if (rowNum == 2)
 					Keywords.checkContains("VwPg_Footer_Back_Button_INACT", "src","BACK button");
 				else

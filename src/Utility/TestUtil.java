@@ -21,8 +21,8 @@ import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.UnexpectedAlertBehaviour;
 import org.openqa.selenium.UnhandledAlertException;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.android.AndroidDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
@@ -151,8 +151,8 @@ public class TestUtil extends DriverScript{
 		Keywords.dualOutput("Browser chosen is: ", browserType);
 		if(execution_mode.equals("Standalone")){	
 			if(currentBrowser.equals("Firefox")){
-				ProfilesIni allProfs = new ProfilesIni();
-				FirefoxProfile myProf = allProfs.getProfile("Selenium");
+				//ProfilesIni allProfs = new ProfilesIni();
+				//FirefoxProfile myProf = allProfs.getProfile("Selenium");
 				DesiredCapabilities dc=new DesiredCapabilities();
 				dc.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR,UnexpectedAlertBehaviour.ACCEPT);
 				driver = new FirefoxDriver(dc);			
@@ -180,10 +180,12 @@ public class TestUtil extends DriverScript{
 					capab.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR,UnexpectedAlertBehaviour.ACCEPT);
 					driver = new SafariDriver(capab);
 				}
+/* Android Driver is no longer operational with Selenium V2.41+, so removing this temporarily, future Selenium android efforts will be on Selendroid
 			} else if(currentBrowser.equals("Android")){		
 		        DesiredCapabilities capab = DesiredCapabilities.android();
 		        capab.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR,UnexpectedAlertBehaviour.ACCEPT);
-		        driver = new AndroidDriver(capab);
+		        driver = new AndroidDriver(capab); 
+*/		        
 			} else if(currentBrowser.equals("Ipad")){		
 		        DesiredCapabilities capab = DesiredCapabilities.ipad();
 		        url = "http://"+controller.getCellData("Settings", "Value", controller.getFirstRowInstance("Settings", "Parameter", "Ipad_Ip"))+"/wd/hub";
@@ -224,8 +226,6 @@ public class TestUtil extends DriverScript{
 				capab = IOSCapabilities.ipad();
 		        //String url = "http://"+controller.getCellData("Settings", "Value", controller.getFirstRowInstance("Settings", "Parameter", "Ipad_Ip"))+"/wd/hub";
 		        //driver = new RemoteWebDriver(new URL(url), capab);
-		        
-		        
 			}
 			
 			if (currentBrowser.equals("Ipad"))
@@ -240,7 +240,6 @@ public class TestUtil extends DriverScript{
 		
 		// EventFiringWebDriver
 		evfw = new EventFiringWebDriver(driver);
-		
 	}
 	
 	//Returns the key value index in the given column of the array
@@ -421,10 +420,10 @@ public class TestUtil extends DriverScript{
 		
 	public static boolean isSkip(String TestName, String ScriptName){
 		
-		for(int i=2; i<=controller.getRowCount(currentProduct);i++ ){
-	    	if(controller.getCellData(currentProduct, "TestName", i).equals(TestName)){
-	    		if(controller.getCellData(currentProduct, "ScriptName", i).equals(ScriptName)) {
-	    			if(controller.getCellData(currentProduct, "Include", i).equals("Y"))
+		for(int i=2; i<=controller.getRowCount("Consolidated");i++ ){
+	    	if(controller.getCellData("Consolidated", "TestName", i).equals(TestName)){
+	    		if(controller.getCellData("Consolidated", "ScriptName", i).equals(ScriptName)) {
+	    			if(controller.getCellData("Consolidated", "Include", i).equals("Y"))
 		    			  return false;
 		    		  else
 		    			  return true;
@@ -440,16 +439,17 @@ public class TestUtil extends DriverScript{
 		//File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 	    //FileUtils.copyFile(scrFile, new File(config.getProperty("screenShotsPath")+"\\"+fileName+".jpg"));
 		Keywords.dualOutput("Inside take screenshot", null);
-		fileName = Keywords.formatScreenshotName(fileName);
-		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		Keywords.dualOutput(fileName, null);
+		
 	    try {
-			FileUtils.copyFile(scrFile, new File(screenshotPath+fileName));
-			System.out.println("In try");
-		} catch (IOException e) {
+	    	fileName = Keywords.formatScreenshotName(fileName);
+	    	Keywords.dualOutput("filename before taking screenshot: "+fileName, null);
+			File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+			Keywords.dualOutput(fileName, null);
+	    	FileUtils.copyFile(scrFile, new File(screenshotPath+fileName));
+		} catch (Throwable t) {
 			// TODO Auto-generated catch block
 			System.out.println("Inside take screenshot - before catch");
-			e.printStackTrace();
+		t.printStackTrace();
 			System.out.println("Inside take screenshot - after catch");
 		}
 	    
@@ -528,6 +528,25 @@ public class TestUtil extends DriverScript{
 	    }
 	  }
 	
+	//This method clears any tests taken on Jasper application under current login and product
+	public static String clearhistory() throws IOException, InterruptedException {
+		testUtilResult = "Pass";
+		String tempURL; int index; String URL;
+		
+		if (jasperLogin().equals("Pass")) {
+			Thread.sleep(3000L);
+			tempURL = driver.getCurrentUrl();
+			index = tempURL.lastIndexOf("/");
+			URL = tempURL.substring(0,index+1) + "historymgr.aspx";
+			
+			if (Keywords.navigatebyURL(URL).equals("Pass")) {
+				Keywords.clickbyXpath("html/body/table/tbody/tr/td[3]/div[2]/input");
+				closeAlertandgetText();
+			}			
+		}
+		clearhistory = true;
+		return testUtilResult;
+	}
 	
 	public static String jasperLogin() throws IOException {
 		testUtilResult = "Pass";
@@ -683,7 +702,7 @@ public class TestUtil extends DriverScript{
 		Keywords.dualOutput("Executing Jasper Test Direction Page contents", null);
 		
 		testUtilResult = "Pass";
-		Excel_Ops d= new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\"+currentDataXL+".xlsx");
+		Excel_Ops d= new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\"+currentDataXL);
 		Variable_Conversions vc = new Variable_Conversions();
 		int rowNum = d.getCellRowNum("Test_Directions", "Sheet_Name", currentDatasheet);
 		int noofSections = vc.strToDblToInt(d.getCellData("Test_Directions", "Sections", rowNum));
@@ -733,12 +752,12 @@ public class TestUtil extends DriverScript{
 	public static String VerifyJasperSecStartPg(int secCounter) throws IOException{
 
 		testUtilResult = "Pass";
-		Excel_Ops d= new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\"+currentDataXL+".xlsx");
+		Excel_Ops d= new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\"+currentDataXL);
 		int rowNum = d.getCellRowNum("Test_Directions", "Sheet_Name", currentDatasheet);
 		String currentSec = d.getCellData("Test_Directions", "Section"+(secCounter+1),rowNum);
 		
 		//Verify Headers : Logo & Text ::: Hard-coding review mode parameter to false since TestDirections comes only during test mode, not review mode
-		if(isDiagORFL())
+		if(isDiagORFL() && !currentSec.contains("Trial")) // Do not validate this on Trial section page
 			verifyTestPageHeaders(d.getCellData("Test_Directions", "Title", rowNum).trim(), false);
 		
 		//Verify Section Name
@@ -762,8 +781,8 @@ public class TestUtil extends DriverScript{
 	public static String verifyTestPageHeaders(String title, boolean rwMode) throws IOException{
 		Keywords.dualOutput("Executing TestUtil - Test Page Headers method", null);
 		submethodL1Result = "Pass";
-		
-		if(currentDataXL.equals("LessonsOnDemand"))
+		Keywords.dualOutput("Current title of the page should be.."+title, null);
+		if(currentDataXL.contains("LessonsOnDemand"))
 			Keywords.verifyObjectTextWithParameter("TstPg_Header_Exam_Text_LOD", title);
 		else
 			Keywords.verifyObjectTextWithParameter("TstPg_Header_Exam_Text", title);
@@ -897,7 +916,7 @@ public class TestUtil extends DriverScript{
 	public static boolean isMultiQuePsg (int rowNum){
 		
 		boolean result = false;
-		Excel_Ops d= new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\"+currentDataXL+".xlsx");
+		Excel_Ops d= new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\"+currentDataXL);
 		Variable_Conversions vc = new Variable_Conversions();
 		int psgQueNum = vc.strToDblToInt(d.getCellData(currentDatasheet, "PsgQuestion", rowNum));
 		if( psgQueNum> 1)

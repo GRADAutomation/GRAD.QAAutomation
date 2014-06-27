@@ -81,6 +81,7 @@ public class DriverScript {
 	public static String currentProduct; 
 	public static String tcBrowser;
 	public static boolean isRun=false;
+	public static boolean clearhistory;
 	
 	
 	@BeforeSuite
@@ -95,11 +96,11 @@ public class DriverScript {
 		OR=TestUtil.getExcelintoArray(objects,"OR");
 
 		// initialize Input Control sheet
-		controller=new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\ControllerNew.xlsx");
+		controller=new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\ControllerNew.xlsm");
 		
 		environment = controller.getCellData("Settings", "Value", controller.getFirstRowInstance("Settings", "Parameter","Environment"));
 		execution_mode = controller.getCellData("Settings", "Value", controller.getFirstRowInstance("Settings", "Parameter","Execution_Mode"));
-		currentProduct = controller.getCellData("Settings", "Value", controller.getFirstRowInstance("Settings", "Parameter","Product")); 
+		//currentProduct = controller.getCellData("Settings", "Value", controller.getFirstRowInstance("Settings", "Parameter","Product")); 
 		System.out.println(environment);
 		System.out.println(execution_mode);
 		//evfw.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS );		
@@ -117,11 +118,12 @@ public class DriverScript {
 	}
 	
 	@Test(dataProvider="getData")
-	public void testApp(String browser, String loginID, String password) throws ClassNotFoundException, InstantiationException, IllegalAccessException, NoSuchMethodException, SecurityException, IllegalArgumentException, InvocationTargetException, IOException {
+	public void testApp(String browser, String loginID, String password) throws ClassNotFoundException, InstantiationException, IllegalAccessException, NoSuchMethodException, SecurityException, IllegalArgumentException, InvocationTargetException, IOException, InterruptedException {
 		String startTime=null; currentBrowser = browser; currentLoginID = loginID; currentPassword = password;
-		System.out.println(currentBrowser);
+
 		TestUtil.initializeDriver();
 		evfw.manage().timeouts().implicitlyWait(180,TimeUnit.SECONDS );
+		clearhistory = false;	
 		
 		//Reflection dynamic class & method loader
 		ClassLoader myClassLoader=ClassLoader.getSystemClassLoader();
@@ -131,19 +133,28 @@ public class DriverScript {
 		String returnValue = null;
 		System.out.println("Reflection method loaded");
 		
-		for(int tcid=2; tcid<=controller.getRowCount(currentProduct);tcid++){
+		for(int tcid=2; tcid<=controller.getRowCount("Consolidated");tcid++){
 			
-			currentTCID = controller.getCellData(currentProduct, "TCID", tcid);
-			currentTestName = controller.getCellData(currentProduct, "TestName", tcid);
-			currentTestSuite = controller.getCellData(currentProduct, "TestSuite", tcid);
-			currentPackage = controller.getCellData(currentProduct, "Package", tcid);
-			currentCaseName = controller.getCellData(currentProduct, "CaseName", tcid);
-			currentCaseDescription = controller.getCellData(currentProduct, "Description", tcid);
-			currentDataXL= controller.getCellData(currentProduct, "DataXL", tcid);
-			currentDatasheet= controller.getCellData(currentProduct, "DataSheet", tcid);
-			currentScriptName= controller.getCellData(currentProduct, "ScriptName", tcid);
-			currentMainTopic= controller.getCellData(currentProduct, "MainTopic", tcid);
-			tcBrowser= controller.getCellData(currentProduct, "Browser", tcid);
+			currentProduct = controller.getCellData("Consolidated", "Product", tcid);
+			currentTCID = controller.getCellData("Consolidated", "TCID", tcid);
+			currentTestName = controller.getCellData("Consolidated", "TestName", tcid);
+			currentTestSuite = controller.getCellData("Consolidated", "TestSuite", tcid);
+			currentPackage = controller.getCellData("Consolidated", "Package", tcid);
+			currentCaseName = controller.getCellData("Consolidated", "CaseName", tcid);
+			currentCaseDescription = controller.getCellData("Consolidated", "Description", tcid);
+			currentDataXL= controller.getCellData("Consolidated", "DataXL", tcid);
+			currentDatasheet= controller.getCellData("Consolidated", "DataSheet", tcid);
+			currentScriptName= controller.getCellData("Consolidated", "ScriptName", tcid);
+			currentMainTopic= controller.getCellData("Consolidated", "MainTopic", tcid);
+			tcBrowser= controller.getCellData("Consolidated", "Browser", tcid);
+			
+			if(currentDataXL.contains("FL") || currentDataXL.contains("Diag"))
+				currentDataXL = currentDataXL + ".xlsm";
+			else
+				currentDataXL = currentDataXL + ".xlsx";
+			
+			if(clearhistory) // clears history of Jasper application if it's not already done so
+				TestUtil.clearhistory();
 			
 			//Printing stack
 			System.out.println(currentTCID);
@@ -152,7 +163,7 @@ public class DriverScript {
 			System.out.println(currentScriptName);
 			System.out.println(currentCaseDescription);
 			System.out.println(currentDatasheet);
-			System.out.println(controller.getCellData(currentProduct, "Run", tcid));
+			System.out.println(controller.getCellData("Consolidated", "Run", tcid));
 			
 			if (execution_mode.equals("Hub-Node-Mixed")){
 				if(tcBrowser.equals(browser))
@@ -163,7 +174,7 @@ public class DriverScript {
 				isRun = true;
 			
 			// initialize the start time of test
-			if(controller.getCellData(currentProduct, "Run", tcid).equals("Y") && isRun){
+			if(controller.getCellData("Consolidated", "Run", tcid).equals("Y") && isRun){
 				startTime=TestUtil.now("dd.MMMMM.yyyy hh.mm.ss aaa");
 				APPLICATION_LOGS.debug("Executing the test "+ currentCaseName + " under the Test name " + currentTestName);
 				// Reflection API
@@ -209,7 +220,7 @@ public class DriverScript {
 				ReportUtil.addTestCase(currentTCID, currentTestName, currentCaseDescription,TestUtil.now("dd.MMMMM.yyyy hh.mm.ss aaa"), TestUtil.now("dd.MMMMM.yyyy hh.mm.ss aaa"), testStatus, currentBrowser );
 			} // end of else
 			
-			controller.setCellData(currentProduct, "Result", tcid, testStatus);
+			//controller.setCellData("Consolidated", "Result", tcid, testStatus);
 			testStatus=null; isRun = false;
 			
 		} // end of for loop

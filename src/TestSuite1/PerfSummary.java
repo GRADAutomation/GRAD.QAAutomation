@@ -62,7 +62,7 @@ public class PerfSummary extends DriverScript{
 		String now = sdf.format(curDate);  
 
 		Keywords.dualOutput("Inside Performance Summary Test page", sheetName);
-		d = new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\"+currentDataXL+".xlsx");
+		d = new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\"+currentDataXL);
 		vc = new Variable_Conversions();
 		
 		try{

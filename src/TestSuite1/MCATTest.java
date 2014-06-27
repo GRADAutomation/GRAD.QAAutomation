@@ -35,6 +35,7 @@ public class MCATTest extends DriverScript{
 	public static boolean completeRegression = false; // Sets to true for complete regression testing option chosen by user (in ControllerNew.xlsx)
 	public static boolean  getQAText = false; // Sets to true to get text of question & answers when the option chosen by user (in ControllerNew.xlsx)
 	public static boolean isDiagORFL = false;
+	public static boolean trialSec = false;
 	
 	//This method will be called by Driver Script parent class file using Java reflection, so the method name should be constant
 	@Test
@@ -53,7 +54,9 @@ public class MCATTest extends DriverScript{
 		isDiagORFL = TestUtil.isDiagORFL();
 		
 		//Initialize excel instance and variable conversion instance
-		d= new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\"+currentDataXL+".xlsx");
+		if(currentDataXL.contains("FL") || currentDataXL.contains("Diag"))
+			d= new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\"+currentDataXL);
+		
 		AllRes= new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\AllRes.xlsx");
 		
 		vc = new Variable_Conversions();
@@ -98,7 +101,7 @@ public class MCATTest extends DriverScript{
 					if(Keywords.clickLink("ItmRw_QueTopic_First_"+currentTestSuite).equals("Pass")){
 						rwPgVerification = true;
 						completeRegression = false;
-						mainMethod(index);
+						mainMethod(index); 
 					}
 				}
 		   }else{
@@ -129,12 +132,8 @@ public class MCATTest extends DriverScript{
 		int maxrows=d.getRowCount(currentDatasheet);		
 		
 		//Verify contents of Jasper Start Test Page and click Start button
-		if(completeRegression){
-			if(currentDataXL.contains("RNC"))
-				TestUtil.VerifyJasperStartTestPg(d.getCellData(currentDatasheet, "Start_Title", 2));
-			else
-				TestUtil.VerifyJasperStartTestPg(currentTestName);
-		}
+		if(completeRegression)
+			TestUtil.VerifyJasperStartTestPg(currentTestName);
 		
 		//Once Start Test Page is verified, click on Start button
 		if(!rwPgVerification){
@@ -170,7 +169,7 @@ public class MCATTest extends DriverScript{
 					TestUtil.VerifyJasperSecStartPg(Seccounter);
 			
 				if(!rwPgVerification)
-					if(currentTestSuite.equals("Suite1"))
+					if(currentTestSuite.equals("Suite1") && !trialSec)
 						if(currentBrowser.contains("Safari"))
 							Keywords.clickButton("SecBeg_Footer_Next_Button_Safari"); 
 						else
@@ -180,6 +179,7 @@ public class MCATTest extends DriverScript{
 			}
 			
   			do {
+  				if (!trialSec) { //Skip Q&A for trial sec
 				int SubItemId = 1; 				
 				int page = vc.strToDblToInt(d.getCellData(currentDatasheet, "Page", Row));
 				Thread.sleep(1500); //This is essential as otherwise script is running faster than the pageloadtime.
@@ -370,11 +370,23 @@ public class MCATTest extends DriverScript{
 					Keywords.clickButton("TstPg_Footer_Next_Button_Suite2");
 				}
 					//Keywords.clickButton("TstPg_Footer_Next_Button_Suite2");
+  			} // end of IF loop for trial section skip
+  				
 
 			} while((d.getCellData(currentDatasheet, "Section", Row-1)).equals(d.getCellData(currentDatasheet, "Section", Row)));
     	
-  			if(completeRegression && currentTestSuite.equals("Suite1"))
+  			if(completeRegression && currentTestSuite.equals("Suite1") && !trialSec)
   				verifySecReviewPg(section);
+  			
+  			//The next few lines is only for trial section -- SHOULD ENHACE based on trial SEC functionality to be modified in future
+  			if (trialSec) // doing this as Row++ loop would not be executed with trialSec = TRUE
+					Row++;
+  			
+  			if(d.getCellData(currentDatasheet, "Section", Row).equals("trial")) {
+  				trialSec = true;
+  				if(rwPgVerification) //during review, trial section should be skipped
+  					Row++;
+  			}
   			
   			if(currentTestSuite.equals("Suite1")){
   				if(Row > noofRows){
@@ -382,7 +394,10 @@ public class MCATTest extends DriverScript{
   						Keywords.clickButton("SecRw_Footer_ExitButton_LastSec");
   						//Keywords.mouseClick("SecRw_Footer_ExitButton_LastSec");
   					else{
-  						Keywords.clickButton("SecRw_Footer_EndButton_LastSec");
+  						if(!trialSec)
+  							Keywords.clickButton("SecRw_Footer_EndButton_LastSec");
+  						else // No need of Q&A for Trial Sec
+  							Keywords.clickButton("SecBeg_Footer_TrialSec_End_Button");
   						//Submitting the test..
   						if(!currentBrowser.contains("Safari"))
   							Keywords.verifyText(TestUtil.closeAlertandgetText(),TestUtil.getStringValueinArray(OR,"NxtSec_SubmitAlert_Text_"+currentTestSuite,"Value"));
@@ -453,6 +468,7 @@ public class MCATTest extends DriverScript{
   	  				
 			Seccounter++; 
 		} while (Seccounter<noofSections);
+		trialSec = false;
 		
 		if(methodResult.equals("Pass"))
 			ReportUtil.addStep("Verify the text of questions and answers", "All Q&A text is correct", "Pass", null);
@@ -805,7 +821,26 @@ public class MCATTest extends DriverScript{
 			ReportUtil.addStep("Verify the following: EXIT button, Feedback text and email id", "Some issue w/functionality verified", "Fail", screenshotPath+fileName);
 		return submethodL1Result;		
 	}	
-
+	
+	public static String completeTrialSection() throws IOException{
+		Keywords.dualOutput("Inside completeTrialSection()", null);
+		submethodL1Result = "Pass";
+	
+		TestUtil.verifyTestPageHeaders(d.getCellData("Test_Directions", "Break_Title",d.getCellRowNum("Test_Directions", "Sheet_Name", currentDatasheet)),rwPgVerification);
+	Keywords.verifyObjectText("SecBrk_Body_Msg_Text"); // "BREAK for all while This is an authorized break." for others
+	//Keywords.checkContains("SecBrk_Body_NextSec_Button", "src", "NEXT Section button on Break Page"); - Not appearing on LF Tests
+	
+	//Reporting for complete regression mode
+	if(submethodL1Result.equals("Pass"))
+		ReportUtil.addStep("Verify Test break page: Title, Header, logo, message, button", "All functionality has been validated", "Pass", null);
+	else
+		ReportUtil.addStep("Verify Test break page: Title, Header, logo, message, button", "Some issue w/functionality verified", "Fail", screenshotPath+fileName);
+			
+	return submethodL1Result;
+}
+	
+	
+	
 }
 
 

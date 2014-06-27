@@ -21,7 +21,7 @@ public class FPT_CBT_MCAT extends DriverScript{
 	public static String completeFlowTest(String sheetName) throws IOException, InterruptedException{
 		Keywords.dualOutput("Executing FPT CBT Test Script", null);
 		
-		d= new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\"+currentDataXL+".xlsx");
+		d= new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\"+currentDataXL);
 		vc = new Variable_Conversions();
 		classResult = "Pass";
 		

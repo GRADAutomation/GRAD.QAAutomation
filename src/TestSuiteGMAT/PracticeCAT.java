@@ -52,7 +52,7 @@ public class PracticeCAT extends DriverScript{
 			getQAText = true;
 		
 		//Initialize excel instance and variable conversion instance
-		d= new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\"+currentDataXL+".xlsx");
+		d= new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\"+currentDataXL);
 		AllRes= new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\AllRes.xlsx");
 		
 		vc = new Variable_Conversions();

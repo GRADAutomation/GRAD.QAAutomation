@@ -49,7 +49,7 @@ public class ReviewNotesFirstPg extends DriverScript{
 				getQAText = true;
 		
 			//Initialize excel instance and variable conversion instance
-			d= new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\"+currentDataXL+".xlsx");
+			d= new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\"+currentDataXL);
 			AllRes= new Excel_Ops(System.getProperty("user.dir")+"//src//Config//AllRes.xlsx");
 			vc = new Variable_Conversions();
 			
@@ -290,7 +290,7 @@ public class ReviewNotesFirstPg extends DriverScript{
 
 			
 			//verify back button
-			if(currentDataXL.equals("ReviewChapters") ) {
+			if(currentDataXL.contains("ReviewChapters") ) {
 				Keywords.checkContains("VwPg_Footer_Back_Button", "src","BACK button");
 			}else{
 				if (rowNum == 2)

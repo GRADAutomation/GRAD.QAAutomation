@@ -19,7 +19,7 @@ public class FPT_Onsite extends DriverScript{
 	public static String completeFlowTest(String sheetName) throws IOException, InterruptedException{
 		Keywords.dualOutput("Executing FPT DAT Test Script", null);
 		
-		d= new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\"+currentDataXL+".xlsx");
+		d= new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\"+currentDataXL);
 		vc = new Variable_Conversions();
 		classResult = "Pass";
 		

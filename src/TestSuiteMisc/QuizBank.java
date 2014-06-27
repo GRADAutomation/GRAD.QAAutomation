@@ -26,7 +26,7 @@ public class QuizBank extends DriverScript {
 	public static String completeFlowTest(String sheetName) throws IOException, InterruptedException{
 		
 		APPLICATION_LOGS.debug("Inside QB");
-		d= new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\"+currentDataXL+".xlsx");
+		d= new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\"+currentDataXL);
 		AllRes= new Excel_Ops(System.getProperty("user.dir")+"//src//Config//AllRes.xlsx");
 		vc = new Variable_Conversions();
 		classResult = "Pass";

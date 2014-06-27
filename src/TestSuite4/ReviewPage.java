@@ -36,7 +36,7 @@ public class ReviewPage extends DriverScript{
 		//Reading properties file in Java example
 			 
 		APPLICATION_LOGS.debug("Inside ReviewPageTest" + sheetName);
-		d = new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\"+currentDataXL+".xlsx");
+		d = new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\"+currentDataXL);
 		AllRes= new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\AllRes.xlsx");
 
 		vc = new Variable_Conversions();
@@ -124,7 +124,7 @@ public class ReviewPage extends DriverScript{
 
 	public int determinetd(int rowNum){
 		
-		//d = new Excel_Ops(System.getProperty("user.dir")+"/src/Config/"+currentDataXL+".xlsx");
+		//d = new Excel_Ops(System.getProperty("user.dir")+"/src/Config/"+currentDataXL);
 		int td = 1;
 		if(currentTestSuite.equals("Suite2"))
 			td = 1;
@@ -166,7 +166,7 @@ public class ReviewPage extends DriverScript{
 			Keywords.verifyObjectTextWithParameter("VwPg_Footer_ChapName",d.getCellData(currentDatasheet, "Topic", row));
 			
 			
-			if(getQAText && !(currentDataXL.equals("LessonsOnDemand"))){
+			if(getQAText && !(currentDataXL.contains("LessonsOnDemand"))){
 				driver.switchTo().defaultContent();
 				driver.switchTo().frame("testMode");
 				String reviewId = Keywords.getTextCustomElement(TestUtil.getStringValueinArray(OR, "VwPg_Footer_FeedbackID_Text", "Key"), "Review_ID" );

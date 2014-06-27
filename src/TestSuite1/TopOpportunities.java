@@ -53,7 +53,7 @@ public class TopOpportunities extends DriverScript{
 		//Reading properties file in Java example
 			 
 		APPLICATION_LOGS.debug("Inside ReviewPageTest" + sheetName);
-		d = new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\"+currentDataXL+".xlsx");
+		d = new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\"+currentDataXL);
 		vc = new Variable_Conversions();
 		
 		try{

@@ -157,9 +157,9 @@ public class Keywords extends DriverScript{
 			token1 = clickLink(objNametoClick);
 		
 		if (objNametoClick.equals("PS_Header_Logo")||objNametoClick.equals("ItmRw_Nav_Performance_Link"))
-			Thread.sleep(2000);
+			Thread.sleep(4000);
 		else	
-			Thread.sleep(1000);
+			Thread.sleep(2000);
 		if (!objNametoClick.equals(currentTestName))
 			token2 = verifyObjectTextWithParameter(objNametoVerify,TestUtil.getStringValueinArray(OR,objNametoClick,"Value"));
 		else
@@ -1136,7 +1136,7 @@ public class Keywords extends DriverScript{
 				counter++;
 						
 			} while (counter < strSize);			
-			//dualOutput(newFileName);			
+			dualOutput(newFileName, null);			
 			return newFileName;					
 		}
 		//This method takes care of outputting to APP LOG as well as System console		

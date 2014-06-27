@@ -25,7 +25,7 @@ public class PBT extends DriverScript{
 
 	public static String completeFlowTest(String sheetName) throws IOException, InterruptedException{
 		Keywords.dualOutput("Executing PBT Test: ",currentTestName);
-		d= new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\"+currentDataXL+".xlsx");
+		d= new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\"+currentDataXL);
 		AllRes= new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\AllRes.xlsx");
 		vc = new Variable_Conversions();
 		classResult = "Pass";

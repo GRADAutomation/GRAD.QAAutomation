@@ -33,7 +33,7 @@ public class ReviewPg extends DriverScript{
 		methodResult = "Pass";
 			 
 		Keywords.dualOutput("Inside ReviewPageTest", sheetName);
-		d = new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\"+currentDataXL+".xlsx");
+		d = new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\"+currentDataXL);
 		vc = new Variable_Conversions();
 		AllRes= new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\AllRes.xlsx");
 		
@@ -62,7 +62,7 @@ public class ReviewPg extends DriverScript{
 				Keywords.verifyObjectTextWithParameter("ItmRw_Body_ItmRw_Text", "Item Review: "+currentTestName);
 			else
 				Keywords.verifyObjectTextWithParameter("ItmRw_Body_ItmRw_Text", "Item Review: "+currentTestName.replace("Kaplan", "MCAT"));
-		else //CHECK THIS LOGIC
+		else 
 			Keywords.verifyObjectTextWithParameter("ItmRw_Body_ItmRw_Text", "Item Review: "+d.getCellData(currentDatasheet, "PageTitle", 2));
 
 		return submethodL1Result;
@@ -118,8 +118,10 @@ public class ReviewPg extends DriverScript{
 		if(isDiagORFL) {
 			Keywords.verifyObjectText("ItmRw_Score_TotalScore_label");
 			Keywords.verifyObjectText("ItmRw_Score_Percentile_label");
-		}else
+		}else {
 			Keywords.verifyObjectText("ItmRw_Score_Correct_label");
+			Keywords.verifyObjectTextWithParameter("ItmRw_Score_PercentageCorrect", "100%");			
+		}
 		
 		if(isDiagORFL) {
 		while (totalMatches > 0){
@@ -160,6 +162,8 @@ public class ReviewPg extends DriverScript{
 		while(RowNum <= MaxRows) {
 			Section = d.getCellData(currentDatasheet, "Section", RowNum);
 			Keywords.dualOutput(Section, null);
+			if(!Section.equals("trial")) {
+				
 			if(isDiagORFL || currentDatasheet.contains("SciAss")){	
 				if (d.getCellData(currentDatasheet, "Item_Num", RowNum).equals("1.0")){
 					ScreenRow = 1;
@@ -176,15 +180,15 @@ public class ReviewPg extends DriverScript{
 		
 			if(expectedResult.equals(actualResult)){
 				Keywords.dualOutput("Question # "+ScreenRow+" from ",Section+" has correct response. Testcase is passed.");
-				d.setCellData(currentDatasheet, "Actual_Answer", RowNum, "Pass");
+				//d.setCellData(currentDatasheet, "Actual_Answer", RowNum, "Pass");
 			}
 			else{
 				Keywords.dualOutput("Question # "+ScreenRow+" from ",Section+" has incorrect response. Testcase is FAILED.");
-				d.setCellData(currentDatasheet, "Actual_Answer", RowNum, "Fail");
+				//d.setCellData(currentDatasheet, "Actual_Answer", RowNum, "Fail");
 			}
 			
 			//Topic validation 
-			if(currentDataXL.equals("PBT"))
+			if(currentDataXL.contains("PBT"))
 				answerPath = "//table[@id='test-analysis-table']/tbody/tr["+ScreenRow+"]/td["+(td+2)+"]"; //changed from /tbody//tr[" to /tbody/tr["
 			else
 				answerPath = "//table[@id='test-analysis-table']/tbody/tr["+ScreenRow+"]/td["+(td+2)+"]/a"; //changed from /tbody//tr[" to /tbody/tr["
@@ -194,11 +198,11 @@ public class ReviewPg extends DriverScript{
 				expectedResult = d.getCellData(currentDatasheet, "Topic", RowNum);
 				if(expectedResult.trim().equals(actualResult.trim())){
 					Keywords.dualOutput("Question # "+ScreenRow+" from ",Section+" has correct topic. Testcase is passed.");
-					d.setCellData(currentDatasheet, "Actual_Topic", RowNum, "Pass");
+					//d.setCellData(currentDatasheet, "Actual_Topic", RowNum, "Pass");
 				}
 				else{
 					Keywords.dualOutput("Question # "+ScreenRow+" from ",Section+" has incorrect topic. Testcase is FAILED.");
-					d.setCellData(currentDatasheet, "Actual_Topic", RowNum, "Fail");
+					//d.setCellData(currentDatasheet, "Actual_Topic", RowNum, "Fail");
 				}
 			}else
 				d.setCellData(currentDatasheet, "Topic", RowNum, actualResult);
@@ -224,6 +228,7 @@ public class ReviewPg extends DriverScript{
 				else
 					Keywords.dualOutput("Question # "+ScreenRow+" from ",Section+" is NOT set for MARKED in excel, so not validating");
 			}
+			}//end of if loop to skip trial section
 			ScreenRow++; td = 0; RowNum++;
 		} //end of while loop
 		return submethodL1Result;
@@ -232,7 +237,7 @@ public class ReviewPg extends DriverScript{
 
 	public int determinetd(int rowNum){
 		
-		//d = new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\"+currentDataXL+".xlsx");
+		//d = new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\"+currentDataXL);
 		int td = 1;
 		if(currentTestSuite.equals("Suite2"))
 			td = 1;

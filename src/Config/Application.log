@@ -1,5 +1,1905 @@
-06/19/2014 16:09:27 devpinoyLogger Starting the test suite
-06/19/2014 16:09:27 devpinoyLogger Loading config files
-06/19/2014 16:09:27 devpinoyLogger Loading Object XPATHS
-06/19/2014 16:09:29 devpinoyLogger total rows -- 446
-06/19/2014 16:09:29 devpinoyLogger total cols -- 13
+06/25/2014 12:34:34 devpinoyLogger Starting the test suite
+06/25/2014 12:34:34 devpinoyLogger Loading config files
+06/25/2014 12:34:34 devpinoyLogger Loading Object XPATHS
+06/25/2014 12:34:35 devpinoyLogger total rows -- 446
+06/25/2014 12:34:35 devpinoyLogger total cols -- 13
+06/25/2014 12:36:55 devpinoyLogger Browser chosen is: Firefox
+06/25/2014 12:37:05 devpinoyLogger Started the driver
+06/25/2014 12:37:06 devpinoyLogger Skipping the test TC0001
+06/25/2014 12:37:06 devpinoyLogger ***********************************TC0001 --- Skip
+06/25/2014 12:37:07 devpinoyLogger Skipping the test TC0002
+06/25/2014 12:37:07 devpinoyLogger ***********************************TC0002 --- Skip
+06/25/2014 12:37:08 devpinoyLogger Skipping the test TC0003
+06/25/2014 12:37:08 devpinoyLogger ***********************************TC0003 --- Skip
+06/25/2014 12:37:08 devpinoyLogger Skipping the test TC0004
+06/25/2014 12:37:08 devpinoyLogger ***********************************TC0004 --- Skip
+06/25/2014 12:37:09 devpinoyLogger Skipping the test TC0005
+06/25/2014 12:37:09 devpinoyLogger ***********************************TC0005 --- Skip
+06/25/2014 12:37:10 devpinoyLogger Skipping the test TC0006
+06/25/2014 12:37:10 devpinoyLogger ***********************************TC0006 --- Skip
+06/25/2014 12:37:10 devpinoyLogger Skipping the test TC0007
+06/25/2014 12:37:10 devpinoyLogger ***********************************TC0007 --- Skip
+06/25/2014 12:37:11 devpinoyLogger Skipping the test TC0008
+06/25/2014 12:37:11 devpinoyLogger ***********************************TC0008 --- Skip
+06/25/2014 12:37:12 devpinoyLogger Skipping the test TC0009
+06/25/2014 12:37:12 devpinoyLogger ***********************************TC0009 --- Skip
+06/25/2014 12:37:12 devpinoyLogger Skipping the test TC0010
+06/25/2014 12:37:12 devpinoyLogger ***********************************TC0010 --- Skip
+06/25/2014 12:37:13 devpinoyLogger Skipping the test TC0011
+06/25/2014 12:37:13 devpinoyLogger ***********************************TC0011 --- Skip
+06/25/2014 12:37:13 devpinoyLogger Executing the test Complete_Regression under the Test name Kaplan Full-Length 10
+06/25/2014 12:37:13 devpinoyLogger Inside Suite 1 CompleteflowTestFL10
+06/25/2014 12:37:14 devpinoyLogger Executing Navigate by URL to: http://qwjasweb02.kaplaninc.com/loginV8.aspx
+06/25/2014 12:37:15 devpinoyLogger Verifying the title match: JspLog_Title
+06/25/2014 12:37:15 devpinoyLogger Login:  Login Page sucessfully launched
+06/25/2014 12:37:15 devpinoyLogger Executing clear and input Keyword: JspLog_KecUsername
+06/25/2014 12:37:15 devpinoyLogger Inside findElememnt - only objName as parameterJspLog_KecUsername
+06/25/2014 12:37:15 devpinoyLogger Inside findElememnt - only objName as parameterJspLog_KecUsername
+06/25/2014 12:37:15 devpinoyLogger Executing clear and input Keyword: JspLog_KecPassword
+06/25/2014 12:37:15 devpinoyLogger Inside findElememnt - only objName as parameterJspLog_KecPassword
+06/25/2014 12:37:15 devpinoyLogger Inside findElememnt - only objName as parameterJspLog_KecPassword
+06/25/2014 12:37:15 devpinoyLogger Executing clear and input with parameter: JspLog_JasperUsername
+06/25/2014 12:37:15 devpinoyLogger Inside findElememnt - only objName as parameterJspLog_JasperUsername
+06/25/2014 12:37:15 devpinoyLogger Inside findElememnt - only objName as parameterJspLog_JasperUsername
+06/25/2014 12:37:15 devpinoyLogger Executing clear and input with parameter: JspLog_JasperPassword
+06/25/2014 12:37:15 devpinoyLogger Inside findElememnt - only objName as parameterJspLog_JasperPassword
+06/25/2014 12:37:15 devpinoyLogger Inside findElememnt - only objName as parameterJspLog_JasperPassword
+06/25/2014 12:37:15 devpinoyLogger Inside findElememnt - only objName as parameterJspLog_JasperProduct
+06/25/2014 12:37:17 devpinoyLogger Executing mouse click: JspLog_Login
+06/25/2014 12:37:17 devpinoyLogger Inside findElememnt - only objName as parameterJspLog_Login
+06/25/2014 12:37:18 devpinoyLogger Jasper Login step is completed
+06/25/2014 12:37:19 devpinoyLogger Verifying the title match: Kaplan Full-Length 10
+06/25/2014 12:37:19 devpinoyLogger MCAT All Resources page is launched
+06/25/2014 12:37:20 devpinoyLogger Executing Linktext: Kaplan Full-Length 10
+06/25/2014 12:37:22 devpinoyLogger Executing verifyObjectText Jsp_Footer_Logo
+06/25/2014 12:37:22 devpinoyLogger Inside findElememnt - only objName as parameterJsp_Footer_Logo
+06/25/2014 12:37:23 devpinoyLogger 1-800-­Kap-Test (1-800-­527-8378)
+06/25/2014 12:37:23 devpinoyLogger 1-800-­Kap-Test (1-800-­527-8378)
+06/25/2014 12:37:23 devpinoyLogger Executing verifyObjectText Jsp_Footer_Twitter_Text
+06/25/2014 12:37:23 devpinoyLogger Inside findElememnt - only objName as parameterJsp_Footer_Twitter_Text
+06/25/2014 12:37:23 devpinoyLogger Follow Us On Twitter
+06/25/2014 12:37:23 devpinoyLogger Follow Us On Twitter
+06/25/2014 12:37:23 devpinoyLogger Executing verifyObjectText Jsp_Footer_FB_Text
+06/25/2014 12:37:23 devpinoyLogger Inside findElememnt - only objName as parameterJsp_Footer_FB_Text
+06/25/2014 12:37:23 devpinoyLogger Like Us On Facebook
+06/25/2014 12:37:23 devpinoyLogger Like Us On Facebook
+06/25/2014 12:37:23 devpinoyLogger Page footer contents have been validated
+06/25/2014 12:37:23 devpinoyLogger Executing verifyObjectText Jsp_Header_Logo
+06/25/2014 12:37:23 devpinoyLogger Inside findElememnt - only objName as parameterJsp_Header_Logo
+06/25/2014 12:37:23 devpinoyLogger Kaplan Test Prep
+06/25/2014 12:37:23 devpinoyLogger Kaplan Test Prep
+06/25/2014 12:37:23 devpinoyLogger Verifying if object displayed: JspStart_Allres_link
+06/25/2014 12:37:23 devpinoyLogger Inside findElememnt - only objName as parameterJspStart_Allres_link
+06/25/2014 12:37:23 devpinoyLogger true	Element with objectname -JspStart_Allres_link - is displayed
+06/25/2014 12:37:23 devpinoyLogger Executing verifyObjectTextWithParameter: Kaplan Full-Length 10
+06/25/2014 12:37:23 devpinoyLogger Inside findElememnt - only objName as parameterJspStart_Testtitle_Text
+06/25/2014 12:37:23 devpinoyLogger Kaplan Full-Length 10
+06/25/2014 12:37:23 devpinoyLogger Kaplan Full-Length 10
+06/25/2014 12:37:23 devpinoyLogger Executing verifyObjectText JspStart_Message_Text
+06/25/2014 12:37:23 devpinoyLogger Inside findElememnt - only objName as parameterJspStart_Message_Text
+06/25/2014 12:37:23 devpinoyLogger You have not started this online test yet. Click the Start Test button below.
+06/25/2014 12:37:23 devpinoyLogger You have not started this online test yet. Click the Start Test button below.
+06/25/2014 12:37:23 devpinoyLogger Executing clickButton Keyword: JspStart_Start_Button
+06/25/2014 12:37:23 devpinoyLogger Inside findElememnt - only objName as parameterJspStart_Start_Button
+06/25/2014 12:37:23 devpinoyLogger Jasper Start Test Page is launched
+06/25/2014 12:37:24 devpinoyLogger Executing Jasper Test Direction Page contents
+06/25/2014 12:37:30 devpinoyLogger Executing TestUtil - Test Page Headers method
+06/25/2014 12:37:30 devpinoyLogger Current title of the page should be..MCAT Full Length 10 - MCAT Full Length 10
+06/25/2014 12:37:30 devpinoyLogger Executing verifyObjectTextWithParameter: MCAT Full Length 10 - MCAT Full Length 10
+06/25/2014 12:37:30 devpinoyLogger Inside findElememnt - only objName as parameterTstPg_Header_Exam_Text
+06/25/2014 12:37:30 devpinoyLogger MCAT Full Length 10 - MCAT Full Length 10
+06/25/2014 12:37:30 devpinoyLogger MCAT Full-Length 10 - MCAT Full-Length 10
+06/25/2014 12:37:30 devpinoyLogger Error in text - TstPg_Header_Exam_Text
+06/25/2014 12:37:30 devpinoyLogger Actual - MCAT Full-Length 10 - MCAT Full-Length 10
+06/25/2014 12:37:30 devpinoyLogger Expected -MCAT Full Length 10 - MCAT Full Length 10
+06/25/2014 12:37:30 devpinoyLogger Inside take screenshot
+06/25/2014 12:37:30 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_TstPg_Header_Exam_Text.jpg
+06/25/2014 12:37:30 devpinoyLogger TC0012_KaplanFull-Length10_TstPg_Header_Exam_Text.jpg
+06/25/2014 12:37:30 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_TstPg_Header_Exam_Text.jpg
+06/25/2014 12:37:30 devpinoyLogger TC0012_KaplanFull-Length10_TstPg_Header_Exam_Text.jpg
+06/25/2014 12:37:30 devpinoyLogger Executing checkContains: TstPg_Header_Logo_Suite1
+06/25/2014 12:37:30 devpinoyLogger Executing checkContains: TstPg_Header_Logo_Suite1
+06/25/2014 12:37:30 devpinoyLogger Executing Get Attribute: TstPg_Header_Logo_Suite1
+06/25/2014 12:37:30 devpinoyLogger Inside findElememnt - only objName as parameterTstPg_Header_Logo_Suite1
+06/25/2014 12:37:30 devpinoyLogger Expected value is: mcatKaplanLogo.png
+06/25/2014 12:37:30 devpinoyLogger Actual value is: http://qwjasweb02.kaplaninc.com/content/media/99/151799.109.mcatKaplanLogo.png
+06/25/2014 12:37:30 devpinoyLogger Executing verifyObjectText TstBeg_Footer_TD_Text
+06/25/2014 12:37:30 devpinoyLogger Inside findElememnt - only objName as parameterTstBeg_Footer_TD_Text
+06/25/2014 12:37:30 devpinoyLogger Test Directions
+06/25/2014 12:37:30 devpinoyLogger Test Directions
+06/25/2014 12:37:30 devpinoyLogger Executing verifyObjectText TstBeg_Body_TD_Text
+06/25/2014 12:37:30 devpinoyLogger Inside findElememnt - only objName as parameterTstBeg_Body_TD_Text
+06/25/2014 12:37:30 devpinoyLogger Test Directions
+06/25/2014 12:37:30 devpinoyLogger Test Directions
+06/25/2014 12:37:31 devpinoyLogger Executing verifyObjectTextWithParameter: The MCAT Full-Length Test you will complete next is similar in content and format to what you will see on Test Day.
+06/25/2014 12:37:31 devpinoyLogger Inside findElememnt - only objName as parameterTstBeg_Body_TDContent_Text
+06/25/2014 12:37:31 devpinoyLogger The MCAT Full-Length Test you will complete next is similar in content and format to what you will see on Test Day.
+06/25/2014 12:37:31 devpinoyLogger The MCAT Full-Length Test you will complete next is similar in content and format to what you will see on Test Day.
+06/25/2014 12:37:31 devpinoyLogger Executing verifyObjectText TstBeg_Body_TS_Text
+06/25/2014 12:37:31 devpinoyLogger Inside findElememnt - only objName as parameterTstBeg_Body_TS_Text
+06/25/2014 12:37:31 devpinoyLogger Test Structure:
+06/25/2014 12:37:31 devpinoyLogger Test Structure:
+06/25/2014 12:37:31 devpinoyLogger Executing verifyCustomObjectText: Biological Sciences - 52 questions, 70 minutes
+06/25/2014 12:37:31 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:37:31 devpinoyLogger Inside findCustomElememnthtml/body/div[1]/div/div[1]/table/tbody/tr/td/ul[1]/li[3]
+06/25/2014 12:37:31 devpinoyLogger Biological Sciences - 52 questions, 70 minutes
+06/25/2014 12:37:31 devpinoyLogger Biological Sciences - 52 questions, 70 minutes
+06/25/2014 12:37:31 devpinoyLogger Verified Custom ObjectText: Biological Sciences - 52 questions, 70 minutes
+06/25/2014 12:37:31 devpinoyLogger Executing verifyCustomObjectText: Verbal Reasoning - 40 questions, 60 minutes
+06/25/2014 12:37:31 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:37:31 devpinoyLogger Inside findCustomElememnthtml/body/div[1]/div/div[1]/table/tbody/tr/td/ul[1]/li[2]
+06/25/2014 12:37:31 devpinoyLogger Verbal Reasoning - 40 questions, 60 minutes
+06/25/2014 12:37:31 devpinoyLogger Verbal Reasoning - 40 questions, 60 minutes
+06/25/2014 12:37:31 devpinoyLogger Verified Custom ObjectText: Verbal Reasoning - 40 questions, 60 minutes
+06/25/2014 12:37:32 devpinoyLogger Executing verifyCustomObjectText: Physical Sciences - 52 questions, 70 minutes
+06/25/2014 12:37:32 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:37:32 devpinoyLogger Inside findCustomElememnthtml/body/div[1]/div/div[1]/table/tbody/tr/td/ul[1]/li[1]
+06/25/2014 12:37:32 devpinoyLogger Physical Sciences - 52 questions, 70 minutes
+06/25/2014 12:37:32 devpinoyLogger Physical Sciences - 52 questions, 70 minutes
+06/25/2014 12:37:32 devpinoyLogger Verified Custom ObjectText: Physical Sciences - 52 questions, 70 minutes
+06/25/2014 12:37:32 devpinoyLogger Executing verifyObjectText TstBeg_Body_TP_Text
+06/25/2014 12:37:32 devpinoyLogger Inside findElememnt - only objName as parameterTstBeg_Body_TP_Text
+06/25/2014 12:37:32 devpinoyLogger Testing Procedures
+06/25/2014 12:37:32 devpinoyLogger Testing Procedures
+06/25/2014 12:37:32 devpinoyLogger Executing verifyObjectTextWithParameter: To move on to the next section, or if you want to skip around in a section click the Review button at the bottom of the test screen to move to Item Review page. You will also be taken to Item Review at the end of each section. From there, you can click End to move to the Next Section or to submit your test from Item Review for the last section. Note: you cannot return to a section once you exit it.
+06/25/2014 12:37:32 devpinoyLogger Inside findElememnt - only objName as parameterTstBeg_Body_TPContent_Text_First
+06/25/2014 12:37:32 devpinoyLogger To move on to the next section, or if you want to skip around in a section click the Review button at the bottom of the test screen to move to Item Review page. You will also be taken to Item Review at the end of each section. From there, you can click End to move to the Next Section or to submit your test from Item Review for the last section. Note: you cannot return to a section once you exit it.
+06/25/2014 12:37:32 devpinoyLogger To move on to the next section, or if you want to skip around in a section click the Review button at the bottom of the test screen to move to Item Review page. You will also be taken to Item Review at the end of each section. From there, you can click End to move to the Next Section or to submit your test from Item Review for the last section. Note: you cannot return to a section once you exit it.
+06/25/2014 12:37:33 devpinoyLogger Executing verifyObjectTextWithParameter: The scaled scores you receive for the Physical Sciences, Biological Sciences, Verbal Reasoning tests and your overall score should be a good general indicator of your MCAT competency in those areas, but should not be taken as definitive.
+06/25/2014 12:37:33 devpinoyLogger Inside findElememnt - only objName as parameterTstBeg_Body_mesage_Text
+06/25/2014 12:37:33 devpinoyLogger The scaled scores you receive for the Physical Sciences, Biological Sciences, Verbal Reasoning tests and your overall score should be a good general indicator of your MCAT competency in those areas, but should not be taken as definitive.
+06/25/2014 12:37:33 devpinoyLogger The scaled scores you receive for the Physical Sciences, Biological Sciences, Verbal Reasoning tests and your overall score should be a good general indicator of your MCAT competency in those areas, but should not be taken as definitive.
+06/25/2014 12:37:33 devpinoyLogger Executing clickButton Keyword: TstBeg_Footer_Next_Button
+06/25/2014 12:37:33 devpinoyLogger Inside findElememnt - only objName as parameterTstBeg_Footer_Next_Button
+06/25/2014 12:37:37 devpinoyLogger Executing TestUtil - Test Page Headers method
+06/25/2014 12:37:37 devpinoyLogger Current title of the page should be..MCAT Full Length 10 - MCAT Full Length 10
+06/25/2014 12:37:37 devpinoyLogger Executing verifyObjectTextWithParameter: MCAT Full Length 10 - MCAT Full Length 10
+06/25/2014 12:37:37 devpinoyLogger Inside findElememnt - only objName as parameterTstPg_Header_Exam_Text
+06/25/2014 12:37:37 devpinoyLogger MCAT Full Length 10 - MCAT Full Length 10
+06/25/2014 12:37:37 devpinoyLogger MCAT Full-Length 10 - MCAT Full-Length 10
+06/25/2014 12:37:37 devpinoyLogger Error in text - TstPg_Header_Exam_Text
+06/25/2014 12:37:37 devpinoyLogger Actual - MCAT Full-Length 10 - MCAT Full-Length 10
+06/25/2014 12:37:37 devpinoyLogger Expected -MCAT Full Length 10 - MCAT Full Length 10
+06/25/2014 12:37:37 devpinoyLogger Inside take screenshot
+06/25/2014 12:37:37 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_TstPg_Header_Exam_Text.jpg
+06/25/2014 12:37:37 devpinoyLogger TC0012_KaplanFull-Length10_TstPg_Header_Exam_Text.jpg
+06/25/2014 12:37:37 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_TstPg_Header_Exam_Text.jpg
+06/25/2014 12:37:37 devpinoyLogger TC0012_KaplanFull-Length10_TstPg_Header_Exam_Text.jpg
+06/25/2014 12:37:37 devpinoyLogger Executing checkContains: TstPg_Header_Logo_Suite1
+06/25/2014 12:37:37 devpinoyLogger Executing checkContains: TstPg_Header_Logo_Suite1
+06/25/2014 12:37:37 devpinoyLogger Executing Get Attribute: TstPg_Header_Logo_Suite1
+06/25/2014 12:37:37 devpinoyLogger Inside findElememnt - only objName as parameterTstPg_Header_Logo_Suite1
+06/25/2014 12:37:37 devpinoyLogger Expected value is: mcatKaplanLogo.png
+06/25/2014 12:37:37 devpinoyLogger Actual value is: http://qwjasweb02.kaplaninc.com/content/media/99/151799.109.mcatKaplanLogo.png
+06/25/2014 12:37:37 devpinoyLogger Executing verifyObjectTextWithParameter: Physical Sciences
+06/25/2014 12:37:37 devpinoyLogger Inside findElememnt - only objName as parameterSecBeg_Body_SecName_Text
+06/25/2014 12:37:38 devpinoyLogger Physical Sciences
+06/25/2014 12:37:38 devpinoyLogger Physical Sciences
+06/25/2014 12:37:38 devpinoyLogger current setion is           Physical Sciences
+06/25/2014 12:37:38 devpinoyLogger Executing clickButton Keyword: SecBeg_Footer_Next_Button
+06/25/2014 12:37:38 devpinoyLogger Inside findElememnt - only objName as parameterSecBeg_Footer_Next_Button
+06/25/2014 12:37:40 devpinoyLogger Executing TestUtil - Test Page Headers method
+06/25/2014 12:37:40 devpinoyLogger Current title of the page should be..MCAT Full Length 10 - Physical Sciences
+06/25/2014 12:37:40 devpinoyLogger Executing verifyObjectTextWithParameter: MCAT Full Length 10 - Physical Sciences
+06/25/2014 12:37:40 devpinoyLogger Inside findElememnt - only objName as parameterTstPg_Header_Exam_Text
+06/25/2014 12:37:40 devpinoyLogger MCAT Full Length 10 - Physical Sciences
+06/25/2014 12:37:40 devpinoyLogger MCAT Full-Length 10 - Physical Sciences
+06/25/2014 12:37:40 devpinoyLogger Error in text - TstPg_Header_Exam_Text
+06/25/2014 12:37:40 devpinoyLogger Actual - MCAT Full-Length 10 - Physical Sciences
+06/25/2014 12:37:40 devpinoyLogger Expected -MCAT Full Length 10 - Physical Sciences
+06/25/2014 12:37:40 devpinoyLogger Inside take screenshot
+06/25/2014 12:37:40 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_TstPg_Header_Exam_Text.jpg
+06/25/2014 12:37:40 devpinoyLogger TC0012_KaplanFull-Length10_TstPg_Header_Exam_Text.jpg
+06/25/2014 12:37:40 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_TstPg_Header_Exam_Text.jpg
+06/25/2014 12:37:40 devpinoyLogger TC0012_KaplanFull-Length10_TstPg_Header_Exam_Text.jpg
+06/25/2014 12:37:40 devpinoyLogger Executing checkContains: TstPg_Header_Logo_Suite1
+06/25/2014 12:37:40 devpinoyLogger Executing checkContains: TstPg_Header_Logo_Suite1
+06/25/2014 12:37:40 devpinoyLogger Executing Get Attribute: TstPg_Header_Logo_Suite1
+06/25/2014 12:37:40 devpinoyLogger Inside findElememnt - only objName as parameterTstPg_Header_Logo_Suite1
+06/25/2014 12:37:40 devpinoyLogger Expected value is: mcatKaplanLogo.png
+06/25/2014 12:37:40 devpinoyLogger Actual value is: http://qwjasweb02.kaplaninc.com/content/media/99/151799.109.mcatKaplanLogo.png
+06/25/2014 12:37:40 devpinoyLogger Executing Test Page Footers
+06/25/2014 12:37:40 devpinoyLogger Executing verifyObjectText TstPg_Footer_CH
+06/25/2014 12:37:40 devpinoyLogger Inside findElememnt - only objName as parameterTstPg_Footer_CH
+06/25/2014 12:37:40 devpinoyLogger CH.
+06/25/2014 12:37:40 devpinoyLogger CH.
+06/25/2014 12:37:41 devpinoyLogger Inside while 1.0
+06/25/2014 12:37:42 devpinoyLogger Inside while 2.0
+06/25/2014 12:37:43 devpinoyLogger Inside while 3.0
+06/25/2014 12:37:44 devpinoyLogger Inside while 4.0
+06/25/2014 12:37:45 devpinoyLogger Parameter to be compared1 - 5 of 52
+06/25/2014 12:37:45 devpinoyLogger Executing verifyObjectTextWithParameter: 1 - 5 of 52
+06/25/2014 12:37:45 devpinoyLogger Inside findElememnt - only objName as parameterTstPg_Footer_QueNum_Text
+06/25/2014 12:37:45 devpinoyLogger 1 - 5 of 52
+06/25/2014 12:37:45 devpinoyLogger 1 - 6 of 52
+06/25/2014 12:37:45 devpinoyLogger Error in text - TstPg_Footer_QueNum_Text
+06/25/2014 12:37:45 devpinoyLogger Actual - 1 - 6 of 52
+06/25/2014 12:37:45 devpinoyLogger Expected -1 - 5 of 52
+06/25/2014 12:37:45 devpinoyLogger Inside take screenshot
+06/25/2014 12:37:45 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_TstPg_Footer_QueNum_Text.jpg
+06/25/2014 12:37:45 devpinoyLogger TC0012_KaplanFull-Length10_TstPg_Footer_QueNum_Text.jpg
+06/25/2014 12:37:45 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_TstPg_Footer_QueNum_Text.jpg
+06/25/2014 12:37:46 devpinoyLogger TC0012_KaplanFull-Length10_TstPg_Footer_QueNum_Text.jpg
+06/25/2014 12:37:46 devpinoyLogger Executing checkContains: TstPg_Footer_Review_Button
+06/25/2014 12:37:46 devpinoyLogger Executing checkContains: TstPg_Footer_Review_Button
+06/25/2014 12:37:46 devpinoyLogger Executing Get Attribute: TstPg_Footer_Review_Button
+06/25/2014 12:37:46 devpinoyLogger Inside findElememnt - only objName as parameterTstPg_Footer_Review_Button
+06/25/2014 12:37:46 devpinoyLogger Expected value is: mcat-review.jpg
+06/25/2014 12:37:46 devpinoyLogger Actual value is: http://qwjasweb02.kaplaninc.com/content/media/99/151799.109.mcat-review.jpg
+06/25/2014 12:37:46 devpinoyLogger Executing checkContains: TstPg_Footer_Exhibit_Button_Suite1
+06/25/2014 12:37:46 devpinoyLogger Executing checkContains: TstPg_Footer_Exhibit_Button_Suite1
+06/25/2014 12:37:46 devpinoyLogger Executing Get Attribute: TstPg_Footer_Exhibit_Button_Suite1
+06/25/2014 12:37:46 devpinoyLogger Inside findElememnt - only objName as parameterTstPg_Footer_Exhibit_Button_Suite1
+06/25/2014 12:37:46 devpinoyLogger Expected value is: mcat-exhibit.jpg
+06/25/2014 12:37:46 devpinoyLogger Actual value is: http://qwjasweb02.kaplaninc.com/content/media/99/151799.109.mcat-exhibit.jpg
+06/25/2014 12:37:46 devpinoyLogger Verifying if object displayed: TstPg_Footer_TimeRe_Time
+06/25/2014 12:37:46 devpinoyLogger Inside findElememnt - only objName as parameterTstPg_Footer_TimeRe_Time
+06/25/2014 12:37:46 devpinoyLogger true	Element with objectname -TstPg_Footer_TimeRe_Time - is displayed
+06/25/2014 12:37:46 devpinoyLogger Executing checkContains: TstPg_Footer_Mark_Button
+06/25/2014 12:37:46 devpinoyLogger Executing checkContains: TstPg_Footer_Mark_Button
+06/25/2014 12:37:46 devpinoyLogger Executing Get Attribute: TstPg_Footer_Mark_Button
+06/25/2014 12:37:46 devpinoyLogger Inside findElememnt - only objName as parameterTstPg_Footer_Mark_Button
+06/25/2014 12:37:46 devpinoyLogger Expected value is: mcat-mark-lo.jpg
+06/25/2014 12:37:46 devpinoyLogger Actual value is: http://qwjasweb02.kaplaninc.com/content/media/99/151799.109.mcat-mark-lo.jpg
+06/25/2014 12:37:46 devpinoyLogger Executing verifyObjectText TstPg_Footer_TimeRe_Text
+06/25/2014 12:37:46 devpinoyLogger Inside findElememnt - only objName as parameterTstPg_Footer_TimeRe_Text
+06/25/2014 12:37:46 devpinoyLogger Time Remaining:
+06/25/2014 12:37:46 devpinoyLogger Time Remaining:
+06/25/2014 12:37:46 devpinoyLogger Switching to framesequenceContentFrame
+06/25/2014 12:37:46 devpinoyLogger Switching to frameactiveElement
+06/25/2014 12:37:47 devpinoyLogger Answering questions in section - phySci
+06/25/2014 12:37:49 devpinoyLogger Completed all initialization
+06/25/2014 12:37:49 devpinoyLogger Executing verifyCustomObjectText: Item 1
+06/25/2014 12:37:49 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:37:49 devpinoyLogger Inside findCustomElememnt//*[@id='subitem1']/div[1]
+06/25/2014 12:37:49 devpinoyLogger Item 1
+06/25/2014 12:37:49 devpinoyLogger Item 1
+06/25/2014 12:37:49 devpinoyLogger Verified Custom ObjectText: Item 1
+06/25/2014 12:37:49 devpinoyLogger Executing verifyCustomObjectText: Which expression gives the correct energy of combustion for benzophenone?
+06/25/2014 12:37:49 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:37:49 devpinoyLogger Inside findCustomElememnt//*[@id='subitem1']/div[2]/p
+06/25/2014 12:37:49 devpinoyLogger Which expression gives the correct energy of combustion for benzophenone?
+06/25/2014 12:37:49 devpinoyLogger Given the molecular structure below, how many hydrogen bonds is H3BO3 capable of forming?
+06/25/2014 12:37:49 devpinoyLogger Error in text - //*[@id='subitem1']/div[2]/p
+06/25/2014 12:37:49 devpinoyLogger Actual - Given the molecular structure below, how many hydrogen bonds is H3BO3 capable of forming?
+06/25/2014 12:37:49 devpinoyLogger Expected -Which expression gives the correct energy of combustion for benzophenone?
+06/25/2014 12:37:49 devpinoyLogger Inside take screenshot
+06/25/2014 12:37:49 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem1']/div[2]/p.jpg
+06/25/2014 12:37:49 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem1div2p.jpg
+06/25/2014 12:37:49 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem1div2p.jpg
+06/25/2014 12:37:50 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem1div2p.jpg
+06/25/2014 12:37:51 devpinoyLogger Executing verifyCustomObjectText: 
+06/25/2014 12:37:51 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:37:51 devpinoyLogger Inside findCustomElememnt//*[@id='subitem1.singleAnswerMultipleChoice.answerChoiceRow1.content']
+06/25/2014 12:37:51 devpinoyLogger 
+06/25/2014 12:37:51 devpinoyLogger 0
+06/25/2014 12:37:51 devpinoyLogger Error in text - //*[@id='subitem1.singleAnswerMultipleChoice.answerChoiceRow1.content']
+06/25/2014 12:37:51 devpinoyLogger Actual - 0
+06/25/2014 12:37:51 devpinoyLogger Expected -
+06/25/2014 12:37:51 devpinoyLogger Inside take screenshot
+06/25/2014 12:37:51 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem1.singleAnswerMultipleChoice.answerChoiceRow1.content'].jpg
+06/25/2014 12:37:51 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem1.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:37:51 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem1.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:37:51 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem1.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:37:52 devpinoyLogger Executing verifyCustomObjectText: 
+06/25/2014 12:37:52 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:37:52 devpinoyLogger Inside findCustomElememnt//*[@id='subitem1.singleAnswerMultipleChoice.answerChoiceRow2.content']
+06/25/2014 12:37:52 devpinoyLogger 
+06/25/2014 12:37:52 devpinoyLogger 3
+06/25/2014 12:37:52 devpinoyLogger Error in text - //*[@id='subitem1.singleAnswerMultipleChoice.answerChoiceRow2.content']
+06/25/2014 12:37:52 devpinoyLogger Actual - 3
+06/25/2014 12:37:52 devpinoyLogger Expected -
+06/25/2014 12:37:52 devpinoyLogger Inside take screenshot
+06/25/2014 12:37:52 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem1.singleAnswerMultipleChoice.answerChoiceRow2.content'].jpg
+06/25/2014 12:37:52 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem1.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:37:52 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem1.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:37:52 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem1.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:37:53 devpinoyLogger Executing verifyCustomObjectText: 
+06/25/2014 12:37:53 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:37:53 devpinoyLogger Inside findCustomElememnt//*[@id='subitem1.singleAnswerMultipleChoice.answerChoiceRow3.content']
+06/25/2014 12:37:53 devpinoyLogger 
+06/25/2014 12:37:53 devpinoyLogger 6
+06/25/2014 12:37:53 devpinoyLogger Error in text - //*[@id='subitem1.singleAnswerMultipleChoice.answerChoiceRow3.content']
+06/25/2014 12:37:53 devpinoyLogger Actual - 6
+06/25/2014 12:37:53 devpinoyLogger Expected -
+06/25/2014 12:37:53 devpinoyLogger Inside take screenshot
+06/25/2014 12:37:53 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem1.singleAnswerMultipleChoice.answerChoiceRow3.content'].jpg
+06/25/2014 12:37:53 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem1.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:37:53 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem1.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:37:53 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem1.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:37:54 devpinoyLogger Executing verifyCustomObjectText: 
+06/25/2014 12:37:54 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:37:54 devpinoyLogger Inside findCustomElememnt//*[@id='subitem1.singleAnswerMultipleChoice.answerChoiceRow4.content']
+06/25/2014 12:37:54 devpinoyLogger 
+06/25/2014 12:37:54 devpinoyLogger 9
+06/25/2014 12:37:54 devpinoyLogger Error in text - //*[@id='subitem1.singleAnswerMultipleChoice.answerChoiceRow4.content']
+06/25/2014 12:37:54 devpinoyLogger Actual - 9
+06/25/2014 12:37:54 devpinoyLogger Expected -
+06/25/2014 12:37:54 devpinoyLogger Inside take screenshot
+06/25/2014 12:37:54 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem1.singleAnswerMultipleChoice.answerChoiceRow4.content'].jpg
+06/25/2014 12:37:54 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem1.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:37:54 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem1.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:37:55 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem1.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:37:55 devpinoyLogger Inside findElement
+06/25/2014 12:37:55 devpinoyLogger Completed answering Q#: 1 from section phySci
+06/25/2014 12:37:57 devpinoyLogger Completed all initialization
+06/25/2014 12:37:57 devpinoyLogger Executing verifyCustomObjectText: Item 2
+06/25/2014 12:37:57 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:37:57 devpinoyLogger Inside findCustomElememnt//*[@id='subitem2']/div[1]
+06/25/2014 12:37:57 devpinoyLogger Item 2
+06/25/2014 12:37:57 devpinoyLogger Item 2
+06/25/2014 12:37:57 devpinoyLogger Verified Custom ObjectText: Item 2
+06/25/2014 12:37:58 devpinoyLogger Executing verifyCustomObjectText: During bomb calorimetry, which of the following conditions best applies to the combustion of the sample inside the bomb?
+06/25/2014 12:37:58 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:37:58 devpinoyLogger Inside findCustomElememnt//*[@id='subitem2']/div[2]/p
+06/25/2014 12:37:58 devpinoyLogger During bomb calorimetry, which of the following conditions best applies to the combustion of the sample inside the bomb?
+06/25/2014 12:37:58 devpinoyLogger Possible explanations for the low solubility of acetylene in H2O include:
+06/25/2014 12:37:58 devpinoyLogger Error in text - //*[@id='subitem2']/div[2]/p
+06/25/2014 12:37:58 devpinoyLogger Actual - Possible explanations for the low solubility of acetylene in H2O include:
+06/25/2014 12:37:58 devpinoyLogger Expected -During bomb calorimetry, which of the following conditions best applies to the combustion of the sample inside the bomb?
+06/25/2014 12:37:58 devpinoyLogger Inside take screenshot
+06/25/2014 12:37:58 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem2']/div[2]/p.jpg
+06/25/2014 12:37:58 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem2div2p.jpg
+06/25/2014 12:37:58 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem2div2p.jpg
+06/25/2014 12:37:58 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem2div2p.jpg
+06/25/2014 12:37:59 devpinoyLogger Executing verifyCustomObjectText: constant P
+06/25/2014 12:37:59 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:37:59 devpinoyLogger Inside findCustomElememnt//*[@id='subitem2.singleAnswerMultipleChoice.answerChoiceRow1.content']
+06/25/2014 12:37:59 devpinoyLogger constant P
+06/25/2014 12:37:59 devpinoyLogger I and III only
+06/25/2014 12:37:59 devpinoyLogger Error in text - //*[@id='subitem2.singleAnswerMultipleChoice.answerChoiceRow1.content']
+06/25/2014 12:37:59 devpinoyLogger Actual - I and III only
+06/25/2014 12:37:59 devpinoyLogger Expected -constant P
+06/25/2014 12:37:59 devpinoyLogger Inside take screenshot
+06/25/2014 12:37:59 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem2.singleAnswerMultipleChoice.answerChoiceRow1.content'].jpg
+06/25/2014 12:37:59 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem2.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:37:59 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem2.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:37:59 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem2.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:38:00 devpinoyLogger Executing verifyCustomObjectText: constant T
+06/25/2014 12:38:00 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:00 devpinoyLogger Inside findCustomElememnt//*[@id='subitem2.singleAnswerMultipleChoice.answerChoiceRow2.content']
+06/25/2014 12:38:00 devpinoyLogger constant T
+06/25/2014 12:38:00 devpinoyLogger II and III only
+06/25/2014 12:38:00 devpinoyLogger Error in text - //*[@id='subitem2.singleAnswerMultipleChoice.answerChoiceRow2.content']
+06/25/2014 12:38:00 devpinoyLogger Actual - II and III only
+06/25/2014 12:38:00 devpinoyLogger Expected -constant T
+06/25/2014 12:38:00 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:00 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem2.singleAnswerMultipleChoice.answerChoiceRow2.content'].jpg
+06/25/2014 12:38:00 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem2.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:38:00 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem2.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:38:00 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem2.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:38:01 devpinoyLogger Executing verifyCustomObjectText: constant V
+06/25/2014 12:38:01 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:01 devpinoyLogger Inside findCustomElememnt//*[@id='subitem2.singleAnswerMultipleChoice.answerChoiceRow3.content']
+06/25/2014 12:38:01 devpinoyLogger constant V
+06/25/2014 12:38:01 devpinoyLogger I and II only
+06/25/2014 12:38:01 devpinoyLogger Error in text - //*[@id='subitem2.singleAnswerMultipleChoice.answerChoiceRow3.content']
+06/25/2014 12:38:01 devpinoyLogger Actual - I and II only
+06/25/2014 12:38:01 devpinoyLogger Expected -constant V
+06/25/2014 12:38:01 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:01 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem2.singleAnswerMultipleChoice.answerChoiceRow3.content'].jpg
+06/25/2014 12:38:01 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem2.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:38:01 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem2.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:38:01 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem2.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:38:02 devpinoyLogger Executing verifyCustomObjectText: constant n
+06/25/2014 12:38:02 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:02 devpinoyLogger Inside findCustomElememnt//*[@id='subitem2.singleAnswerMultipleChoice.answerChoiceRow4.content']
+06/25/2014 12:38:02 devpinoyLogger constant n
+06/25/2014 12:38:02 devpinoyLogger I, II, and III
+06/25/2014 12:38:02 devpinoyLogger Error in text - //*[@id='subitem2.singleAnswerMultipleChoice.answerChoiceRow4.content']
+06/25/2014 12:38:02 devpinoyLogger Actual - I, II, and III
+06/25/2014 12:38:02 devpinoyLogger Expected -constant n
+06/25/2014 12:38:02 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:02 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem2.singleAnswerMultipleChoice.answerChoiceRow4.content'].jpg
+06/25/2014 12:38:02 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem2.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:38:02 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem2.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:38:02 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem2.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:38:02 devpinoyLogger Inside findElement
+06/25/2014 12:38:02 devpinoyLogger Completed answering Q#: 2 from section phySci
+06/25/2014 12:38:05 devpinoyLogger Completed all initialization
+06/25/2014 12:38:05 devpinoyLogger Executing verifyCustomObjectText: Item 3
+06/25/2014 12:38:05 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:05 devpinoyLogger Inside findCustomElememnt//*[@id='subitem3']/div[1]
+06/25/2014 12:38:05 devpinoyLogger Item 3
+06/25/2014 12:38:05 devpinoyLogger Item 3
+06/25/2014 12:38:05 devpinoyLogger Verified Custom ObjectText: Item 3
+06/25/2014 12:38:05 devpinoyLogger Executing verifyCustomObjectText: Below is a plot of the temperature of the calorimeter versus time:
+06/25/2014 12:38:05 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:05 devpinoyLogger Inside findCustomElememnt//*[@id='subitem3']/div[2]/p
+06/25/2014 12:38:05 devpinoyLogger Below is a plot of the temperature of the calorimeter versus time:
+06/25/2014 12:38:05 devpinoyLogger Which of the following experimental results would explain the melting point of NH3 being higher than predicted by the trend evident in the following experimental data?
+06/25/2014 12:38:05 devpinoyLogger Error in text - //*[@id='subitem3']/div[2]/p
+06/25/2014 12:38:05 devpinoyLogger Actual - Which of the following experimental results would explain the melting point of NH3 being higher than predicted by the trend evident in the following experimental data?
+06/25/2014 12:38:05 devpinoyLogger Expected -Below is a plot of the temperature of the calorimeter versus time:
+06/25/2014 12:38:05 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:05 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem3']/div[2]/p.jpg
+06/25/2014 12:38:05 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem3div2p.jpg
+06/25/2014 12:38:05 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem3div2p.jpg
+06/25/2014 12:38:05 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem3div2p.jpg
+06/25/2014 12:38:06 devpinoyLogger Executing verifyCustomObjectText: A
+06/25/2014 12:38:06 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:06 devpinoyLogger Inside findCustomElememnt//*[@id='subitem3.singleAnswerMultipleChoice.answerChoiceRow1.content']
+06/25/2014 12:38:06 devpinoyLogger A
+06/25/2014 12:38:06 devpinoyLogger X-ray studies of solid ammonia indicate that 3 hydrogen atoms from different nitrogen atoms point toward the lone pair of electrons.
+06/25/2014 12:38:06 devpinoyLogger Error in text - //*[@id='subitem3.singleAnswerMultipleChoice.answerChoiceRow1.content']
+06/25/2014 12:38:06 devpinoyLogger Actual - X-ray studies of solid ammonia indicate that 3 hydrogen atoms from different nitrogen atoms point toward the lone pair of electrons.
+06/25/2014 12:38:06 devpinoyLogger Expected -A
+06/25/2014 12:38:06 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:06 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem3.singleAnswerMultipleChoice.answerChoiceRow1.content'].jpg
+06/25/2014 12:38:06 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem3.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:38:06 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem3.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:38:06 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem3.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:38:07 devpinoyLogger Executing verifyCustomObjectText: B
+06/25/2014 12:38:07 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:07 devpinoyLogger Inside findCustomElememnt//*[@id='subitem3.singleAnswerMultipleChoice.answerChoiceRow2.content']
+06/25/2014 12:38:07 devpinoyLogger B
+06/25/2014 12:38:07 devpinoyLogger X-ray studies of solid ammonia indicate that each nitrogen atom lone electron pair abuts a lone pair from an adjacent molecule.
+06/25/2014 12:38:07 devpinoyLogger Error in text - //*[@id='subitem3.singleAnswerMultipleChoice.answerChoiceRow2.content']
+06/25/2014 12:38:07 devpinoyLogger Actual - X-ray studies of solid ammonia indicate that each nitrogen atom lone electron pair abuts a lone pair from an adjacent molecule.
+06/25/2014 12:38:07 devpinoyLogger Expected -B
+06/25/2014 12:38:07 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:07 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem3.singleAnswerMultipleChoice.answerChoiceRow2.content'].jpg
+06/25/2014 12:38:07 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem3.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:38:07 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem3.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:38:07 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem3.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:38:08 devpinoyLogger Executing verifyCustomObjectText: C
+06/25/2014 12:38:08 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:08 devpinoyLogger Inside findCustomElememnt//*[@id='subitem3.singleAnswerMultipleChoice.answerChoiceRow3.content']
+06/25/2014 12:38:08 devpinoyLogger C
+06/25/2014 12:38:08 devpinoyLogger IR studies of ammonia show the H—N bond to have strong basic character.
+06/25/2014 12:38:08 devpinoyLogger Error in text - //*[@id='subitem3.singleAnswerMultipleChoice.answerChoiceRow3.content']
+06/25/2014 12:38:08 devpinoyLogger Actual - IR studies of ammonia show the H—N bond to have strong basic character.
+06/25/2014 12:38:08 devpinoyLogger Expected -C
+06/25/2014 12:38:08 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:08 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem3.singleAnswerMultipleChoice.answerChoiceRow3.content'].jpg
+06/25/2014 12:38:08 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem3.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:38:08 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem3.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:38:08 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem3.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:38:09 devpinoyLogger Executing verifyCustomObjectText: D
+06/25/2014 12:38:09 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:09 devpinoyLogger Inside findCustomElememnt//*[@id='subitem3.singleAnswerMultipleChoice.answerChoiceRow4.content']
+06/25/2014 12:38:09 devpinoyLogger D
+06/25/2014 12:38:09 devpinoyLogger Ammonia is found to act as a Lewis base in water, forming NH4+
+06/25/2014 12:38:09 devpinoyLogger Error in text - //*[@id='subitem3.singleAnswerMultipleChoice.answerChoiceRow4.content']
+06/25/2014 12:38:09 devpinoyLogger Actual - Ammonia is found to act as a Lewis base in water, forming NH4+
+06/25/2014 12:38:09 devpinoyLogger Expected -D
+06/25/2014 12:38:09 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:09 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem3.singleAnswerMultipleChoice.answerChoiceRow4.content'].jpg
+06/25/2014 12:38:09 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem3.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:38:09 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem3.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:38:09 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem3.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:38:09 devpinoyLogger Inside findElement
+06/25/2014 12:38:09 devpinoyLogger Completed answering Q#: 3 from section phySci
+06/25/2014 12:38:12 devpinoyLogger Completed all initialization
+06/25/2014 12:38:12 devpinoyLogger Executing verifyCustomObjectText: Item 4
+06/25/2014 12:38:12 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:12 devpinoyLogger Inside findCustomElememnt//*[@id='subitem4']/div[1]
+06/25/2014 12:38:12 devpinoyLogger Item 4
+06/25/2014 12:38:12 devpinoyLogger Item 4
+06/25/2014 12:38:12 devpinoyLogger Verified Custom ObjectText: Item 4
+06/25/2014 12:38:13 devpinoyLogger Executing verifyCustomObjectText: Approximately how much energy was required to raise the calorimeter's temperature by 4.92 °C?
+06/25/2014 12:38:13 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:13 devpinoyLogger Inside findCustomElememnt//*[@id='subitem4']/div[2]/p
+06/25/2014 12:38:13 devpinoyLogger Approximately how much energy was required to raise the calorimeter's temperature by 4.92 °C?
+06/25/2014 12:38:13 devpinoyLogger According to the passage, the crystalline structure of NH4Cl is best described as:
+06/25/2014 12:38:13 devpinoyLogger Error in text - //*[@id='subitem4']/div[2]/p
+06/25/2014 12:38:13 devpinoyLogger Actual - According to the passage, the crystalline structure of NH4Cl is best described as:
+06/25/2014 12:38:13 devpinoyLogger Expected -Approximately how much energy was required to raise the calorimeter's temperature by 4.92 °C?
+06/25/2014 12:38:13 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:13 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem4']/div[2]/p.jpg
+06/25/2014 12:38:13 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem4div2p.jpg
+06/25/2014 12:38:13 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem4div2p.jpg
+06/25/2014 12:38:13 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem4div2p.jpg
+06/25/2014 12:38:13 devpinoyLogger Executing verifyCustomObjectText: 2.4 kcal
+06/25/2014 12:38:13 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:13 devpinoyLogger Inside findCustomElememnt//*[@id='subitem4.singleAnswerMultipleChoice.answerChoiceRow1.content']
+06/25/2014 12:38:14 devpinoyLogger 2.4 kcal
+06/25/2014 12:38:14 devpinoyLogger simple cubic
+06/25/2014 12:38:14 devpinoyLogger Error in text - //*[@id='subitem4.singleAnswerMultipleChoice.answerChoiceRow1.content']
+06/25/2014 12:38:14 devpinoyLogger Actual - simple cubic
+06/25/2014 12:38:14 devpinoyLogger Expected -2.4 kcal
+06/25/2014 12:38:14 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:14 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem4.singleAnswerMultipleChoice.answerChoiceRow1.content'].jpg
+06/25/2014 12:38:14 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem4.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:38:14 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem4.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:38:14 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem4.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:38:14 devpinoyLogger Executing verifyCustomObjectText: 12 kcal
+06/25/2014 12:38:14 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:14 devpinoyLogger Inside findCustomElememnt//*[@id='subitem4.singleAnswerMultipleChoice.answerChoiceRow2.content']
+06/25/2014 12:38:15 devpinoyLogger 12 kcal
+06/25/2014 12:38:15 devpinoyLogger body centered cubic
+06/25/2014 12:38:15 devpinoyLogger Error in text - //*[@id='subitem4.singleAnswerMultipleChoice.answerChoiceRow2.content']
+06/25/2014 12:38:15 devpinoyLogger Actual - body centered cubic
+06/25/2014 12:38:15 devpinoyLogger Expected -12 kcal
+06/25/2014 12:38:15 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:15 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem4.singleAnswerMultipleChoice.answerChoiceRow2.content'].jpg
+06/25/2014 12:38:15 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem4.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:38:15 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem4.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:38:15 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem4.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:38:15 devpinoyLogger Executing verifyCustomObjectText: 30 kcal
+06/25/2014 12:38:15 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:15 devpinoyLogger Inside findCustomElememnt//*[@id='subitem4.singleAnswerMultipleChoice.answerChoiceRow3.content']
+06/25/2014 12:38:15 devpinoyLogger 30 kcal
+06/25/2014 12:38:15 devpinoyLogger face centered cubic
+06/25/2014 12:38:15 devpinoyLogger Error in text - //*[@id='subitem4.singleAnswerMultipleChoice.answerChoiceRow3.content']
+06/25/2014 12:38:15 devpinoyLogger Actual - face centered cubic
+06/25/2014 12:38:15 devpinoyLogger Expected -30 kcal
+06/25/2014 12:38:15 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:15 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem4.singleAnswerMultipleChoice.answerChoiceRow3.content'].jpg
+06/25/2014 12:38:15 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem4.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:38:15 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem4.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:38:16 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem4.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:38:16 devpinoyLogger Executing verifyCustomObjectText: 490 kcal
+06/25/2014 12:38:16 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:16 devpinoyLogger Inside findCustomElememnt//*[@id='subitem4.singleAnswerMultipleChoice.answerChoiceRow4.content']
+06/25/2014 12:38:16 devpinoyLogger 490 kcal
+06/25/2014 12:38:16 devpinoyLogger hexagonal close packing
+06/25/2014 12:38:16 devpinoyLogger Error in text - //*[@id='subitem4.singleAnswerMultipleChoice.answerChoiceRow4.content']
+06/25/2014 12:38:16 devpinoyLogger Actual - hexagonal close packing
+06/25/2014 12:38:16 devpinoyLogger Expected -490 kcal
+06/25/2014 12:38:16 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:16 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem4.singleAnswerMultipleChoice.answerChoiceRow4.content'].jpg
+06/25/2014 12:38:16 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem4.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:38:16 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem4.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:38:17 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem4.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:38:17 devpinoyLogger Inside findElement
+06/25/2014 12:38:17 devpinoyLogger Completed answering Q#: 4 from section phySci
+06/25/2014 12:38:19 devpinoyLogger Completed all initialization
+06/25/2014 12:38:19 devpinoyLogger Executing verifyCustomObjectText: Item 5
+06/25/2014 12:38:19 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:19 devpinoyLogger Inside findCustomElememnt//*[@id='subitem5']/div[1]
+06/25/2014 12:38:19 devpinoyLogger Item 5
+06/25/2014 12:38:19 devpinoyLogger Item 5
+06/25/2014 12:38:19 devpinoyLogger Verified Custom ObjectText: Item 5
+06/25/2014 12:38:20 devpinoyLogger Executing verifyCustomObjectText: Which of the following two assumptions apply when using a bomb calorimeter to measure energy of combustion?
+06/25/2014 12:38:20 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:20 devpinoyLogger Inside findCustomElememnt//*[@id='subitem5']/div[2]/p
+06/25/2014 12:38:20 devpinoyLogger Which of the following two assumptions apply when using a bomb calorimeter to measure energy of combustion?
+06/25/2014 12:38:20 devpinoyLogger The passage lists two mechanisms for hydrogen bonding to increase the heat of vaporization of pure solutions. Which of the following molecules would be least affected by hydrogen bonding in ?Hvap experiments?
+06/25/2014 12:38:20 devpinoyLogger Error in text - //*[@id='subitem5']/div[2]/p
+06/25/2014 12:38:20 devpinoyLogger Actual - The passage lists two mechanisms for hydrogen bonding to increase the heat of vaporization of pure solutions. Which of the following molecules would be least affected by hydrogen bonding in ?Hvap experiments?
+06/25/2014 12:38:20 devpinoyLogger Expected -Which of the following two assumptions apply when using a bomb calorimeter to measure energy of combustion?
+06/25/2014 12:38:20 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:20 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem5']/div[2]/p.jpg
+06/25/2014 12:38:20 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem5div2p.jpg
+06/25/2014 12:38:20 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem5div2p.jpg
+06/25/2014 12:38:20 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem5div2p.jpg
+06/25/2014 12:38:21 devpinoyLogger Executing verifyCustomObjectText: I only
+06/25/2014 12:38:21 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:21 devpinoyLogger Inside findCustomElememnt//*[@id='subitem5.singleAnswerMultipleChoice.answerChoiceRow1.content']
+06/25/2014 12:38:21 devpinoyLogger I only
+06/25/2014 12:38:21 devpinoyLogger H2O
+06/25/2014 12:38:21 devpinoyLogger Error in text - //*[@id='subitem5.singleAnswerMultipleChoice.answerChoiceRow1.content']
+06/25/2014 12:38:21 devpinoyLogger Actual - H2O
+06/25/2014 12:38:21 devpinoyLogger Expected -I only
+06/25/2014 12:38:21 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:21 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem5.singleAnswerMultipleChoice.answerChoiceRow1.content'].jpg
+06/25/2014 12:38:21 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem5.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:38:21 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem5.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:38:21 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem5.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:38:22 devpinoyLogger Executing verifyCustomObjectText: II only
+06/25/2014 12:38:22 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:22 devpinoyLogger Inside findCustomElememnt//*[@id='subitem5.singleAnswerMultipleChoice.answerChoiceRow2.content']
+06/25/2014 12:38:22 devpinoyLogger II only
+06/25/2014 12:38:22 devpinoyLogger H3BO3
+06/25/2014 12:38:22 devpinoyLogger Error in text - //*[@id='subitem5.singleAnswerMultipleChoice.answerChoiceRow2.content']
+06/25/2014 12:38:22 devpinoyLogger Actual - H3BO3
+06/25/2014 12:38:22 devpinoyLogger Expected -II only
+06/25/2014 12:38:22 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:22 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem5.singleAnswerMultipleChoice.answerChoiceRow2.content'].jpg
+06/25/2014 12:38:22 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem5.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:38:22 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem5.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:38:22 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem5.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:38:23 devpinoyLogger Executing verifyCustomObjectText: I and II
+06/25/2014 12:38:23 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:23 devpinoyLogger Inside findCustomElememnt//*[@id='subitem5.singleAnswerMultipleChoice.answerChoiceRow3.content']
+06/25/2014 12:38:23 devpinoyLogger I and II
+06/25/2014 12:38:23 devpinoyLogger HCF3
+06/25/2014 12:38:23 devpinoyLogger Error in text - //*[@id='subitem5.singleAnswerMultipleChoice.answerChoiceRow3.content']
+06/25/2014 12:38:23 devpinoyLogger Actual - HCF3
+06/25/2014 12:38:23 devpinoyLogger Expected -I and II
+06/25/2014 12:38:23 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:23 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem5.singleAnswerMultipleChoice.answerChoiceRow3.content'].jpg
+06/25/2014 12:38:23 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem5.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:38:23 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem5.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:38:23 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem5.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:38:24 devpinoyLogger Executing verifyCustomObjectText: neither I nor II
+06/25/2014 12:38:24 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:24 devpinoyLogger Inside findCustomElememnt//*[@id='subitem5.singleAnswerMultipleChoice.answerChoiceRow4.content']
+06/25/2014 12:38:24 devpinoyLogger neither I nor II
+06/25/2014 12:38:24 devpinoyLogger HCN
+06/25/2014 12:38:24 devpinoyLogger Error in text - //*[@id='subitem5.singleAnswerMultipleChoice.answerChoiceRow4.content']
+06/25/2014 12:38:24 devpinoyLogger Actual - HCN
+06/25/2014 12:38:24 devpinoyLogger Expected -neither I nor II
+06/25/2014 12:38:24 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:24 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem5.singleAnswerMultipleChoice.answerChoiceRow4.content'].jpg
+06/25/2014 12:38:24 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem5.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:38:24 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem5.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:38:24 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem5.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:38:24 devpinoyLogger Inside findElement
+06/25/2014 12:38:24 devpinoyLogger Completed answering Q#: 5 from section phySci
+06/25/2014 12:38:25 devpinoyLogger Executing verifyObjectTextWithParameter: A bomb calorimeter measures the heat of combustion of unknown materials. A compressed disc of the unknown sample is placed inside the bomb, which is a pressurized heavy-duty steel canister filled with pure oxygen gas. A fine iron wire runs through the sample and connects to electrodes on the canister. When the wire is ignited, both the wire and the sample burn rapidly in the oxygen, raising the calorimeter's temperature.
+06/25/2014 12:38:25 devpinoyLogger Inside findElememnt - only objName as parameterTstPg_Body_Passage_Text_Suite1
+06/25/2014 12:38:25 devpinoyLogger A bomb calorimeter measures the heat of combustion of unknown materials. A compressed disc of the unknown sample is placed inside the bomb, which is a pressurized heavy-duty steel canister filled with pure oxygen gas. A fine iron wire runs through the sample and connects to electrodes on the canister. When the wire is ignited, both the wire and the sample burn rapidly in the oxygen, raising the calorimeter's temperature.
+06/25/2014 12:38:25 devpinoyLogger Hydrogen bonding is rarely considered a major component of intramolecular bonding. It is only when molecules like proteins approach a sufficiently large size that hydrogen bonding contributes significantly to molecular geometry. The impact of the hydrogen bond in smaller molecules, therefore, lies not in intramolecular bonding, but in intermolecular bonding. The intermolecular consequences of hydrogen bonding are seen in solubility, physical properties, and crystal structure of molecules.
+06/25/2014 12:38:25 devpinoyLogger Error in text - TstPg_Body_Passage_Text_Suite1
+06/25/2014 12:38:25 devpinoyLogger Actual - Hydrogen bonding is rarely considered a major component of intramolecular bonding. It is only when molecules like proteins approach a sufficiently large size that hydrogen bonding contributes significantly to molecular geometry. The impact of the hydrogen bond in smaller molecules, therefore, lies not in intramolecular bonding, but in intermolecular bonding. The intermolecular consequences of hydrogen bonding are seen in solubility, physical properties, and crystal structure of molecules.
+06/25/2014 12:38:25 devpinoyLogger Expected -A bomb calorimeter measures the heat of combustion of unknown materials. A compressed disc of the unknown sample is placed inside the bomb, which is a pressurized heavy-duty steel canister filled with pure oxygen gas. A fine iron wire runs through the sample and connects to electrodes on the canister. When the wire is ignited, both the wire and the sample burn rapidly in the oxygen, raising the calorimeter's temperature.
+06/25/2014 12:38:25 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:25 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_TstPg_Body_Passage_Text_Suite1.jpg
+06/25/2014 12:38:25 devpinoyLogger TC0012_KaplanFull-Length10_TstPg_Body_Passage_Text_Suite1.jpg
+06/25/2014 12:38:25 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_TstPg_Body_Passage_Text_Suite1.jpg
+06/25/2014 12:38:25 devpinoyLogger TC0012_KaplanFull-Length10_TstPg_Body_Passage_Text_Suite1.jpg
+06/25/2014 12:38:25 devpinoyLogger Completed answering questions in section - phySci
+06/25/2014 12:38:26 devpinoyLogger Executing clickButton Keyword: TstPg_Footer_OtherButton
+06/25/2014 12:38:26 devpinoyLogger Inside findElememnt - only objName as parameterTstPg_Footer_OtherButton
+06/25/2014 12:38:28 devpinoyLogger Switching to framesequenceContentFrame
+06/25/2014 12:38:28 devpinoyLogger Switching to frameactiveElement
+06/25/2014 12:38:29 devpinoyLogger Answering questions in section - phySci
+06/25/2014 12:38:31 devpinoyLogger Completed all initialization
+06/25/2014 12:38:31 devpinoyLogger Executing verifyCustomObjectText: Item 6
+06/25/2014 12:38:31 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:31 devpinoyLogger Inside findCustomElememnt//*[@id='subitem1']/div[1]
+06/25/2014 12:38:31 devpinoyLogger Item 6
+06/25/2014 12:38:31 devpinoyLogger Item 7
+06/25/2014 12:38:31 devpinoyLogger Error in text - //*[@id='subitem1']/div[1]
+06/25/2014 12:38:31 devpinoyLogger Actual - Item 7
+06/25/2014 12:38:31 devpinoyLogger Expected -Item 6
+06/25/2014 12:38:31 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:31 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem1']/div[1].jpg
+06/25/2014 12:38:31 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem1div1.jpg
+06/25/2014 12:38:31 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem1div1.jpg
+06/25/2014 12:38:31 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem1div1.jpg
+06/25/2014 12:38:32 devpinoyLogger Executing verifyCustomObjectText: The strings on a guitar have points called harmonics, which correspond to nodes produced by the oscillating standing wave of the string. If the length of a string is L, the first harmonic, or lowest note, will have a frequency of:
+06/25/2014 12:38:32 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:32 devpinoyLogger Inside findCustomElememnt//*[@id='subitem1']/div[2]/p
+06/25/2014 12:38:32 devpinoyLogger The strings on a guitar have points called harmonics, which correspond to nodes produced by the oscillating standing wave of the string. If the length of a string is L, the first harmonic, or lowest note, will have a frequency of:
+06/25/2014 12:38:32 devpinoyLogger Solid 1 has a large bulk modulus, while solid 2 has a small bulk modulus. If a seismic wave travels through them, which will be able to store more potential energy in its atoms as they are displaced longitudinally from their original positions?
+06/25/2014 12:38:32 devpinoyLogger Error in text - //*[@id='subitem1']/div[2]/p
+06/25/2014 12:38:32 devpinoyLogger Actual - Solid 1 has a large bulk modulus, while solid 2 has a small bulk modulus. If a seismic wave travels through them, which will be able to store more potential energy in its atoms as they are displaced longitudinally from their original positions?
+06/25/2014 12:38:32 devpinoyLogger Expected -The strings on a guitar have points called harmonics, which correspond to nodes produced by the oscillating standing wave of the string. If the length of a string is L, the first harmonic, or lowest note, will have a frequency of:
+06/25/2014 12:38:32 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:32 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem1']/div[2]/p.jpg
+06/25/2014 12:38:32 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem1div2p.jpg
+06/25/2014 12:38:32 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem1div2p.jpg
+06/25/2014 12:38:32 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem1div2p.jpg
+06/25/2014 12:38:33 devpinoyLogger Executing verifyCustomObjectText: c/L
+06/25/2014 12:38:33 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:33 devpinoyLogger Inside findCustomElememnt//*[@id='subitem1.singleAnswerMultipleChoice.answerChoiceRow1.content']
+06/25/2014 12:38:33 devpinoyLogger c/L
+06/25/2014 12:38:33 devpinoyLogger Solid 1
+06/25/2014 12:38:33 devpinoyLogger Error in text - //*[@id='subitem1.singleAnswerMultipleChoice.answerChoiceRow1.content']
+06/25/2014 12:38:33 devpinoyLogger Actual - Solid 1
+06/25/2014 12:38:33 devpinoyLogger Expected -c/L
+06/25/2014 12:38:33 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:33 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem1.singleAnswerMultipleChoice.answerChoiceRow1.content'].jpg
+06/25/2014 12:38:33 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem1.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:38:33 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem1.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:38:33 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem1.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:38:34 devpinoyLogger Executing verifyCustomObjectText: c/2L
+06/25/2014 12:38:34 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:34 devpinoyLogger Inside findCustomElememnt//*[@id='subitem1.singleAnswerMultipleChoice.answerChoiceRow2.content']
+06/25/2014 12:38:34 devpinoyLogger c/2L
+06/25/2014 12:38:34 devpinoyLogger Solid 2
+06/25/2014 12:38:34 devpinoyLogger Error in text - //*[@id='subitem1.singleAnswerMultipleChoice.answerChoiceRow2.content']
+06/25/2014 12:38:34 devpinoyLogger Actual - Solid 2
+06/25/2014 12:38:34 devpinoyLogger Expected -c/2L
+06/25/2014 12:38:34 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:34 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem1.singleAnswerMultipleChoice.answerChoiceRow2.content'].jpg
+06/25/2014 12:38:34 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem1.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:38:34 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem1.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:38:34 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem1.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:38:36 devpinoyLogger Executing verifyCustomObjectText: 2Lc
+06/25/2014 12:38:36 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:36 devpinoyLogger Inside findCustomElememnt//*[@id='subitem1.singleAnswerMultipleChoice.answerChoiceRow3.content']
+06/25/2014 12:38:36 devpinoyLogger 2Lc
+06/25/2014 12:38:36 devpinoyLogger The bulk modulus of the solids will not affect their ability to store potential energy.
+06/25/2014 12:38:36 devpinoyLogger Error in text - //*[@id='subitem1.singleAnswerMultipleChoice.answerChoiceRow3.content']
+06/25/2014 12:38:36 devpinoyLogger Actual - The bulk modulus of the solids will not affect their ability to store potential energy.
+06/25/2014 12:38:36 devpinoyLogger Expected -2Lc
+06/25/2014 12:38:36 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:36 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem1.singleAnswerMultipleChoice.answerChoiceRow3.content'].jpg
+06/25/2014 12:38:36 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem1.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:38:36 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem1.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:38:36 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem1.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:38:37 devpinoyLogger Executing verifyCustomObjectText: 3Lc/2
+06/25/2014 12:38:37 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:37 devpinoyLogger Inside findCustomElememnt//*[@id='subitem1.singleAnswerMultipleChoice.answerChoiceRow4.content']
+06/25/2014 12:38:37 devpinoyLogger 3Lc/2
+06/25/2014 12:38:37 devpinoyLogger The solid's ability to store potential energy cannot be determined from the information given.
+06/25/2014 12:38:37 devpinoyLogger Error in text - //*[@id='subitem1.singleAnswerMultipleChoice.answerChoiceRow4.content']
+06/25/2014 12:38:37 devpinoyLogger Actual - The solid's ability to store potential energy cannot be determined from the information given.
+06/25/2014 12:38:37 devpinoyLogger Expected -3Lc/2
+06/25/2014 12:38:37 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:37 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem1.singleAnswerMultipleChoice.answerChoiceRow4.content'].jpg
+06/25/2014 12:38:37 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem1.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:38:37 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem1.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:38:37 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem1.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:38:37 devpinoyLogger Inside findElement
+06/25/2014 12:38:37 devpinoyLogger Completed answering Q#: 6 from section phySci
+06/25/2014 12:38:40 devpinoyLogger Completed all initialization
+06/25/2014 12:38:40 devpinoyLogger Executing verifyCustomObjectText: Item 7
+06/25/2014 12:38:40 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:40 devpinoyLogger Inside findCustomElememnt//*[@id='subitem2']/div[1]
+06/25/2014 12:38:40 devpinoyLogger Item 7
+06/25/2014 12:38:40 devpinoyLogger Item 8
+06/25/2014 12:38:40 devpinoyLogger Error in text - //*[@id='subitem2']/div[1]
+06/25/2014 12:38:40 devpinoyLogger Actual - Item 8
+06/25/2014 12:38:40 devpinoyLogger Expected -Item 7
+06/25/2014 12:38:40 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:40 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem2']/div[1].jpg
+06/25/2014 12:38:40 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem2div1.jpg
+06/25/2014 12:38:40 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem2div1.jpg
+06/25/2014 12:38:40 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem2div1.jpg
+06/25/2014 12:38:40 devpinoyLogger Executing verifyCustomObjectText: If the top plate of the guitar were made of a stiffer wood, such as oak, what would be the effect on the sound produced by the guitar?
+06/25/2014 12:38:40 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:40 devpinoyLogger Inside findCustomElememnt//*[@id='subitem2']/div[2]/p
+06/25/2014 12:38:40 devpinoyLogger If the top plate of the guitar were made of a stiffer wood, such as oak, what would be the effect on the sound produced by the guitar?
+06/25/2014 12:38:40 devpinoyLogger A seismic wave with a frequency of 5000 Hz enters a rock in the Earth's surface. What is the wavelength of the wave in this rock?
+06/25/2014 12:38:40 devpinoyLogger Error in text - //*[@id='subitem2']/div[2]/p
+06/25/2014 12:38:40 devpinoyLogger Actual - A seismic wave with a frequency of 5000 Hz enters a rock in the Earth's surface. What is the wavelength of the wave in this rock?
+06/25/2014 12:38:40 devpinoyLogger Expected -If the top plate of the guitar were made of a stiffer wood, such as oak, what would be the effect on the sound produced by the guitar?
+06/25/2014 12:38:40 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:40 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem2']/div[2]/p.jpg
+06/25/2014 12:38:40 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem2div2p.jpg
+06/25/2014 12:38:40 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem2div2p.jpg
+06/25/2014 12:38:40 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem2div2p.jpg
+06/25/2014 12:38:41 devpinoyLogger Executing verifyCustomObjectText: The pitch of the sound would increase.
+06/25/2014 12:38:41 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:41 devpinoyLogger Inside findCustomElememnt//*[@id='subitem2.singleAnswerMultipleChoice.answerChoiceRow1.content']
+06/25/2014 12:38:41 devpinoyLogger The pitch of the sound would increase.
+06/25/2014 12:38:41 devpinoyLogger 5.0 m
+06/25/2014 12:38:41 devpinoyLogger Error in text - //*[@id='subitem2.singleAnswerMultipleChoice.answerChoiceRow1.content']
+06/25/2014 12:38:41 devpinoyLogger Actual - 5.0 m
+06/25/2014 12:38:41 devpinoyLogger Expected -The pitch of the sound would increase.
+06/25/2014 12:38:41 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:41 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem2.singleAnswerMultipleChoice.answerChoiceRow1.content'].jpg
+06/25/2014 12:38:41 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem2.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:38:41 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem2.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:38:41 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem2.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:38:42 devpinoyLogger Executing verifyCustomObjectText: The pitch of the sound would decrease.
+06/25/2014 12:38:42 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:42 devpinoyLogger Inside findCustomElememnt//*[@id='subitem2.singleAnswerMultipleChoice.answerChoiceRow2.content']
+06/25/2014 12:38:42 devpinoyLogger The pitch of the sound would decrease.
+06/25/2014 12:38:42 devpinoyLogger 2.0 m
+06/25/2014 12:38:42 devpinoyLogger Error in text - //*[@id='subitem2.singleAnswerMultipleChoice.answerChoiceRow2.content']
+06/25/2014 12:38:42 devpinoyLogger Actual - 2.0 m
+06/25/2014 12:38:42 devpinoyLogger Expected -The pitch of the sound would decrease.
+06/25/2014 12:38:42 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:42 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem2.singleAnswerMultipleChoice.answerChoiceRow2.content'].jpg
+06/25/2014 12:38:42 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem2.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:38:42 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem2.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:38:42 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem2.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:38:43 devpinoyLogger Executing verifyCustomObjectText: The guitar would be louder.
+06/25/2014 12:38:43 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:43 devpinoyLogger Inside findCustomElememnt//*[@id='subitem2.singleAnswerMultipleChoice.answerChoiceRow3.content']
+06/25/2014 12:38:43 devpinoyLogger The guitar would be louder.
+06/25/2014 12:38:43 devpinoyLogger 1.2 m
+06/25/2014 12:38:43 devpinoyLogger Error in text - //*[@id='subitem2.singleAnswerMultipleChoice.answerChoiceRow3.content']
+06/25/2014 12:38:43 devpinoyLogger Actual - 1.2 m
+06/25/2014 12:38:43 devpinoyLogger Expected -The guitar would be louder.
+06/25/2014 12:38:43 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:43 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem2.singleAnswerMultipleChoice.answerChoiceRow3.content'].jpg
+06/25/2014 12:38:43 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem2.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:38:43 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem2.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:38:43 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem2.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:38:44 devpinoyLogger Executing verifyCustomObjectText: The guitar would be quieter.
+06/25/2014 12:38:44 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:44 devpinoyLogger Inside findCustomElememnt//*[@id='subitem2.singleAnswerMultipleChoice.answerChoiceRow4.content']
+06/25/2014 12:38:44 devpinoyLogger The guitar would be quieter.
+06/25/2014 12:38:44 devpinoyLogger 0.8 m
+06/25/2014 12:38:44 devpinoyLogger Error in text - //*[@id='subitem2.singleAnswerMultipleChoice.answerChoiceRow4.content']
+06/25/2014 12:38:44 devpinoyLogger Actual - 0.8 m
+06/25/2014 12:38:44 devpinoyLogger Expected -The guitar would be quieter.
+06/25/2014 12:38:44 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:44 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem2.singleAnswerMultipleChoice.answerChoiceRow4.content'].jpg
+06/25/2014 12:38:44 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem2.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:38:44 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem2.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:38:44 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem2.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:38:44 devpinoyLogger Inside findElement
+06/25/2014 12:38:45 devpinoyLogger Completed answering Q#: 7 from section phySci
+06/25/2014 12:38:47 devpinoyLogger Completed all initialization
+06/25/2014 12:38:47 devpinoyLogger Executing verifyCustomObjectText: Item 8
+06/25/2014 12:38:47 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:47 devpinoyLogger Inside findCustomElememnt//*[@id='subitem3']/div[1]
+06/25/2014 12:38:47 devpinoyLogger Item 8
+06/25/2014 12:38:47 devpinoyLogger Item 9
+06/25/2014 12:38:47 devpinoyLogger Error in text - //*[@id='subitem3']/div[1]
+06/25/2014 12:38:47 devpinoyLogger Actual - Item 9
+06/25/2014 12:38:47 devpinoyLogger Expected -Item 8
+06/25/2014 12:38:47 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:47 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem3']/div[1].jpg
+06/25/2014 12:38:47 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem3div1.jpg
+06/25/2014 12:38:47 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem3div1.jpg
+06/25/2014 12:38:47 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem3div1.jpg
+06/25/2014 12:38:48 devpinoyLogger Executing verifyCustomObjectText: What would be the effect on the sound of the guitar if it were played at a high altitude?
+06/25/2014 12:38:48 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:48 devpinoyLogger Inside findCustomElememnt//*[@id='subitem3']/div[2]/p
+06/25/2014 12:38:48 devpinoyLogger What would be the effect on the sound of the guitar if it were played at a high altitude?
+06/25/2014 12:38:48 devpinoyLogger A seismometer detects a wave that passes through the Earth's surface and another that passes through the Earth's core. Which of the following is LEAST likely to be the only explanation for the difference detected in the speeds of the waves?
+06/25/2014 12:38:48 devpinoyLogger Error in text - //*[@id='subitem3']/div[2]/p
+06/25/2014 12:38:48 devpinoyLogger Actual - A seismometer detects a wave that passes through the Earth's surface and another that passes through the Earth's core. Which of the following is LEAST likely to be the only explanation for the difference detected in the speeds of the waves?
+06/25/2014 12:38:48 devpinoyLogger Expected -What would be the effect on the sound of the guitar if it were played at a high altitude?
+06/25/2014 12:38:48 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:48 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem3']/div[2]/p.jpg
+06/25/2014 12:38:48 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem3div2p.jpg
+06/25/2014 12:38:48 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem3div2p.jpg
+06/25/2014 12:38:48 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem3div2p.jpg
+06/25/2014 12:38:49 devpinoyLogger Executing verifyCustomObjectText: The decrease in gravity would slow down the vibrations of the strings and therefore decrease the pitch.
+06/25/2014 12:38:49 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:49 devpinoyLogger Inside findCustomElememnt//*[@id='subitem3.singleAnswerMultipleChoice.answerChoiceRow1.content']
+06/25/2014 12:38:49 devpinoyLogger The decrease in gravity would slow down the vibrations of the strings and therefore decrease the pitch.
+06/25/2014 12:38:49 devpinoyLogger The surface rock may have a smaller bulk modulus.
+06/25/2014 12:38:49 devpinoyLogger Error in text - //*[@id='subitem3.singleAnswerMultipleChoice.answerChoiceRow1.content']
+06/25/2014 12:38:49 devpinoyLogger Actual - The surface rock may have a smaller bulk modulus.
+06/25/2014 12:38:49 devpinoyLogger Expected -The decrease in gravity would slow down the vibrations of the strings and therefore decrease the pitch.
+06/25/2014 12:38:49 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:49 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem3.singleAnswerMultipleChoice.answerChoiceRow1.content'].jpg
+06/25/2014 12:38:49 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem3.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:38:49 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem3.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:38:49 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem3.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:38:50 devpinoyLogger Executing verifyCustomObjectText: The decrease in gravity would increase the amplitude of the vibrating strings and increase pitch.
+06/25/2014 12:38:50 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:50 devpinoyLogger Inside findCustomElememnt//*[@id='subitem3.singleAnswerMultipleChoice.answerChoiceRow2.content']
+06/25/2014 12:38:50 devpinoyLogger The decrease in gravity would increase the amplitude of the vibrating strings and increase pitch.
+06/25/2014 12:38:50 devpinoyLogger The surface rock may have a larger density.
+06/25/2014 12:38:50 devpinoyLogger Error in text - //*[@id='subitem3.singleAnswerMultipleChoice.answerChoiceRow2.content']
+06/25/2014 12:38:50 devpinoyLogger Actual - The surface rock may have a larger density.
+06/25/2014 12:38:50 devpinoyLogger Expected -The decrease in gravity would increase the amplitude of the vibrating strings and increase pitch.
+06/25/2014 12:38:50 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:50 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem3.singleAnswerMultipleChoice.answerChoiceRow2.content'].jpg
+06/25/2014 12:38:50 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem3.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:38:50 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem3.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:38:50 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem3.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:38:51 devpinoyLogger Executing verifyCustomObjectText: There would be no change.
+06/25/2014 12:38:51 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:51 devpinoyLogger Inside findCustomElememnt//*[@id='subitem3.singleAnswerMultipleChoice.answerChoiceRow3.content']
+06/25/2014 12:38:51 devpinoyLogger There would be no change.
+06/25/2014 12:38:51 devpinoyLogger The core rock may have a smaller shear modulus.
+06/25/2014 12:38:51 devpinoyLogger Error in text - //*[@id='subitem3.singleAnswerMultipleChoice.answerChoiceRow3.content']
+06/25/2014 12:38:51 devpinoyLogger Actual - The core rock may have a smaller shear modulus.
+06/25/2014 12:38:51 devpinoyLogger Expected -There would be no change.
+06/25/2014 12:38:51 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:51 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem3.singleAnswerMultipleChoice.answerChoiceRow3.content'].jpg
+06/25/2014 12:38:51 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem3.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:38:51 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem3.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:38:51 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem3.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:38:52 devpinoyLogger Executing verifyCustomObjectText: The air would be less dense, so the frequency of the waves would decrease due to a decrease in the restoring force of the air in simple harmonic motion.
+06/25/2014 12:38:52 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:52 devpinoyLogger Inside findCustomElememnt//*[@id='subitem3.singleAnswerMultipleChoice.answerChoiceRow4.content']
+06/25/2014 12:38:52 devpinoyLogger The air would be less dense, so the frequency of the waves would decrease due to a decrease in the restoring force of the air in simple harmonic motion.
+06/25/2014 12:38:52 devpinoyLogger The core rock may have a lower temperature.
+06/25/2014 12:38:52 devpinoyLogger Error in text - //*[@id='subitem3.singleAnswerMultipleChoice.answerChoiceRow4.content']
+06/25/2014 12:38:52 devpinoyLogger Actual - The core rock may have a lower temperature.
+06/25/2014 12:38:52 devpinoyLogger Expected -The air would be less dense, so the frequency of the waves would decrease due to a decrease in the restoring force of the air in simple harmonic motion.
+06/25/2014 12:38:52 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:52 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem3.singleAnswerMultipleChoice.answerChoiceRow4.content'].jpg
+06/25/2014 12:38:52 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem3.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:38:52 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem3.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:38:52 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem3.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:38:52 devpinoyLogger Inside findElement
+06/25/2014 12:38:52 devpinoyLogger Completed answering Q#: 8 from section phySci
+06/25/2014 12:38:55 devpinoyLogger Completed all initialization
+06/25/2014 12:38:55 devpinoyLogger Executing verifyCustomObjectText: Item 9
+06/25/2014 12:38:55 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:55 devpinoyLogger Inside findCustomElememnt//*[@id='subitem4']/div[1]
+06/25/2014 12:38:55 devpinoyLogger Item 9
+06/25/2014 12:38:55 devpinoyLogger Item 10
+06/25/2014 12:38:55 devpinoyLogger Error in text - //*[@id='subitem4']/div[1]
+06/25/2014 12:38:55 devpinoyLogger Actual - Item 10
+06/25/2014 12:38:55 devpinoyLogger Expected -Item 9
+06/25/2014 12:38:55 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:55 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem4']/div[1].jpg
+06/25/2014 12:38:55 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem4div1.jpg
+06/25/2014 12:38:55 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem4div1.jpg
+06/25/2014 12:38:55 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem4div1.jpg
+06/25/2014 12:38:55 devpinoyLogger Executing verifyCustomObjectText: The air oscillating at the sound hole has:
+06/25/2014 12:38:55 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:55 devpinoyLogger Inside findCustomElememnt//*[@id='subitem4']/div[2]/p
+06/25/2014 12:38:55 devpinoyLogger The air oscillating at the sound hole has:
+06/25/2014 12:38:55 devpinoyLogger The speed of a seismic wave in Soil A is 3 times that in Soil B. Assume that each has the same shear modulus and bulk modulus, what is the ratio of densities of Soil A to Soil B?
+06/25/2014 12:38:55 devpinoyLogger Error in text - //*[@id='subitem4']/div[2]/p
+06/25/2014 12:38:55 devpinoyLogger Actual - The speed of a seismic wave in Soil A is 3 times that in Soil B. Assume that each has the same shear modulus and bulk modulus, what is the ratio of densities of Soil A to Soil B?
+06/25/2014 12:38:55 devpinoyLogger Expected -The air oscillating at the sound hole has:
+06/25/2014 12:38:55 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:55 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem4']/div[2]/p.jpg
+06/25/2014 12:38:55 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem4div2p.jpg
+06/25/2014 12:38:55 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem4div2p.jpg
+06/25/2014 12:38:55 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem4div2p.jpg
+06/25/2014 12:38:56 devpinoyLogger Executing verifyCustomObjectText: a lower frequency than the oscillation of the strings.
+06/25/2014 12:38:56 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:56 devpinoyLogger Inside findCustomElememnt//*[@id='subitem4.singleAnswerMultipleChoice.answerChoiceRow1.content']
+06/25/2014 12:38:56 devpinoyLogger a lower frequency than the oscillation of the strings.
+06/25/2014 12:38:56 devpinoyLogger 3:1
+06/25/2014 12:38:56 devpinoyLogger Error in text - //*[@id='subitem4.singleAnswerMultipleChoice.answerChoiceRow1.content']
+06/25/2014 12:38:56 devpinoyLogger Actual - 3:1
+06/25/2014 12:38:56 devpinoyLogger Expected -a lower frequency than the oscillation of the strings.
+06/25/2014 12:38:56 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:56 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem4.singleAnswerMultipleChoice.answerChoiceRow1.content'].jpg
+06/25/2014 12:38:56 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem4.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:38:56 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem4.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:38:56 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem4.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:38:57 devpinoyLogger Executing verifyCustomObjectText: the same frequency as the oscillation of the strings.
+06/25/2014 12:38:57 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:57 devpinoyLogger Inside findCustomElememnt//*[@id='subitem4.singleAnswerMultipleChoice.answerChoiceRow2.content']
+06/25/2014 12:38:57 devpinoyLogger the same frequency as the oscillation of the strings.
+06/25/2014 12:38:57 devpinoyLogger 9:1
+06/25/2014 12:38:57 devpinoyLogger Error in text - //*[@id='subitem4.singleAnswerMultipleChoice.answerChoiceRow2.content']
+06/25/2014 12:38:57 devpinoyLogger Actual - 9:1
+06/25/2014 12:38:57 devpinoyLogger Expected -the same frequency as the oscillation of the strings.
+06/25/2014 12:38:57 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:57 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem4.singleAnswerMultipleChoice.answerChoiceRow2.content'].jpg
+06/25/2014 12:38:57 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem4.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:38:57 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem4.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:38:57 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem4.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:38:58 devpinoyLogger Executing verifyCustomObjectText: the same amplitude as the oscillation of the strings.
+06/25/2014 12:38:58 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:58 devpinoyLogger Inside findCustomElememnt//*[@id='subitem4.singleAnswerMultipleChoice.answerChoiceRow3.content']
+06/25/2014 12:38:58 devpinoyLogger the same amplitude as the oscillation of the strings.
+06/25/2014 12:38:58 devpinoyLogger 1:9
+06/25/2014 12:38:58 devpinoyLogger Error in text - //*[@id='subitem4.singleAnswerMultipleChoice.answerChoiceRow3.content']
+06/25/2014 12:38:58 devpinoyLogger Actual - 1:9
+06/25/2014 12:38:58 devpinoyLogger Expected -the same amplitude as the oscillation of the strings.
+06/25/2014 12:38:58 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:58 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem4.singleAnswerMultipleChoice.answerChoiceRow3.content'].jpg
+06/25/2014 12:38:58 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem4.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:38:58 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem4.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:38:58 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem4.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:38:59 devpinoyLogger Executing verifyCustomObjectText: a lower amplitude than the oscillation of the strings.
+06/25/2014 12:38:59 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:38:59 devpinoyLogger Inside findCustomElememnt//*[@id='subitem4.singleAnswerMultipleChoice.answerChoiceRow4.content']
+06/25/2014 12:38:59 devpinoyLogger a lower amplitude than the oscillation of the strings.
+06/25/2014 12:38:59 devpinoyLogger 1:1.7
+06/25/2014 12:38:59 devpinoyLogger Error in text - //*[@id='subitem4.singleAnswerMultipleChoice.answerChoiceRow4.content']
+06/25/2014 12:38:59 devpinoyLogger Actual - 1:1.7
+06/25/2014 12:38:59 devpinoyLogger Expected -a lower amplitude than the oscillation of the strings.
+06/25/2014 12:38:59 devpinoyLogger Inside take screenshot
+06/25/2014 12:38:59 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem4.singleAnswerMultipleChoice.answerChoiceRow4.content'].jpg
+06/25/2014 12:38:59 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem4.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:38:59 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem4.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:38:59 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem4.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:38:59 devpinoyLogger Inside findElement
+06/25/2014 12:38:59 devpinoyLogger Completed answering Q#: 9 from section phySci
+06/25/2014 12:39:02 devpinoyLogger Completed all initialization
+06/25/2014 12:39:02 devpinoyLogger Executing verifyCustomObjectText: Item 10
+06/25/2014 12:39:02 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:39:02 devpinoyLogger Inside findCustomElememnt//*[@id='subitem5']/div[1]
+06/25/2014 12:39:02 devpinoyLogger Item 10
+06/25/2014 12:39:02 devpinoyLogger Item 11
+06/25/2014 12:39:02 devpinoyLogger Error in text - //*[@id='subitem5']/div[1]
+06/25/2014 12:39:02 devpinoyLogger Actual - Item 11
+06/25/2014 12:39:02 devpinoyLogger Expected -Item 10
+06/25/2014 12:39:02 devpinoyLogger Inside take screenshot
+06/25/2014 12:39:02 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem5']/div[1].jpg
+06/25/2014 12:39:02 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem5div1.jpg
+06/25/2014 12:39:02 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem5div1.jpg
+06/25/2014 12:39:02 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem5div1.jpg
+06/25/2014 12:39:02 devpinoyLogger Executing verifyCustomObjectText: The sound of a woodwind instrument is generated by standing waves produced in a tube that is open at one end and closed at the other. The pitch of the sound is varied by adjusting the length of this tube through valves or slides. If a guitar string is the same length as a woodwind tube, the ratio of the wavelength of the guitar's lowest possible note to the wavelength of the woodwind's lowest note is:
+06/25/2014 12:39:02 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:39:02 devpinoyLogger Inside findCustomElememnt//*[@id='subitem5']/div[2]/p
+06/25/2014 12:39:02 devpinoyLogger The sound of a woodwind instrument is generated by standing waves produced in a tube that is open at one end and closed at the other. The pitch of the sound is varied by adjusting the length of this tube through valves or slides. If a guitar string is the same length as a woodwind tube, the ratio of the wavelength of the guitar's lowest possible note to the wavelength of the woodwind's lowest note is:
+06/25/2014 12:39:02 devpinoyLogger The vertical kinetic energy of an atom within a solid through which a seismic wave is traveling from left to right is:
+06/25/2014 12:39:02 devpinoyLogger Error in text - //*[@id='subitem5']/div[2]/p
+06/25/2014 12:39:02 devpinoyLogger Actual - The vertical kinetic energy of an atom within a solid through which a seismic wave is traveling from left to right is:
+06/25/2014 12:39:02 devpinoyLogger Expected -The sound of a woodwind instrument is generated by standing waves produced in a tube that is open at one end and closed at the other. The pitch of the sound is varied by adjusting the length of this tube through valves or slides. If a guitar string is the same length as a woodwind tube, the ratio of the wavelength of the guitar's lowest possible note to the wavelength of the woodwind's lowest note is:
+06/25/2014 12:39:02 devpinoyLogger Inside take screenshot
+06/25/2014 12:39:02 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem5']/div[2]/p.jpg
+06/25/2014 12:39:02 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem5div2p.jpg
+06/25/2014 12:39:02 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem5div2p.jpg
+06/25/2014 12:39:03 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem5div2p.jpg
+06/25/2014 12:39:03 devpinoyLogger Executing verifyCustomObjectText: 1/4
+06/25/2014 12:39:03 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:39:03 devpinoyLogger Inside findCustomElememnt//*[@id='subitem5.singleAnswerMultipleChoice.answerChoiceRow1.content']
+06/25/2014 12:39:03 devpinoyLogger 1/4
+06/25/2014 12:39:03 devpinoyLogger equal to (1/2)mv2, where m is the mass of the solid and v is the speed of the wave traveling through it.
+06/25/2014 12:39:03 devpinoyLogger Error in text - //*[@id='subitem5.singleAnswerMultipleChoice.answerChoiceRow1.content']
+06/25/2014 12:39:03 devpinoyLogger Actual - equal to (1/2)mv2, where m is the mass of the solid and v is the speed of the wave traveling through it.
+06/25/2014 12:39:03 devpinoyLogger Expected -1/4
+06/25/2014 12:39:03 devpinoyLogger Inside take screenshot
+06/25/2014 12:39:03 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem5.singleAnswerMultipleChoice.answerChoiceRow1.content'].jpg
+06/25/2014 12:39:03 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem5.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:39:03 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem5.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:39:04 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem5.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:39:04 devpinoyLogger Executing verifyCustomObjectText: 1/2
+06/25/2014 12:39:04 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:39:04 devpinoyLogger Inside findCustomElememnt//*[@id='subitem5.singleAnswerMultipleChoice.answerChoiceRow2.content']
+06/25/2014 12:39:04 devpinoyLogger 1/2
+06/25/2014 12:39:04 devpinoyLogger zero.
+06/25/2014 12:39:04 devpinoyLogger Error in text - //*[@id='subitem5.singleAnswerMultipleChoice.answerChoiceRow2.content']
+06/25/2014 12:39:04 devpinoyLogger Actual - zero.
+06/25/2014 12:39:04 devpinoyLogger Expected -1/2
+06/25/2014 12:39:04 devpinoyLogger Inside take screenshot
+06/25/2014 12:39:04 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem5.singleAnswerMultipleChoice.answerChoiceRow2.content'].jpg
+06/25/2014 12:39:04 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem5.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:39:04 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem5.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:39:05 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem5.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:39:06 devpinoyLogger Executing verifyCustomObjectText: 2
+06/25/2014 12:39:06 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:39:06 devpinoyLogger Inside findCustomElememnt//*[@id='subitem5.singleAnswerMultipleChoice.answerChoiceRow3.content']
+06/25/2014 12:39:06 devpinoyLogger 2
+06/25/2014 12:39:06 devpinoyLogger dependent on the density of the solid.
+06/25/2014 12:39:06 devpinoyLogger Error in text - //*[@id='subitem5.singleAnswerMultipleChoice.answerChoiceRow3.content']
+06/25/2014 12:39:06 devpinoyLogger Actual - dependent on the density of the solid.
+06/25/2014 12:39:06 devpinoyLogger Expected -2
+06/25/2014 12:39:06 devpinoyLogger Inside take screenshot
+06/25/2014 12:39:06 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem5.singleAnswerMultipleChoice.answerChoiceRow3.content'].jpg
+06/25/2014 12:39:06 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem5.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:39:06 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem5.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:39:06 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem5.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:39:07 devpinoyLogger Executing verifyCustomObjectText: 6
+06/25/2014 12:39:07 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:39:07 devpinoyLogger Inside findCustomElememnt//*[@id='subitem5.singleAnswerMultipleChoice.answerChoiceRow4.content']
+06/25/2014 12:39:07 devpinoyLogger 6
+06/25/2014 12:39:07 devpinoyLogger dependent on the frequency of the sound wave.
+06/25/2014 12:39:07 devpinoyLogger Error in text - //*[@id='subitem5.singleAnswerMultipleChoice.answerChoiceRow4.content']
+06/25/2014 12:39:07 devpinoyLogger Actual - dependent on the frequency of the sound wave.
+06/25/2014 12:39:07 devpinoyLogger Expected -6
+06/25/2014 12:39:07 devpinoyLogger Inside take screenshot
+06/25/2014 12:39:07 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem5.singleAnswerMultipleChoice.answerChoiceRow4.content'].jpg
+06/25/2014 12:39:07 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem5.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:39:07 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem5.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:39:07 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem5.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:39:07 devpinoyLogger Inside findElement
+06/25/2014 12:39:07 devpinoyLogger Completed answering Q#: 10 from section phySci
+06/25/2014 12:39:10 devpinoyLogger Completed all initialization
+06/25/2014 12:39:10 devpinoyLogger Executing verifyCustomObjectText: Item 11
+06/25/2014 12:39:10 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:39:10 devpinoyLogger Inside findCustomElememnt//*[@id='subitem6']/div[1]
+06/25/2014 12:39:25 devpinoyLogger Inside take screenshot
+06/25/2014 12:39:25 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem6']/div[1].jpg
+06/25/2014 12:39:25 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6div1.jpg
+06/25/2014 12:39:25 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem6div1.jpg
+06/25/2014 12:39:25 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6div1.jpg
+06/25/2014 12:39:25 devpinoyLogger Error locating the findCustomElement: //*[@id='subitem6']/div[1]Unable to locate element: {"method":"xpath","selector":"//*[@id='subitem6']/div[1]"}
+Command duration or timeout: 15.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_11'
+Session ID: fbfd649f-4313-460f-bfc6-42abf021bb52
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=30.0}]
+06/25/2014 12:39:40 devpinoyLogger Inside take screenshot
+06/25/2014 12:39:40 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem6']/div[1].jpg
+06/25/2014 12:39:40 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6div1.jpg
+06/25/2014 12:39:40 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem6div1.jpg
+06/25/2014 12:39:41 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6div1.jpg
+06/25/2014 12:39:41 devpinoyLogger Error locating the findCustomElement: //*[@id='subitem6']/div[1]Unable to locate element: {"method":"xpath","selector":"//*[@id='subitem6']/div[1]"}
+Command duration or timeout: 15.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_11'
+Session ID: fbfd649f-4313-460f-bfc6-42abf021bb52
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=30.0}]
+06/25/2014 12:39:41 devpinoyLogger Error retrieving text - //*[@id='subitem6']/div[1]
+06/25/2014 12:39:41 devpinoyLogger Inside take screenshot
+06/25/2014 12:39:41 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem6']/div[1].jpg
+06/25/2014 12:39:41 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6div1.jpg
+06/25/2014 12:39:41 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem6div1.jpg
+06/25/2014 12:39:41 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6div1.jpg
+06/25/2014 12:39:41 devpinoyLogger Item 11
+06/25/2014 12:39:41 devpinoyLogger 
+06/25/2014 12:39:41 devpinoyLogger Error in text - //*[@id='subitem6']/div[1]
+06/25/2014 12:39:41 devpinoyLogger Actual - 
+06/25/2014 12:39:41 devpinoyLogger Expected -Item 11
+06/25/2014 12:39:41 devpinoyLogger Inside take screenshot
+06/25/2014 12:39:41 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem6']/div[1].jpg
+06/25/2014 12:39:41 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6div1.jpg
+06/25/2014 12:39:41 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem6div1.jpg
+06/25/2014 12:39:41 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6div1.jpg
+06/25/2014 12:39:41 devpinoyLogger Executing verifyCustomObjectText: After a guitarist tuned his guitar while it was cold from being outside, then allowed the guitar's temperature to increase to room temperature, the guitar was no longer in tune. As the guitar's temperature increased,
+06/25/2014 12:39:41 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:39:41 devpinoyLogger Inside findCustomElememnt//*[@id='subitem6']/div[2]/p
+06/25/2014 12:39:56 devpinoyLogger Inside take screenshot
+06/25/2014 12:39:56 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem6']/div[2]/p.jpg
+06/25/2014 12:39:56 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6div2p.jpg
+06/25/2014 12:39:56 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem6div2p.jpg
+06/25/2014 12:39:56 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6div2p.jpg
+06/25/2014 12:39:56 devpinoyLogger Error locating the findCustomElement: //*[@id='subitem6']/div[2]/pUnable to locate element: {"method":"xpath","selector":"//*[@id='subitem6']/div[2]/p"}
+Command duration or timeout: 15.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_11'
+Session ID: fbfd649f-4313-460f-bfc6-42abf021bb52
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=30.0}]
+06/25/2014 12:40:11 devpinoyLogger Inside take screenshot
+06/25/2014 12:40:11 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem6']/div[2]/p.jpg
+06/25/2014 12:40:11 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6div2p.jpg
+06/25/2014 12:40:11 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem6div2p.jpg
+06/25/2014 12:40:11 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6div2p.jpg
+06/25/2014 12:40:11 devpinoyLogger Error locating the findCustomElement: //*[@id='subitem6']/div[2]/pUnable to locate element: {"method":"xpath","selector":"//*[@id='subitem6']/div[2]/p"}
+Command duration or timeout: 15.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_11'
+Session ID: fbfd649f-4313-460f-bfc6-42abf021bb52
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=30.0}]
+06/25/2014 12:40:11 devpinoyLogger Error retrieving text - //*[@id='subitem6']/div[2]/p
+06/25/2014 12:40:11 devpinoyLogger Inside take screenshot
+06/25/2014 12:40:11 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem6']/div[2]/p.jpg
+06/25/2014 12:40:11 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6div2p.jpg
+06/25/2014 12:40:11 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem6div2p.jpg
+06/25/2014 12:40:11 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6div2p.jpg
+06/25/2014 12:40:11 devpinoyLogger After a guitarist tuned his guitar while it was cold from being outside, then allowed the guitar's temperature to increase to room temperature, the guitar was no longer in tune. As the guitar's temperature increased,
+06/25/2014 12:40:11 devpinoyLogger 
+06/25/2014 12:40:11 devpinoyLogger Error in text - //*[@id='subitem6']/div[2]/p
+06/25/2014 12:40:11 devpinoyLogger Actual - 
+06/25/2014 12:40:11 devpinoyLogger Expected -After a guitarist tuned his guitar while it was cold from being outside, then allowed the guitar's temperature to increase to room temperature, the guitar was no longer in tune. As the guitar's temperature increased,
+06/25/2014 12:40:11 devpinoyLogger Inside take screenshot
+06/25/2014 12:40:11 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem6']/div[2]/p.jpg
+06/25/2014 12:40:11 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6div2p.jpg
+06/25/2014 12:40:11 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem6div2p.jpg
+06/25/2014 12:40:12 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6div2p.jpg
+06/25/2014 12:40:13 devpinoyLogger Executing verifyCustomObjectText: the air inside expanded and therefore the frequency of the air oscillating at the sound hole changed.
+06/25/2014 12:40:13 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:40:13 devpinoyLogger Inside findCustomElememnt//*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow1.content']
+06/25/2014 12:40:28 devpinoyLogger Inside take screenshot
+06/25/2014 12:40:28 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow1.content'].jpg
+06/25/2014 12:40:28 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:40:28 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:40:28 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:40:28 devpinoyLogger Error locating the findCustomElement: //*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow1.content']Unable to locate element: {"method":"xpath","selector":"//*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow1.content']"}
+Command duration or timeout: 15.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_11'
+Session ID: fbfd649f-4313-460f-bfc6-42abf021bb52
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=30.0}]
+06/25/2014 12:40:43 devpinoyLogger Inside take screenshot
+06/25/2014 12:40:43 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow1.content'].jpg
+06/25/2014 12:40:43 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:40:43 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:40:43 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:40:43 devpinoyLogger Error locating the findCustomElement: //*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow1.content']Unable to locate element: {"method":"xpath","selector":"//*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow1.content']"}
+Command duration or timeout: 15.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_11'
+Session ID: fbfd649f-4313-460f-bfc6-42abf021bb52
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=30.0}]
+06/25/2014 12:40:43 devpinoyLogger Error retrieving text - //*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow1.content']
+06/25/2014 12:40:43 devpinoyLogger Inside take screenshot
+06/25/2014 12:40:43 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow1.content'].jpg
+06/25/2014 12:40:43 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:40:43 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:40:43 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:40:43 devpinoyLogger the air inside expanded and therefore the frequency of the air oscillating at the sound hole changed.
+06/25/2014 12:40:43 devpinoyLogger 
+06/25/2014 12:40:43 devpinoyLogger Error in text - //*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow1.content']
+06/25/2014 12:40:43 devpinoyLogger Actual - 
+06/25/2014 12:40:43 devpinoyLogger Expected -the air inside expanded and therefore the frequency of the air oscillating at the sound hole changed.
+06/25/2014 12:40:43 devpinoyLogger Inside take screenshot
+06/25/2014 12:40:43 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow1.content'].jpg
+06/25/2014 12:40:43 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:40:43 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:40:43 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow1.content.jpg
+06/25/2014 12:40:44 devpinoyLogger Executing verifyCustomObjectText: the mass of the strings increased.
+06/25/2014 12:40:44 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:40:44 devpinoyLogger Inside findCustomElememnt//*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow2.content']
+06/25/2014 12:40:59 devpinoyLogger Inside take screenshot
+06/25/2014 12:40:59 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow2.content'].jpg
+06/25/2014 12:40:59 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:40:59 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:40:59 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:40:59 devpinoyLogger Error locating the findCustomElement: //*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow2.content']Unable to locate element: {"method":"xpath","selector":"//*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow2.content']"}
+Command duration or timeout: 15.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_11'
+Session ID: fbfd649f-4313-460f-bfc6-42abf021bb52
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=30.0}]
+06/25/2014 12:41:14 devpinoyLogger Inside take screenshot
+06/25/2014 12:41:14 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow2.content'].jpg
+06/25/2014 12:41:14 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:41:14 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:41:15 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:41:15 devpinoyLogger Error locating the findCustomElement: //*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow2.content']Unable to locate element: {"method":"xpath","selector":"//*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow2.content']"}
+Command duration or timeout: 15.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_11'
+Session ID: fbfd649f-4313-460f-bfc6-42abf021bb52
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=30.0}]
+06/25/2014 12:41:15 devpinoyLogger Error retrieving text - //*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow2.content']
+06/25/2014 12:41:15 devpinoyLogger Inside take screenshot
+06/25/2014 12:41:15 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow2.content'].jpg
+06/25/2014 12:41:15 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:41:15 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:41:15 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:41:15 devpinoyLogger the mass of the strings increased.
+06/25/2014 12:41:15 devpinoyLogger 
+06/25/2014 12:41:15 devpinoyLogger Error in text - //*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow2.content']
+06/25/2014 12:41:15 devpinoyLogger Actual - 
+06/25/2014 12:41:15 devpinoyLogger Expected -the mass of the strings increased.
+06/25/2014 12:41:15 devpinoyLogger Inside take screenshot
+06/25/2014 12:41:15 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow2.content'].jpg
+06/25/2014 12:41:15 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:41:15 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:41:15 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow2.content.jpg
+06/25/2014 12:41:16 devpinoyLogger Executing verifyCustomObjectText: the tension on the strings decreased.
+06/25/2014 12:41:16 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:41:16 devpinoyLogger Inside findCustomElememnt//*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow3.content']
+06/25/2014 12:41:31 devpinoyLogger Inside take screenshot
+06/25/2014 12:41:31 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow3.content'].jpg
+06/25/2014 12:41:31 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:41:31 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:41:31 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:41:31 devpinoyLogger Error locating the findCustomElement: //*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow3.content']Unable to locate element: {"method":"xpath","selector":"//*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow3.content']"}
+Command duration or timeout: 15.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_11'
+Session ID: fbfd649f-4313-460f-bfc6-42abf021bb52
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=30.0}]
+06/25/2014 12:41:46 devpinoyLogger Inside take screenshot
+06/25/2014 12:41:46 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow3.content'].jpg
+06/25/2014 12:41:46 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:41:46 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:41:46 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:41:46 devpinoyLogger Error locating the findCustomElement: //*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow3.content']Unable to locate element: {"method":"xpath","selector":"//*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow3.content']"}
+Command duration or timeout: 15.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_11'
+Session ID: fbfd649f-4313-460f-bfc6-42abf021bb52
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=30.0}]
+06/25/2014 12:41:46 devpinoyLogger Error retrieving text - //*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow3.content']
+06/25/2014 12:41:46 devpinoyLogger Inside take screenshot
+06/25/2014 12:41:46 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow3.content'].jpg
+06/25/2014 12:41:46 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:41:46 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:41:46 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:41:46 devpinoyLogger the tension on the strings decreased.
+06/25/2014 12:41:46 devpinoyLogger 
+06/25/2014 12:41:46 devpinoyLogger Error in text - //*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow3.content']
+06/25/2014 12:41:46 devpinoyLogger Actual - 
+06/25/2014 12:41:46 devpinoyLogger Expected -the tension on the strings decreased.
+06/25/2014 12:41:46 devpinoyLogger Inside take screenshot
+06/25/2014 12:41:46 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow3.content'].jpg
+06/25/2014 12:41:46 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:41:46 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:41:46 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow3.content.jpg
+06/25/2014 12:41:48 devpinoyLogger Executing verifyCustomObjectText: the density of the air increased, and therefore the frequency increased.
+06/25/2014 12:41:48 devpinoyLogger Executing getCustomObjectText
+06/25/2014 12:41:48 devpinoyLogger Inside findCustomElememnt//*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow4.content']
+06/25/2014 12:42:03 devpinoyLogger Inside take screenshot
+06/25/2014 12:42:03 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow4.content'].jpg
+06/25/2014 12:42:03 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:42:03 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:42:03 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:42:03 devpinoyLogger Error locating the findCustomElement: //*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow4.content']Unable to locate element: {"method":"xpath","selector":"//*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow4.content']"}
+Command duration or timeout: 15.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_11'
+Session ID: fbfd649f-4313-460f-bfc6-42abf021bb52
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=30.0}]
+06/25/2014 12:42:18 devpinoyLogger Inside take screenshot
+06/25/2014 12:42:18 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow4.content'].jpg
+06/25/2014 12:42:18 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:42:18 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:42:18 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:42:18 devpinoyLogger Error locating the findCustomElement: //*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow4.content']Unable to locate element: {"method":"xpath","selector":"//*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow4.content']"}
+Command duration or timeout: 15.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_11'
+Session ID: fbfd649f-4313-460f-bfc6-42abf021bb52
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=30.0}]
+06/25/2014 12:42:18 devpinoyLogger Error retrieving text - //*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow4.content']
+06/25/2014 12:42:18 devpinoyLogger Inside take screenshot
+06/25/2014 12:42:18 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow4.content'].jpg
+06/25/2014 12:42:18 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:42:18 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:42:18 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:42:18 devpinoyLogger the density of the air increased, and therefore the frequency increased.
+06/25/2014 12:42:18 devpinoyLogger 
+06/25/2014 12:42:18 devpinoyLogger Error in text - //*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow4.content']
+06/25/2014 12:42:18 devpinoyLogger Actual - 
+06/25/2014 12:42:18 devpinoyLogger Expected -the density of the air increased, and therefore the frequency increased.
+06/25/2014 12:42:18 devpinoyLogger Inside take screenshot
+06/25/2014 12:42:18 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_//*[@id='subitem6.singleAnswerMultipleChoice.answerChoiceRow4.content'].jpg
+06/25/2014 12:42:18 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:42:18 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:42:18 devpinoyLogger TC0012_KaplanFull-Length10_idsubitem6.singleAnswerMultipleChoice.answerChoiceRow4.content.jpg
+06/25/2014 12:42:18 devpinoyLogger Inside findElement
+06/25/2014 12:42:33 devpinoyLogger Inside Find Element catch block
+06/25/2014 12:42:33 devpinoyLogger Inside take screenshot
+06/25/2014 12:42:33 devpinoyLogger Formatting the fileName: TC0012_KaplanFull-Length10_subitem6.singleAnswerMultipleChoice.answerChoiceRow3.state0.jpg
+06/25/2014 12:42:33 devpinoyLogger TC0012_KaplanFull-Length10_subitem6.singleAnswerMultipleChoice.answerChoiceRow3.state0.jpg
+06/25/2014 12:42:33 devpinoyLogger filename before taking screenshot: TC0012_KaplanFull-Length10_subitem6.singleAnswerMultipleChoice.answerChoiceRow3.state0.jpg
+06/25/2014 12:42:33 devpinoyLogger TC0012_KaplanFull-Length10_subitem6.singleAnswerMultipleChoice.answerChoiceRow3.state0.jpg
+06/25/2014 12:42:33 devpinoyLogger Error while selecting the object: subitem6.singleAnswerMultipleChoice.answerChoiceRow3.state0Unable to locate element: {"method":"id","selector":"subitem6.singleAnswerMultipleChoice.answerChoiceRow3.state0"}
+Command duration or timeout: 15.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_11'
+Session ID: fbfd649f-4313-460f-bfc6-42abf021bb52
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=30.0}]
+06/25/2014 12:42:33 devpinoyLogger Error in MCATTest
+06/25/2014 12:42:33 devpinoyLogger ***********************************TC0012 --- Fail
+06/25/2014 12:42:34 devpinoyLogger Skipping the test TC0013
+06/25/2014 12:42:34 devpinoyLogger ***********************************TC0013 --- Skip
+06/25/2014 12:42:35 devpinoyLogger Skipping the test TC0014
+06/25/2014 12:42:35 devpinoyLogger ***********************************TC0014 --- Skip
+06/25/2014 12:42:35 devpinoyLogger Skipping the test TC0015
+06/25/2014 12:42:35 devpinoyLogger ***********************************TC0015 --- Skip
+06/25/2014 12:42:36 devpinoyLogger Skipping the test TC0016
+06/25/2014 12:42:36 devpinoyLogger ***********************************TC0016 --- Skip
+06/25/2014 12:42:36 devpinoyLogger Skipping the test TC0017
+06/25/2014 12:42:36 devpinoyLogger ***********************************TC0017 --- Skip
+06/25/2014 12:42:37 devpinoyLogger Skipping the test TC0018
+06/25/2014 12:42:37 devpinoyLogger ***********************************TC0018 --- Skip
+06/25/2014 12:42:37 devpinoyLogger Skipping the test TC0019
+06/25/2014 12:42:37 devpinoyLogger ***********************************TC0019 --- Skip
+06/25/2014 12:42:38 devpinoyLogger Skipping the test TC0020
+06/25/2014 12:42:38 devpinoyLogger ***********************************TC0020 --- Skip
+06/25/2014 12:42:38 devpinoyLogger Skipping the test TC0021
+06/25/2014 12:42:38 devpinoyLogger ***********************************TC0021 --- Skip
+06/25/2014 12:42:39 devpinoyLogger Skipping the test TC0022
+06/25/2014 12:42:39 devpinoyLogger ***********************************TC0022 --- Skip
+06/25/2014 12:42:40 devpinoyLogger Skipping the test TC0023
+06/25/2014 12:42:40 devpinoyLogger ***********************************TC0023 --- Skip
+06/25/2014 12:42:41 devpinoyLogger Skipping the test TC0024
+06/25/2014 12:42:41 devpinoyLogger ***********************************TC0024 --- Skip
+06/25/2014 12:42:41 devpinoyLogger Skipping the test TC0025
+06/25/2014 12:42:41 devpinoyLogger ***********************************TC0025 --- Skip
+06/25/2014 12:42:42 devpinoyLogger Skipping the test TC0026
+06/25/2014 12:42:42 devpinoyLogger ***********************************TC0026 --- Skip
+06/25/2014 12:42:42 devpinoyLogger Skipping the test TC0027
+06/25/2014 12:42:42 devpinoyLogger ***********************************TC0027 --- Skip
+06/25/2014 12:42:43 devpinoyLogger Skipping the test TC0028
+06/25/2014 12:42:43 devpinoyLogger ***********************************TC0028 --- Skip
+06/25/2014 12:42:43 devpinoyLogger Skipping the test TC0029
+06/25/2014 12:42:43 devpinoyLogger ***********************************TC0029 --- Skip
+06/25/2014 12:42:44 devpinoyLogger Skipping the test TC0030
+06/25/2014 12:42:44 devpinoyLogger ***********************************TC0030 --- Skip
+06/25/2014 12:42:44 devpinoyLogger Skipping the test TC0031
+06/25/2014 12:42:44 devpinoyLogger ***********************************TC0031 --- Skip
+06/25/2014 12:42:45 devpinoyLogger Skipping the test TC0032
+06/25/2014 12:42:45 devpinoyLogger ***********************************TC0032 --- Skip
+06/25/2014 12:42:45 devpinoyLogger Skipping the test TC0033
+06/25/2014 12:42:45 devpinoyLogger ***********************************TC0033 --- Skip
+06/25/2014 12:42:46 devpinoyLogger Skipping the test TC0034
+06/25/2014 12:42:46 devpinoyLogger ***********************************TC0034 --- Skip
+06/25/2014 12:42:47 devpinoyLogger Skipping the test TC0035
+06/25/2014 12:42:47 devpinoyLogger ***********************************TC0035 --- Skip
+06/25/2014 12:42:47 devpinoyLogger Skipping the test TC0036
+06/25/2014 12:42:47 devpinoyLogger ***********************************TC0036 --- Skip
+06/25/2014 12:42:48 devpinoyLogger Skipping the test TC0037
+06/25/2014 12:42:48 devpinoyLogger ***********************************TC0037 --- Skip
+06/25/2014 12:42:48 devpinoyLogger Skipping the test TC0038
+06/25/2014 12:42:48 devpinoyLogger ***********************************TC0038 --- Skip
+06/25/2014 12:42:49 devpinoyLogger Skipping the test TC0039
+06/25/2014 12:42:49 devpinoyLogger ***********************************TC0039 --- Skip
+06/25/2014 12:42:49 devpinoyLogger Skipping the test TC0040
+06/25/2014 12:42:49 devpinoyLogger ***********************************TC0040 --- Skip
+06/25/2014 12:42:50 devpinoyLogger Skipping the test TC0041
+06/25/2014 12:42:50 devpinoyLogger ***********************************TC0041 --- Skip
+06/25/2014 12:42:50 devpinoyLogger Skipping the test TC0042
+06/25/2014 12:42:50 devpinoyLogger ***********************************TC0042 --- Skip
+06/25/2014 12:42:51 devpinoyLogger Skipping the test TC0043
+06/25/2014 12:42:51 devpinoyLogger ***********************************TC0043 --- Skip
+06/25/2014 12:42:51 devpinoyLogger Skipping the test TC0044
+06/25/2014 12:42:51 devpinoyLogger ***********************************TC0044 --- Skip
+06/25/2014 12:42:52 devpinoyLogger Skipping the test TC0045
+06/25/2014 12:42:52 devpinoyLogger ***********************************TC0045 --- Skip
+06/25/2014 12:42:52 devpinoyLogger Skipping the test TC0046
+06/25/2014 12:42:52 devpinoyLogger ***********************************TC0046 --- Skip
+06/25/2014 12:42:53 devpinoyLogger Skipping the test TC0047
+06/25/2014 12:42:53 devpinoyLogger ***********************************TC0047 --- Skip
+06/25/2014 12:42:54 devpinoyLogger Skipping the test TC0048
+06/25/2014 12:42:54 devpinoyLogger ***********************************TC0048 --- Skip
+06/25/2014 12:42:54 devpinoyLogger Skipping the test TC0049
+06/25/2014 12:42:54 devpinoyLogger ***********************************TC0049 --- Skip
+06/25/2014 12:42:55 devpinoyLogger Skipping the test TC0050
+06/25/2014 12:42:55 devpinoyLogger ***********************************TC0050 --- Skip
+06/25/2014 12:42:55 devpinoyLogger Skipping the test TC0051
+06/25/2014 12:42:55 devpinoyLogger ***********************************TC0051 --- Skip
+06/25/2014 12:42:56 devpinoyLogger Skipping the test TC0052
+06/25/2014 12:42:56 devpinoyLogger ***********************************TC0052 --- Skip
+06/25/2014 12:42:56 devpinoyLogger Skipping the test TC0053
+06/25/2014 12:42:56 devpinoyLogger ***********************************TC0053 --- Skip
+06/25/2014 12:42:57 devpinoyLogger Skipping the test TC0054
+06/25/2014 12:42:57 devpinoyLogger ***********************************TC0054 --- Skip
+06/25/2014 12:42:57 devpinoyLogger Skipping the test TC0055
+06/25/2014 12:42:57 devpinoyLogger ***********************************TC0055 --- Skip
+06/25/2014 12:42:58 devpinoyLogger Skipping the test TC0056
+06/25/2014 12:42:58 devpinoyLogger ***********************************TC0056 --- Skip
+06/25/2014 12:42:58 devpinoyLogger Skipping the test TC0057
+06/25/2014 12:42:58 devpinoyLogger ***********************************TC0057 --- Skip
+06/25/2014 12:42:59 devpinoyLogger Skipping the test TC0058
+06/25/2014 12:42:59 devpinoyLogger ***********************************TC0058 --- Skip
+06/25/2014 12:42:59 devpinoyLogger Skipping the test TC0059
+06/25/2014 12:42:59 devpinoyLogger ***********************************TC0059 --- Skip
+06/25/2014 12:43:00 devpinoyLogger Skipping the test TC0060
+06/25/2014 12:43:00 devpinoyLogger ***********************************TC0060 --- Skip
+06/25/2014 12:43:00 devpinoyLogger Skipping the test TC0061
+06/25/2014 12:43:00 devpinoyLogger ***********************************TC0061 --- Skip
+06/25/2014 12:43:01 devpinoyLogger Skipping the test TC0062
+06/25/2014 12:43:01 devpinoyLogger ***********************************TC0062 --- Skip
+06/25/2014 12:43:01 devpinoyLogger Skipping the test TC0063
+06/25/2014 12:43:01 devpinoyLogger ***********************************TC0063 --- Skip
+06/25/2014 12:43:02 devpinoyLogger Skipping the test TC0064
+06/25/2014 12:43:02 devpinoyLogger ***********************************TC0064 --- Skip
+06/25/2014 12:43:02 devpinoyLogger Skipping the test TC0065
+06/25/2014 12:43:02 devpinoyLogger ***********************************TC0065 --- Skip
+06/25/2014 12:43:03 devpinoyLogger Skipping the test TC0066
+06/25/2014 12:43:03 devpinoyLogger ***********************************TC0066 --- Skip
+06/25/2014 12:43:03 devpinoyLogger Skipping the test TC0067
+06/25/2014 12:43:03 devpinoyLogger ***********************************TC0067 --- Skip
+06/25/2014 12:43:04 devpinoyLogger Skipping the test TC0068
+06/25/2014 12:43:04 devpinoyLogger ***********************************TC0068 --- Skip
+06/25/2014 12:43:04 devpinoyLogger Skipping the test TC0069
+06/25/2014 12:43:04 devpinoyLogger ***********************************TC0069 --- Skip
+06/25/2014 12:43:05 devpinoyLogger Skipping the test TC0070
+06/25/2014 12:43:05 devpinoyLogger ***********************************TC0070 --- Skip
+06/25/2014 12:43:05 devpinoyLogger Skipping the test TC0071
+06/25/2014 12:43:05 devpinoyLogger ***********************************TC0071 --- Skip
+06/25/2014 12:43:06 devpinoyLogger Skipping the test TC0072
+06/25/2014 12:43:06 devpinoyLogger ***********************************TC0072 --- Skip
+06/25/2014 12:43:06 devpinoyLogger Skipping the test TC0073
+06/25/2014 12:43:06 devpinoyLogger ***********************************TC0073 --- Skip
+06/25/2014 12:43:07 devpinoyLogger Skipping the test TC0074
+06/25/2014 12:43:07 devpinoyLogger ***********************************TC0074 --- Skip
+06/25/2014 12:43:07 devpinoyLogger Skipping the test TC0075
+06/25/2014 12:43:07 devpinoyLogger ***********************************TC0075 --- Skip
+06/25/2014 12:43:08 devpinoyLogger Skipping the test TC0076
+06/25/2014 12:43:08 devpinoyLogger ***********************************TC0076 --- Skip
+06/25/2014 12:43:08 devpinoyLogger Skipping the test TC0078
+06/25/2014 12:43:08 devpinoyLogger ***********************************TC0078 --- Skip
+06/25/2014 12:43:09 devpinoyLogger Skipping the test TC0079
+06/25/2014 12:43:09 devpinoyLogger ***********************************TC0079 --- Skip
+06/25/2014 12:43:09 devpinoyLogger Skipping the test TC0080
+06/25/2014 12:43:09 devpinoyLogger ***********************************TC0080 --- Skip
+06/25/2014 12:43:10 devpinoyLogger Skipping the test TC0081
+06/25/2014 12:43:10 devpinoyLogger ***********************************TC0081 --- Skip
+06/25/2014 12:43:10 devpinoyLogger Skipping the test TC0082
+06/25/2014 12:43:10 devpinoyLogger ***********************************TC0082 --- Skip
+06/25/2014 12:43:11 devpinoyLogger Skipping the test TC0083
+06/25/2014 12:43:11 devpinoyLogger ***********************************TC0083 --- Skip
+06/25/2014 12:43:11 devpinoyLogger Skipping the test TC0084
+06/25/2014 12:43:11 devpinoyLogger ***********************************TC0084 --- Skip
+06/25/2014 12:43:12 devpinoyLogger Skipping the test TC0085
+06/25/2014 12:43:12 devpinoyLogger ***********************************TC0085 --- Skip
+06/25/2014 12:43:12 devpinoyLogger Skipping the test TC0086
+06/25/2014 12:43:12 devpinoyLogger ***********************************TC0086 --- Skip
+06/25/2014 12:43:13 devpinoyLogger Skipping the test TC0087
+06/25/2014 12:43:13 devpinoyLogger ***********************************TC0087 --- Skip
+06/25/2014 12:43:13 devpinoyLogger Skipping the test TC0088
+06/25/2014 12:43:13 devpinoyLogger ***********************************TC0088 --- Skip
+06/25/2014 12:43:14 devpinoyLogger Skipping the test TC0089
+06/25/2014 12:43:14 devpinoyLogger ***********************************TC0089 --- Skip
+06/25/2014 12:43:14 devpinoyLogger Skipping the test TC0090
+06/25/2014 12:43:14 devpinoyLogger ***********************************TC0090 --- Skip
+06/25/2014 12:43:15 devpinoyLogger Skipping the test TC0091
+06/25/2014 12:43:15 devpinoyLogger ***********************************TC0091 --- Skip
+06/25/2014 12:43:15 devpinoyLogger Skipping the test TC0092
+06/25/2014 12:43:15 devpinoyLogger ***********************************TC0092 --- Skip
+06/25/2014 12:43:16 devpinoyLogger Skipping the test TC0093
+06/25/2014 12:43:16 devpinoyLogger ***********************************TC0093 --- Skip
+06/25/2014 12:43:16 devpinoyLogger Skipping the test TC0094
+06/25/2014 12:43:16 devpinoyLogger ***********************************TC0094 --- Skip
+06/25/2014 12:43:17 devpinoyLogger Skipping the test TC0095
+06/25/2014 12:43:17 devpinoyLogger ***********************************TC0095 --- Skip
+06/25/2014 12:43:18 devpinoyLogger Skipping the test TC0096
+06/25/2014 12:43:18 devpinoyLogger ***********************************TC0096 --- Skip
+06/25/2014 12:43:18 devpinoyLogger Skipping the test TC0097
+06/25/2014 12:43:18 devpinoyLogger ***********************************TC0097 --- Skip
+06/25/2014 12:43:19 devpinoyLogger Skipping the test TC0098
+06/25/2014 12:43:19 devpinoyLogger ***********************************TC0098 --- Skip
+06/25/2014 12:43:19 devpinoyLogger Skipping the test TC0099
+06/25/2014 12:43:19 devpinoyLogger ***********************************TC0099 --- Skip
+06/25/2014 12:43:20 devpinoyLogger Skipping the test TC0100
+06/25/2014 12:43:20 devpinoyLogger ***********************************TC0100 --- Skip
+06/25/2014 12:43:20 devpinoyLogger Skipping the test TC0101
+06/25/2014 12:43:20 devpinoyLogger ***********************************TC0101 --- Skip
+06/25/2014 12:43:21 devpinoyLogger Skipping the test TC0102
+06/25/2014 12:43:21 devpinoyLogger ***********************************TC0102 --- Skip
+06/25/2014 12:43:21 devpinoyLogger Skipping the test TC0103
+06/25/2014 12:43:21 devpinoyLogger ***********************************TC0103 --- Skip
+06/25/2014 12:43:22 devpinoyLogger Skipping the test TC0104
+06/25/2014 12:43:22 devpinoyLogger ***********************************TC0104 --- Skip
+06/25/2014 12:43:22 devpinoyLogger Skipping the test TC0105
+06/25/2014 12:43:22 devpinoyLogger ***********************************TC0105 --- Skip
+06/25/2014 12:43:23 devpinoyLogger Skipping the test TC0106
+06/25/2014 12:43:23 devpinoyLogger ***********************************TC0106 --- Skip
+06/25/2014 12:43:23 devpinoyLogger Skipping the test TC0107
+06/25/2014 12:43:23 devpinoyLogger ***********************************TC0107 --- Skip
+06/25/2014 12:43:24 devpinoyLogger Skipping the test TC0108
+06/25/2014 12:43:24 devpinoyLogger ***********************************TC0108 --- Skip
+06/25/2014 12:43:24 devpinoyLogger Skipping the test TC0109
+06/25/2014 12:43:24 devpinoyLogger ***********************************TC0109 --- Skip
+06/25/2014 12:43:25 devpinoyLogger Skipping the test TC0110
+06/25/2014 12:43:25 devpinoyLogger ***********************************TC0110 --- Skip
+06/25/2014 12:43:25 devpinoyLogger Skipping the test TC0111
+06/25/2014 12:43:25 devpinoyLogger ***********************************TC0111 --- Skip
+06/25/2014 12:43:26 devpinoyLogger Skipping the test TC0112
+06/25/2014 12:43:26 devpinoyLogger ***********************************TC0112 --- Skip
+06/25/2014 12:43:26 devpinoyLogger Skipping the test TC0113
+06/25/2014 12:43:26 devpinoyLogger ***********************************TC0113 --- Skip
+06/25/2014 12:43:27 devpinoyLogger Skipping the test TC0114
+06/25/2014 12:43:27 devpinoyLogger ***********************************TC0114 --- Skip
+06/25/2014 12:43:27 devpinoyLogger Skipping the test TC0115
+06/25/2014 12:43:27 devpinoyLogger ***********************************TC0115 --- Skip
+06/25/2014 12:43:28 devpinoyLogger Skipping the test TC0116
+06/25/2014 12:43:28 devpinoyLogger ***********************************TC0116 --- Skip
+06/25/2014 12:43:28 devpinoyLogger Skipping the test TC0117
+06/25/2014 12:43:28 devpinoyLogger ***********************************TC0117 --- Skip
+06/25/2014 12:43:29 devpinoyLogger Skipping the test TC0118
+06/25/2014 12:43:29 devpinoyLogger ***********************************TC0118 --- Skip
+06/25/2014 12:43:29 devpinoyLogger Skipping the test TC0119
+06/25/2014 12:43:29 devpinoyLogger ***********************************TC0119 --- Skip
+06/25/2014 12:43:30 devpinoyLogger Skipping the test TC0120
+06/25/2014 12:43:30 devpinoyLogger ***********************************TC0120 --- Skip
+06/25/2014 12:43:30 devpinoyLogger Skipping the test TC0121
+06/25/2014 12:43:30 devpinoyLogger ***********************************TC0121 --- Skip
+06/25/2014 12:43:31 devpinoyLogger Skipping the test TC0122
+06/25/2014 12:43:31 devpinoyLogger ***********************************TC0122 --- Skip
+06/25/2014 12:43:31 devpinoyLogger Skipping the test TC0123
+06/25/2014 12:43:31 devpinoyLogger ***********************************TC0123 --- Skip
+06/25/2014 12:43:32 devpinoyLogger Skipping the test TC0124
+06/25/2014 12:43:32 devpinoyLogger ***********************************TC0124 --- Skip
+06/25/2014 12:43:32 devpinoyLogger Skipping the test TC0125
+06/25/2014 12:43:32 devpinoyLogger ***********************************TC0125 --- Skip
+06/25/2014 12:43:33 devpinoyLogger Skipping the test TC0126
+06/25/2014 12:43:33 devpinoyLogger ***********************************TC0126 --- Skip
+06/25/2014 12:43:33 devpinoyLogger Skipping the test TC0127
+06/25/2014 12:43:33 devpinoyLogger ***********************************TC0127 --- Skip
+06/25/2014 12:43:34 devpinoyLogger Skipping the test TC0128
+06/25/2014 12:43:34 devpinoyLogger ***********************************TC0128 --- Skip
+06/25/2014 12:43:34 devpinoyLogger Skipping the test TC0129
+06/25/2014 12:43:34 devpinoyLogger ***********************************TC0129 --- Skip
+06/25/2014 12:43:35 devpinoyLogger Skipping the test TC0130
+06/25/2014 12:43:35 devpinoyLogger ***********************************TC0130 --- Skip
+06/25/2014 12:43:35 devpinoyLogger Skipping the test TC0131
+06/25/2014 12:43:35 devpinoyLogger ***********************************TC0131 --- Skip
+06/25/2014 12:43:36 devpinoyLogger Skipping the test TC0132
+06/25/2014 12:43:36 devpinoyLogger ***********************************TC0132 --- Skip
+06/25/2014 12:43:36 devpinoyLogger Skipping the test TC0133
+06/25/2014 12:43:36 devpinoyLogger ***********************************TC0133 --- Skip
+06/25/2014 12:43:37 devpinoyLogger Skipping the test TC0134
+06/25/2014 12:43:37 devpinoyLogger ***********************************TC0134 --- Skip
+06/25/2014 12:43:37 devpinoyLogger Skipping the test TC0135
+06/25/2014 12:43:37 devpinoyLogger ***********************************TC0135 --- Skip
+06/25/2014 12:43:38 devpinoyLogger Skipping the test TC0136
+06/25/2014 12:43:38 devpinoyLogger ***********************************TC0136 --- Skip
+06/25/2014 12:43:38 devpinoyLogger Skipping the test TC0137
+06/25/2014 12:43:38 devpinoyLogger ***********************************TC0137 --- Skip
+06/25/2014 12:43:39 devpinoyLogger Skipping the test TC0138
+06/25/2014 12:43:39 devpinoyLogger ***********************************TC0138 --- Skip
+06/25/2014 12:43:39 devpinoyLogger Skipping the test TC0139
+06/25/2014 12:43:39 devpinoyLogger ***********************************TC0139 --- Skip
+06/25/2014 12:43:40 devpinoyLogger Skipping the test TC0140
+06/25/2014 12:43:40 devpinoyLogger ***********************************TC0140 --- Skip
+06/25/2014 12:43:40 devpinoyLogger Skipping the test TC0141
+06/25/2014 12:43:40 devpinoyLogger ***********************************TC0141 --- Skip
+06/25/2014 12:43:41 devpinoyLogger Skipping the test TC0142
+06/25/2014 12:43:41 devpinoyLogger ***********************************TC0142 --- Skip
+06/25/2014 12:43:41 devpinoyLogger Skipping the test TC0143
+06/25/2014 12:43:41 devpinoyLogger ***********************************TC0143 --- Skip
+06/25/2014 12:43:42 devpinoyLogger Skipping the test TC0144
+06/25/2014 12:43:42 devpinoyLogger ***********************************TC0144 --- Skip
+06/25/2014 12:43:42 devpinoyLogger Skipping the test TC0145
+06/25/2014 12:43:42 devpinoyLogger ***********************************TC0145 --- Skip
+06/25/2014 12:43:43 devpinoyLogger Skipping the test TC0146
+06/25/2014 12:43:43 devpinoyLogger ***********************************TC0146 --- Skip
+06/25/2014 12:43:43 devpinoyLogger Skipping the test TC0147
+06/25/2014 12:43:43 devpinoyLogger ***********************************TC0147 --- Skip
+06/25/2014 12:43:44 devpinoyLogger Skipping the test TC0148
+06/25/2014 12:43:44 devpinoyLogger ***********************************TC0148 --- Skip
+06/25/2014 12:43:44 devpinoyLogger Skipping the test TC0149
+06/25/2014 12:43:44 devpinoyLogger ***********************************TC0149 --- Skip
+06/25/2014 12:43:45 devpinoyLogger Skipping the test TC0150
+06/25/2014 12:43:45 devpinoyLogger ***********************************TC0150 --- Skip
+06/25/2014 12:43:45 devpinoyLogger Skipping the test TC0151
+06/25/2014 12:43:45 devpinoyLogger ***********************************TC0151 --- Skip
+06/25/2014 12:43:46 devpinoyLogger Skipping the test TC0152
+06/25/2014 12:43:46 devpinoyLogger ***********************************TC0152 --- Skip
+06/25/2014 12:43:46 devpinoyLogger Skipping the test TC0153
+06/25/2014 12:43:46 devpinoyLogger ***********************************TC0153 --- Skip
+06/25/2014 12:43:47 devpinoyLogger Skipping the test TC0154
+06/25/2014 12:43:47 devpinoyLogger ***********************************TC0154 --- Skip
+06/25/2014 12:43:47 devpinoyLogger Skipping the test TC0155
+06/25/2014 12:43:47 devpinoyLogger ***********************************TC0155 --- Skip
+06/25/2014 12:43:48 devpinoyLogger Skipping the test TC0156
+06/25/2014 12:43:48 devpinoyLogger ***********************************TC0156 --- Skip
+06/25/2014 12:43:48 devpinoyLogger Skipping the test TC0157
+06/25/2014 12:43:48 devpinoyLogger ***********************************TC0157 --- Skip
+06/25/2014 12:43:49 devpinoyLogger Skipping the test TC0158
+06/25/2014 12:43:49 devpinoyLogger ***********************************TC0158 --- Skip
+06/25/2014 12:43:49 devpinoyLogger Skipping the test TC0159
+06/25/2014 12:43:49 devpinoyLogger ***********************************TC0159 --- Skip
+06/25/2014 12:43:50 devpinoyLogger Skipping the test TC0160
+06/25/2014 12:43:50 devpinoyLogger ***********************************TC0160 --- Skip
+06/25/2014 12:43:50 devpinoyLogger Skipping the test TC0161
+06/25/2014 12:43:50 devpinoyLogger ***********************************TC0161 --- Skip
+06/25/2014 12:43:51 devpinoyLogger Skipping the test TC0162
+06/25/2014 12:43:51 devpinoyLogger ***********************************TC0162 --- Skip
+06/25/2014 12:43:51 devpinoyLogger Skipping the test TC0163
+06/25/2014 12:43:51 devpinoyLogger ***********************************TC0163 --- Skip
+06/25/2014 12:43:52 devpinoyLogger Skipping the test TC0164
+06/25/2014 12:43:52 devpinoyLogger ***********************************TC0164 --- Skip
+06/25/2014 12:43:52 devpinoyLogger Skipping the test TC0165
+06/25/2014 12:43:52 devpinoyLogger ***********************************TC0165 --- Skip
+06/25/2014 12:43:53 devpinoyLogger Skipping the test TC0166
+06/25/2014 12:43:53 devpinoyLogger ***********************************TC0166 --- Skip
+06/25/2014 12:43:53 devpinoyLogger Skipping the test TC0167
+06/25/2014 12:43:53 devpinoyLogger ***********************************TC0167 --- Skip
+06/25/2014 12:43:54 devpinoyLogger Skipping the test TC0168
+06/25/2014 12:43:54 devpinoyLogger ***********************************TC0168 --- Skip
+06/25/2014 12:43:54 devpinoyLogger Skipping the test TC0169
+06/25/2014 12:43:54 devpinoyLogger ***********************************TC0169 --- Skip
+06/25/2014 12:43:55 devpinoyLogger Skipping the test TC0170
+06/25/2014 12:43:55 devpinoyLogger ***********************************TC0170 --- Skip
+06/25/2014 12:43:55 devpinoyLogger Skipping the test TC0171
+06/25/2014 12:43:55 devpinoyLogger ***********************************TC0171 --- Skip
+06/25/2014 12:43:56 devpinoyLogger Skipping the test TC0172
+06/25/2014 12:43:56 devpinoyLogger ***********************************TC0172 --- Skip
+06/25/2014 12:43:56 devpinoyLogger Skipping the test TC0173
+06/25/2014 12:43:56 devpinoyLogger ***********************************TC0173 --- Skip
+06/25/2014 12:43:56 devpinoyLogger Skipping the test TC0174
+06/25/2014 12:43:56 devpinoyLogger ***********************************TC0174 --- Skip
+06/25/2014 12:43:57 devpinoyLogger Skipping the test TC0175
+06/25/2014 12:43:57 devpinoyLogger ***********************************TC0175 --- Skip
+06/25/2014 12:43:57 devpinoyLogger Skipping the test TC0176
+06/25/2014 12:43:57 devpinoyLogger ***********************************TC0176 --- Skip
+06/25/2014 12:43:58 devpinoyLogger Skipping the test TC0177
+06/25/2014 12:43:58 devpinoyLogger ***********************************TC0177 --- Skip
+06/25/2014 12:43:58 devpinoyLogger Skipping the test TC0178
+06/25/2014 12:43:58 devpinoyLogger ***********************************TC0178 --- Skip
+06/25/2014 12:43:59 devpinoyLogger Skipping the test TC0179
+06/25/2014 12:43:59 devpinoyLogger ***********************************TC0179 --- Skip
+06/25/2014 12:43:59 devpinoyLogger Skipping the test TC0180
+06/25/2014 12:43:59 devpinoyLogger ***********************************TC0180 --- Skip
+06/25/2014 12:44:00 devpinoyLogger Skipping the test TC0181
+06/25/2014 12:44:00 devpinoyLogger ***********************************TC0181 --- Skip
+06/25/2014 12:44:00 devpinoyLogger Skipping the test TC0182
+06/25/2014 12:44:00 devpinoyLogger ***********************************TC0182 --- Skip
+06/25/2014 12:44:01 devpinoyLogger Skipping the test TC0183
+06/25/2014 12:44:01 devpinoyLogger ***********************************TC0183 --- Skip
+06/25/2014 12:44:01 devpinoyLogger Skipping the test TC0184
+06/25/2014 12:44:01 devpinoyLogger ***********************************TC0184 --- Skip
+06/25/2014 12:44:02 devpinoyLogger Skipping the test TC0185
+06/25/2014 12:44:02 devpinoyLogger ***********************************TC0185 --- Skip
+06/25/2014 12:44:02 devpinoyLogger Skipping the test TC0186
+06/25/2014 12:44:02 devpinoyLogger ***********************************TC0186 --- Skip
+06/25/2014 12:44:03 devpinoyLogger Skipping the test TC0187
+06/25/2014 12:44:03 devpinoyLogger ***********************************TC0187 --- Skip
+06/25/2014 12:44:03 devpinoyLogger Skipping the test TC0188
+06/25/2014 12:44:03 devpinoyLogger ***********************************TC0188 --- Skip
+06/25/2014 12:44:04 devpinoyLogger Skipping the test TC0189
+06/25/2014 12:44:04 devpinoyLogger ***********************************TC0189 --- Skip
+06/25/2014 12:44:04 devpinoyLogger Skipping the test TC0190
+06/25/2014 12:44:04 devpinoyLogger ***********************************TC0190 --- Skip
+06/25/2014 12:44:05 devpinoyLogger Skipping the test TC0191
+06/25/2014 12:44:05 devpinoyLogger ***********************************TC0191 --- Skip
+06/25/2014 12:44:05 devpinoyLogger Skipping the test TC0192
+06/25/2014 12:44:05 devpinoyLogger ***********************************TC0192 --- Skip
+06/25/2014 12:44:06 devpinoyLogger Skipping the test TC0193
+06/25/2014 12:44:06 devpinoyLogger ***********************************TC0193 --- Skip
+06/25/2014 12:44:06 devpinoyLogger Skipping the test TC0194
+06/25/2014 12:44:06 devpinoyLogger ***********************************TC0194 --- Skip
+06/25/2014 12:44:07 devpinoyLogger Skipping the test TC0195
+06/25/2014 12:44:07 devpinoyLogger ***********************************TC0195 --- Skip
+06/25/2014 12:44:07 devpinoyLogger Skipping the test TC0196
+06/25/2014 12:44:07 devpinoyLogger ***********************************TC0196 --- Skip
+06/25/2014 12:44:08 devpinoyLogger Skipping the test TC0197
+06/25/2014 12:44:08 devpinoyLogger ***********************************TC0197 --- Skip
+06/25/2014 12:44:08 devpinoyLogger Skipping the test TC0198
+06/25/2014 12:44:08 devpinoyLogger ***********************************TC0198 --- Skip
+06/25/2014 12:44:09 devpinoyLogger Skipping the test TC0199
+06/25/2014 12:44:09 devpinoyLogger ***********************************TC0199 --- Skip
+06/25/2014 12:44:09 devpinoyLogger Skipping the test TC0200
+06/25/2014 12:44:09 devpinoyLogger ***********************************TC0200 --- Skip
+06/25/2014 12:44:10 devpinoyLogger Skipping the test TC0201
+06/25/2014 12:44:10 devpinoyLogger ***********************************TC0201 --- Skip
+06/25/2014 12:44:10 devpinoyLogger Skipping the test TC0202
+06/25/2014 12:44:10 devpinoyLogger ***********************************TC0202 --- Skip
+06/25/2014 12:44:11 devpinoyLogger Skipping the test TC0203
+06/25/2014 12:44:11 devpinoyLogger ***********************************TC0203 --- Skip
+06/25/2014 12:44:11 devpinoyLogger Skipping the test TC0204
+06/25/2014 12:44:11 devpinoyLogger ***********************************TC0204 --- Skip
+06/25/2014 12:44:12 devpinoyLogger Skipping the test TC0205
+06/25/2014 12:44:12 devpinoyLogger ***********************************TC0205 --- Skip
+06/25/2014 12:44:12 devpinoyLogger Skipping the test TC0206
+06/25/2014 12:44:12 devpinoyLogger ***********************************TC0206 --- Skip
+06/25/2014 12:44:13 devpinoyLogger Skipping the test TC0207
+06/25/2014 12:44:13 devpinoyLogger ***********************************TC0207 --- Skip
+06/25/2014 12:44:13 devpinoyLogger Skipping the test TC0208
+06/25/2014 12:44:13 devpinoyLogger ***********************************TC0208 --- Skip
+06/25/2014 12:44:14 devpinoyLogger Skipping the test TC0209
+06/25/2014 12:44:14 devpinoyLogger ***********************************TC0209 --- Skip
+06/25/2014 12:44:14 devpinoyLogger Skipping the test TC0210
+06/25/2014 12:44:14 devpinoyLogger ***********************************TC0210 --- Skip
+06/25/2014 12:44:15 devpinoyLogger Skipping the test TC0211
+06/25/2014 12:44:15 devpinoyLogger ***********************************TC0211 --- Skip
+06/25/2014 12:44:15 devpinoyLogger Skipping the test TC0212
+06/25/2014 12:44:15 devpinoyLogger ***********************************TC0212 --- Skip
+06/25/2014 12:44:16 devpinoyLogger Skipping the test TC0213
+06/25/2014 12:44:16 devpinoyLogger ***********************************TC0213 --- Skip
+06/25/2014 12:44:16 devpinoyLogger Skipping the test TC0214
+06/25/2014 12:44:16 devpinoyLogger ***********************************TC0214 --- Skip
+06/25/2014 12:44:17 devpinoyLogger Skipping the test TC0215
+06/25/2014 12:44:17 devpinoyLogger ***********************************TC0215 --- Skip
+06/25/2014 12:44:17 devpinoyLogger Skipping the test TC0216
+06/25/2014 12:44:17 devpinoyLogger ***********************************TC0216 --- Skip
+06/25/2014 12:44:18 devpinoyLogger Skipping the test TC0217
+06/25/2014 12:44:18 devpinoyLogger ***********************************TC0217 --- Skip
+06/25/2014 12:44:18 devpinoyLogger Skipping the test TC0218
+06/25/2014 12:44:18 devpinoyLogger ***********************************TC0218 --- Skip
+06/25/2014 12:44:19 devpinoyLogger Skipping the test TC0219
+06/25/2014 12:44:19 devpinoyLogger ***********************************TC0219 --- Skip
+06/25/2014 12:44:19 devpinoyLogger Skipping the test TC0220
+06/25/2014 12:44:19 devpinoyLogger ***********************************TC0220 --- Skip
+06/25/2014 12:44:20 devpinoyLogger Skipping the test TC0221
+06/25/2014 12:44:20 devpinoyLogger ***********************************TC0221 --- Skip
+06/25/2014 12:44:20 devpinoyLogger Skipping the test TC0222
+06/25/2014 12:44:20 devpinoyLogger ***********************************TC0222 --- Skip
+06/25/2014 12:44:21 devpinoyLogger Skipping the test TC0223
+06/25/2014 12:44:21 devpinoyLogger ***********************************TC0223 --- Skip
+06/25/2014 12:44:21 devpinoyLogger Skipping the test TC0224
+06/25/2014 12:44:21 devpinoyLogger ***********************************TC0224 --- Skip
+06/25/2014 12:44:22 devpinoyLogger Skipping the test TC0225
+06/25/2014 12:44:22 devpinoyLogger ***********************************TC0225 --- Skip
+06/25/2014 12:44:22 devpinoyLogger Skipping the test TC0226
+06/25/2014 12:44:22 devpinoyLogger ***********************************TC0226 --- Skip
+06/25/2014 12:44:23 devpinoyLogger Skipping the test TC0227
+06/25/2014 12:44:23 devpinoyLogger ***********************************TC0227 --- Skip
+06/25/2014 12:44:23 devpinoyLogger Skipping the test TC0228
+06/25/2014 12:44:23 devpinoyLogger ***********************************TC0228 --- Skip
+06/25/2014 12:44:24 devpinoyLogger Skipping the test TC0229
+06/25/2014 12:44:24 devpinoyLogger ***********************************TC0229 --- Skip
+06/25/2014 12:44:24 devpinoyLogger Skipping the test TC0230
+06/25/2014 12:44:24 devpinoyLogger ***********************************TC0230 --- Skip
+06/25/2014 12:44:25 devpinoyLogger Skipping the test TC0231
+06/25/2014 12:44:25 devpinoyLogger ***********************************TC0231 --- Skip
+06/25/2014 12:44:25 devpinoyLogger Skipping the test TC0232
+06/25/2014 12:44:25 devpinoyLogger ***********************************TC0232 --- Skip
+06/25/2014 12:44:26 devpinoyLogger Skipping the test TC0233
+06/25/2014 12:44:26 devpinoyLogger ***********************************TC0233 --- Skip
+06/25/2014 12:44:26 devpinoyLogger Skipping the test TC0234
+06/25/2014 12:44:26 devpinoyLogger ***********************************TC0234 --- Skip
+06/25/2014 12:44:27 devpinoyLogger Skipping the test TC0235
+06/25/2014 12:44:27 devpinoyLogger ***********************************TC0235 --- Skip
+06/25/2014 12:44:27 devpinoyLogger Skipping the test TC0236
+06/25/2014 12:44:27 devpinoyLogger ***********************************TC0236 --- Skip
+06/25/2014 12:44:28 devpinoyLogger Skipping the test TC0237
+06/25/2014 12:44:28 devpinoyLogger ***********************************TC0237 --- Skip
+06/25/2014 12:44:28 devpinoyLogger Skipping the test TC0238
+06/25/2014 12:44:28 devpinoyLogger ***********************************TC0238 --- Skip
+06/25/2014 12:44:29 devpinoyLogger Skipping the test TC0239
+06/25/2014 12:44:29 devpinoyLogger ***********************************TC0239 --- Skip
+06/25/2014 12:44:29 devpinoyLogger Skipping the test TC0240
+06/25/2014 12:44:29 devpinoyLogger ***********************************TC0240 --- Skip
+06/25/2014 12:44:30 devpinoyLogger Skipping the test TC0241
+06/25/2014 12:44:30 devpinoyLogger ***********************************TC0241 --- Skip
+06/25/2014 12:44:30 devpinoyLogger Skipping the test TC0242
+06/25/2014 12:44:30 devpinoyLogger ***********************************TC0242 --- Skip
+06/25/2014 12:44:31 devpinoyLogger Skipping the test TC0243
+06/25/2014 12:44:31 devpinoyLogger ***********************************TC0243 --- Skip
+06/25/2014 12:44:31 devpinoyLogger Skipping the test TC0244
+06/25/2014 12:44:31 devpinoyLogger ***********************************TC0244 --- Skip
+06/25/2014 12:44:32 devpinoyLogger Skipping the test TC0245
+06/25/2014 12:44:32 devpinoyLogger ***********************************TC0245 --- Skip
+06/25/2014 12:44:32 devpinoyLogger Skipping the test TC0246
+06/25/2014 12:44:32 devpinoyLogger ***********************************TC0246 --- Skip
+06/25/2014 12:44:33 devpinoyLogger Skipping the test TC0247
+06/25/2014 12:44:33 devpinoyLogger ***********************************TC0247 --- Skip
+06/25/2014 12:44:33 devpinoyLogger Skipping the test TC0248
+06/25/2014 12:44:33 devpinoyLogger ***********************************TC0248 --- Skip
+06/25/2014 12:44:34 devpinoyLogger Skipping the test TC0249
+06/25/2014 12:44:34 devpinoyLogger ***********************************TC0249 --- Skip
+06/25/2014 12:44:34 devpinoyLogger Skipping the test TC0250
+06/25/2014 12:44:34 devpinoyLogger ***********************************TC0250 --- Skip
+06/25/2014 12:44:35 devpinoyLogger Skipping the test TC0251
+06/25/2014 12:44:35 devpinoyLogger ***********************************TC0251 --- Skip
+06/25/2014 12:44:35 devpinoyLogger Skipping the test TC0252
+06/25/2014 12:44:35 devpinoyLogger ***********************************TC0252 --- Skip
+06/25/2014 12:44:36 devpinoyLogger Skipping the test TC0253
+06/25/2014 12:44:36 devpinoyLogger ***********************************TC0253 --- Skip
+06/25/2014 12:44:36 devpinoyLogger Skipping the test TC0254
+06/25/2014 12:44:36 devpinoyLogger ***********************************TC0254 --- Skip
+06/25/2014 12:44:37 devpinoyLogger Skipping the test TC0255
+06/25/2014 12:44:37 devpinoyLogger ***********************************TC0255 --- Skip
+06/25/2014 12:44:37 devpinoyLogger Skipping the test TC0256
+06/25/2014 12:44:37 devpinoyLogger ***********************************TC0256 --- Skip
+06/25/2014 12:44:38 devpinoyLogger Skipping the test TC0257
+06/25/2014 12:44:38 devpinoyLogger ***********************************TC0257 --- Skip
+06/25/2014 12:44:38 devpinoyLogger Skipping the test TC0258
+06/25/2014 12:44:38 devpinoyLogger ***********************************TC0258 --- Skip
+06/25/2014 12:44:39 devpinoyLogger Skipping the test TC0259
+06/25/2014 12:44:39 devpinoyLogger ***********************************TC0259 --- Skip
+06/25/2014 12:44:39 devpinoyLogger Skipping the test TC0260
+06/25/2014 12:44:39 devpinoyLogger ***********************************TC0260 --- Skip
+06/25/2014 12:44:40 devpinoyLogger Skipping the test TC0261
+06/25/2014 12:44:40 devpinoyLogger ***********************************TC0261 --- Skip
+06/25/2014 12:44:40 devpinoyLogger Skipping the test TC0262
+06/25/2014 12:44:40 devpinoyLogger ***********************************TC0262 --- Skip
+06/25/2014 12:44:41 devpinoyLogger Skipping the test TC0263
+06/25/2014 12:44:41 devpinoyLogger ***********************************TC0263 --- Skip
+06/25/2014 12:44:41 devpinoyLogger Skipping the test TC0264
+06/25/2014 12:44:41 devpinoyLogger ***********************************TC0264 --- Skip
+06/25/2014 12:44:42 devpinoyLogger Skipping the test TC0265
+06/25/2014 12:44:42 devpinoyLogger ***********************************TC0265 --- Skip
+06/25/2014 12:44:42 devpinoyLogger Skipping the test TC0266
+06/25/2014 12:44:42 devpinoyLogger ***********************************TC0266 --- Skip
+06/25/2014 12:44:43 devpinoyLogger Skipping the test TC0267
+06/25/2014 12:44:43 devpinoyLogger ***********************************TC0267 --- Skip
+06/25/2014 12:44:43 devpinoyLogger Skipping the test TC0268
+06/25/2014 12:44:43 devpinoyLogger ***********************************TC0268 --- Skip
+06/25/2014 12:44:44 devpinoyLogger Skipping the test TC0269
+06/25/2014 12:44:44 devpinoyLogger ***********************************TC0269 --- Skip
+06/25/2014 12:44:44 devpinoyLogger Skipping the test TC0270
+06/25/2014 12:44:44 devpinoyLogger ***********************************TC0270 --- Skip
+06/25/2014 12:44:45 devpinoyLogger Skipping the test TC0271
+06/25/2014 12:44:45 devpinoyLogger ***********************************TC0271 --- Skip
+06/25/2014 12:44:45 devpinoyLogger Skipping the test TC0272
+06/25/2014 12:44:45 devpinoyLogger ***********************************TC0272 --- Skip
+06/25/2014 12:44:46 devpinoyLogger Skipping the test TC0273
+06/25/2014 12:44:46 devpinoyLogger ***********************************TC0273 --- Skip
+06/25/2014 12:44:46 devpinoyLogger Skipping the test TC0274
+06/25/2014 12:44:46 devpinoyLogger ***********************************TC0274 --- Skip
+06/25/2014 12:44:47 devpinoyLogger Skipping the test TC0275
+06/25/2014 12:44:47 devpinoyLogger ***********************************TC0275 --- Skip
+06/25/2014 12:44:47 devpinoyLogger Skipping the test TC0276
+06/25/2014 12:44:47 devpinoyLogger ***********************************TC0276 --- Skip
+06/25/2014 12:44:48 devpinoyLogger Skipping the test TC0277
+06/25/2014 12:44:48 devpinoyLogger ***********************************TC0277 --- Skip
+06/25/2014 12:44:48 devpinoyLogger Skipping the test TC0278
+06/25/2014 12:44:48 devpinoyLogger ***********************************TC0278 --- Skip
+06/25/2014 12:44:49 devpinoyLogger Skipping the test TC0279
+06/25/2014 12:44:49 devpinoyLogger ***********************************TC0279 --- Skip
+06/25/2014 12:44:49 devpinoyLogger Skipping the test TC0280
+06/25/2014 12:44:49 devpinoyLogger ***********************************TC0280 --- Skip
+06/25/2014 12:44:50 devpinoyLogger Skipping the test TC0281
+06/25/2014 12:44:50 devpinoyLogger ***********************************TC0281 --- Skip
+06/25/2014 12:44:50 devpinoyLogger Skipping the test TC0282
+06/25/2014 12:44:50 devpinoyLogger ***********************************TC0282 --- Skip
+06/25/2014 12:44:51 devpinoyLogger Skipping the test TC0283
+06/25/2014 12:44:51 devpinoyLogger ***********************************TC0283 --- Skip
+06/25/2014 12:44:51 devpinoyLogger Skipping the test TC0284
+06/25/2014 12:44:51 devpinoyLogger ***********************************TC0284 --- Skip
+06/25/2014 12:44:52 devpinoyLogger Skipping the test TC0285
+06/25/2014 12:44:52 devpinoyLogger ***********************************TC0285 --- Skip
+06/25/2014 12:44:52 devpinoyLogger Skipping the test TC0286
+06/25/2014 12:44:52 devpinoyLogger ***********************************TC0286 --- Skip
+06/25/2014 12:44:53 devpinoyLogger Skipping the test TC0287
+06/25/2014 12:44:53 devpinoyLogger ***********************************TC0287 --- Skip
+06/25/2014 12:44:53 devpinoyLogger Skipping the test TC0288
+06/25/2014 12:44:53 devpinoyLogger ***********************************TC0288 --- Skip
+06/25/2014 12:44:54 devpinoyLogger Skipping the test TC0289
+06/25/2014 12:44:54 devpinoyLogger ***********************************TC0289 --- Skip
+06/25/2014 12:44:54 devpinoyLogger Skipping the test TC0290
+06/25/2014 12:44:54 devpinoyLogger ***********************************TC0290 --- Skip
+06/25/2014 12:44:54 devpinoyLogger Skipping the test TC0291
+06/25/2014 12:44:54 devpinoyLogger ***********************************TC0291 --- Skip
+06/25/2014 12:44:55 devpinoyLogger Skipping the test TC0292
+06/25/2014 12:44:55 devpinoyLogger ***********************************TC0292 --- Skip
+06/25/2014 12:44:55 devpinoyLogger Skipping the test TC0293
+06/25/2014 12:44:55 devpinoyLogger ***********************************TC0293 --- Skip
+06/25/2014 12:44:56 devpinoyLogger Skipping the test TC0294
+06/25/2014 12:44:56 devpinoyLogger ***********************************TC0294 --- Skip
+06/25/2014 12:44:56 devpinoyLogger Skipping the test TC0295
+06/25/2014 12:44:56 devpinoyLogger ***********************************TC0295 --- Skip
+06/25/2014 12:44:57 devpinoyLogger Skipping the test TC0296
+06/25/2014 12:44:57 devpinoyLogger ***********************************TC0296 --- Skip
+06/25/2014 12:44:58 devpinoyLogger Skipping the test TC0297
+06/25/2014 12:44:58 devpinoyLogger ***********************************TC0297 --- Skip
+06/25/2014 12:44:58 devpinoyLogger Skipping the test TC0298
+06/25/2014 12:44:58 devpinoyLogger ***********************************TC0298 --- Skip
+06/25/2014 12:44:59 devpinoyLogger Skipping the test TC0299
+06/25/2014 12:44:59 devpinoyLogger ***********************************TC0299 --- Skip
+06/25/2014 12:44:59 devpinoyLogger Skipping the test TC0300
+06/25/2014 12:44:59 devpinoyLogger ***********************************TC0300 --- Skip
