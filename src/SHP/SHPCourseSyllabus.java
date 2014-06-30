@@ -1,6 +1,4 @@
-/* This class file is for Test Suite 1 package Testcases : MCAT Diagnostic, Full length, Topical and other tests.
- * This is framework driven class file.  
- * Developed by Siva Vanapalli
+/* This class file is for testing SHP Course Syllabus
  */
 
 package SHP;
@@ -29,11 +27,7 @@ import Utility.Variable_Conversions;
 public class SHPCourseSyllabus extends DriverScript{
 	
 	// All initialization
-	public static int currentSection; 
-	public static int noofSections;
 	public static Excel_Ops d = null;
-	public static Utility.Variable_Conversions vc = null;
-	public static boolean rwPgVerification = false; // Sets to true during review mode validations
 	public static boolean completeRegression = false; // Sets to true for complete regression testing option chosen by user (in ControllerNew.xlsx)
 	public static boolean  getQAText = false; // Sets to true to get text of question & answers when the option chosen by user (in ControllerNew.xlsx)
 	
@@ -42,8 +36,9 @@ public class SHPCourseSyllabus extends DriverScript{
 	public static String completeFlowTest(String sheetName) throws IOException, InterruptedException {
 
 		//Initializing
-		APPLICATION_LOGS.debug("Inside SHP CompleteflowTest" + sheetName);
-		classResult = "Pass"; String result = null; rwPgVerification = false; getQAText = false;
+		Keywords.dualOutput("Inside SHP CompleteflowTest", sheetName);
+		classResult = "Pass"; String result = null; getQAText = false;
+		d= new Excel_Ops(System.getProperty("user.dir")+"/src/Config/"+currentDataXL);
 		
 		//Since the code is common for Complete regression, 
 		//get QA Text and general flow regression, the following initialization is done
@@ -53,32 +48,28 @@ public class SHPCourseSyllabus extends DriverScript{
 		if (currentCaseName.equals("getQAText"))
 			getQAText = true;
 		
-		//Initialize excel instance and variable conversion instance
-		d= new Excel_Ops(System.getProperty("user.dir")+"/src/Config/"+currentDataXL);
-		vc = new Variable_Conversions();
-		
 		//Start the test by logging into SHP
 		if (TestUtil.shpLogin().equals("Pass")) {
 			
 			driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);		
-			APPLICATION_LOGS.debug("Login successful through Student Home Page");
+			Keywords.dualOutput("Login successful through Student Home Page", null);
 			
 			//Clicking on the Course
 			Keywords.clickLinkText(currentTestName.trim());	
-			APPLICATION_LOGS.debug("SHP Course Syllabus Page is launched");
+			Keywords.dualOutput("SHP Course Syllabus Page is launched", null);
 
-			//mainmethod is for 
+			//mainmethod is for CompleteRegression only
 				if(completeRegression)
 					mainMethod();
 		   }else{
-			   APPLICATION_LOGS.debug("Error in logging in through Student Home Page");
+			   Keywords.dualOutput("Error in logging in through Student Home Page", null);
 			   result="fail";
 			   fileName=currentTCID.replaceAll(" ", "")+"_"+currentTestName.replaceAll(" ", "")+"_"+"AllResources.jpg";
 			   TestUtil.takeScreenShot(screenshotPath+fileName);
 			   ReportUtil.addStep( "SHP Course Syllabus"+sheetName+" ", "Error loading page", result,screenshotPath+fileName);
 		   }
 		return classResult;
-	} // end of function
+	} // end of completeFlowTest
 	
 	//Method to spin through pages and perform different actions
 	public static String mainMethod() throws IOException, InterruptedException{
@@ -113,7 +104,7 @@ public class SHPCourseSyllabus extends DriverScript{
 		
 		//Initializations
 		int rowNum = 2; int titleCount = 1; 
-		String titlePath; String contentPath; String toolTip;String iconPath; String statusPath;String calPath;
+		String titlePath; String contentPath; 
 		do{
 			System.out.println("Inside first do method");
 			
@@ -123,7 +114,7 @@ public class SHPCourseSyllabus extends DriverScript{
 			
 			titlePath = TestUtil.getStringValueinArray(OR,"SHP_Syllabus_Title_Start","Key")+ titleCount + TestUtil.getStringValueinArray(OR,"SHP_Syllabus_Title_End","Key");
 			Keywords.clickbyXpath(titlePath);
-			APPLICATION_LOGS.debug("Navigating through each Topic");
+			Keywords.dualOutput("Navigating through each Topic", null);
 
 			int contentCount =1;
 			
@@ -157,7 +148,7 @@ public class SHPCourseSyllabus extends DriverScript{
 						//Keywords.verifyCustomObjectText(contentPath, d.getCellData(currentDatasheet, "ASSIGNMENT_NAME", rowNum));
 						
 						//Clicking on each non static link and navigating to the respective page
-						APPLICATION_LOGS.debug("Navigating to the link "  + d.getCellData(currentDatasheet, "ASSIGNMENT_NAME", rowNum));
+						Keywords.dualOutput("Navigating to the link ", d.getCellData(currentDatasheet, "ASSIGNMENT_NAME", rowNum));
 						String winHandleBefore = driver.getWindowHandle();
 					
 						Keywords.clickbyXpath(contentPath);
@@ -172,10 +163,10 @@ public class SHPCourseSyllabus extends DriverScript{
 						if (d.getCellData(currentDatasheet, "TYPE", rowNum).equals("Jasper")){
 							//verifying the title on each page
 							if (driver.getPageSource().contains(d.getCellData(currentDatasheet, "ASSIGNMENT_NAME", rowNum))){
-								  APPLICATION_LOGS.debug("navigated to the correct page " + d.getCellData(currentDatasheet, "ASSIGNMENT_NAME", rowNum));
+								  Keywords.dualOutput("navigated to the correct page ", d.getCellData(currentDatasheet, "ASSIGNMENT_NAME", rowNum));
 
 							}else{
-								APPLICATION_LOGS.debug("Wrong page is opened"  + d.getCellData(currentDatasheet, "ASSIGNMENT_NAME", rowNum));
+								Keywords.dualOutput("Wrong page is opened", d.getCellData(currentDatasheet, "ASSIGNMENT_NAME", rowNum));
 								fileName=currentTCID.replaceAll(" ", "")+"_"+currentTestName.replaceAll(" ", "")+"_"+"AllResources.jpg";
 								TestUtil.takeScreenShot(screenshotPath+fileName);
 								ReportUtil.addStep("SHP Course Syllabus "+currentTestName+" ", "Error navigating to the link "+ d.getCellData(currentDatasheet, "ASSIGNMENT_NAME", rowNum), "Fail",screenshotPath+fileName);
@@ -191,7 +182,7 @@ public class SHPCourseSyllabus extends DriverScript{
 					}
 						
 					
-					//Validating the status
+					//Validating the status -- MASKING it as the status seems very inconsistent per design & functionality
 				/*	statusPath = TestUtil.getStringValueinArray(OR, "SHP_Syllabus_Status_Start", "Key") + contentCount + TestUtil.getStringValueinArray(OR, "SHP_Syllabus_Status_Mid", "Key") + (colCount+1) + TestUtil.getStringValueinArray(OR, "SHP_Syllabus_Status_End", "Key");
 					if (getQAText){
 						if (Keywords.getCustomAttribute(statusPath, "class").equals("status status-red"))
@@ -223,6 +214,6 @@ public class SHPCourseSyllabus extends DriverScript{
 			ReportUtil.addStep("Verify contents of Course Syllabus for "+currentTestName, "Contents are verified but something went wrong", "Fail", null);
 		
 		return methodResult;
-	} // end of function
+	} // end of method
 	
 }

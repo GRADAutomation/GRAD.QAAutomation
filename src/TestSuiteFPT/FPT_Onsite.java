@@ -1,3 +1,8 @@
+/* This file is designed to automate the FPT Onsite products.
+ * The base for this is the code developed by David, 
+ * this is just framework based scripts for the same logic that David impletemented without framework.
+ */
+
 package TestSuiteFPT;
 
 import java.io.IOException;

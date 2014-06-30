@@ -20,11 +20,7 @@ import Utility.Variable_Conversions;
 public class SHPAddResVerbPractice extends DriverScript{
 	
 	// All initialization
-	public static int currentSection; 
-	public static int noofSections;
 	public static Excel_Ops d = null;
-	public static Utility.Variable_Conversions vc = null;
-	public static boolean rwPgVerification = false; // Sets to true during review mode validations
 	public static boolean completeRegression = false; // Sets to true for complete regression testing option chosen by user (in ControllerNew.xlsx)
 	public static boolean  getQAText = false; // Sets to true to get text of question & answers when the option chosen by user (in ControllerNew.xlsx)
 	
@@ -34,8 +30,9 @@ public class SHPAddResVerbPractice extends DriverScript{
 	public static String completeFlowTest(String sheetName) throws IOException, InterruptedException {
 
 		//Initializing
-		APPLICATION_LOGS.debug("Inside SHP CompleteflowTest" + sheetName);
-		classResult = "Pass"; String result = null; rwPgVerification = false; getQAText = false;
+		Keywords.dualOutput("Inside SHP CompleteflowTest" + sheetName, null);
+		classResult = "Pass"; String result = null; getQAText = false;
+		d= new Excel_Ops(System.getProperty("user.dir")+"/src/Config/"+currentDataXL);
 		
 		//Since the code is common for Complete regression, 
 		//get QA Text and general flow regression, the following initialization is done
@@ -45,36 +42,31 @@ public class SHPAddResVerbPractice extends DriverScript{
 		if (currentCaseName.equals("getQAText"))
 			getQAText = true;
 		
-		//Initialize excel instance and variable conversion instance
-		d= new Excel_Ops(System.getProperty("user.dir")+"/src/Config/"+currentDataXL);
-		vc = new Variable_Conversions();
-		
 		//Start the test by logging into SHP
 		if (TestUtil.shpLogin().equals("Pass")) {
 			
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);		
-			APPLICATION_LOGS.debug("Login successful through Student Home Page");
+			Keywords.dualOutput("Login successful through Student Home Page", null);
 			
 			//Clicking on the Course
 			Keywords.clickLinkText(currentMainTopic.trim());	
-			APPLICATION_LOGS.debug("SHP Course Syllabus Page is launched");
-			
-			if(completeRegression || getQAText)
-				mainMethod();
+			Keywords.dualOutput("SHP Course Syllabus Page is launched", null);
+
+			mainMethod();
 			
 		   }else{
-			   APPLICATION_LOGS.debug("Error in logging in through Student Home Page");
+			   Keywords.dualOutput("Error in logging in through Student Home Page", null);
 			   result="fail";
 			   fileName=currentTCID.replaceAll(" ", "")+"_"+currentTestName.replaceAll(" ", "")+"_"+"AllResources.jpg";
 			   TestUtil.takeScreenShot(screenshotPath+fileName);
 			   ReportUtil.addStep( "SHP Course Syllabus"+sheetName+" ", "Error loading page", result,screenshotPath+fileName);
 		   }
 		return classResult;
-	} // end of function
+	} // end of completeFlowTest
 	
 	//Method to spin through pages and perform different actions
 	public static String mainMethod() throws IOException, InterruptedException{
-		methodResult = "Pass";
+		methodResult = "Pass"; String titlePath; int count=1; int rowCount = 2; int conCount = 1;
 		System.out.println("Inside main method");
 		
 		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);		
@@ -85,17 +77,11 @@ public class SHPAddResVerbPractice extends DriverScript{
 		//Verify shp footer
 		TestUtil.VerifySHPFooter();
 		
-		//Initializations
-		String titlePath; 
-	
-		Keywords.clickLink("SHP_Syllabus_Add_Res_Link");
-		
-		
+		Keywords.clickLink("SHP_Syllabus_Add_Res_Link");		
 		Thread.sleep(500L);
-		String winHandleBefore = driver.getWindowHandle();	
+		String winHandleBefore = driver.getWindowHandle();			
 		
-		int count=1; int rowCount = 2; int conCount = 1;
-		
+		//Access MathPractice, Verbal Practice links
 		if (currentTestName.equals("Math Refresher Practice"))
 			Keywords.clickLink("SHP_AddRes_MathPractice");
 		else if (currentTestName.equals("Verbal Edge Practice"))
@@ -109,12 +95,6 @@ public class SHPAddResVerbPractice extends DriverScript{
 		for(String winHandleNew : driver.getWindowHandles()){
 			driver.switchTo().window(winHandleNew);			
 		}
-		
-		/*Keywords.verifyObjectText("SHP_AddRes_MathPractice_Header");
-		if(keywordResult.equals("Pass"))
-			ReportUtil.addStep("Verify Title "+TestUtil.getStringValueinArray(OR, "SHP_AddRes_MathPractice_Header", "Value"), "Title verified", "Pass", null);
-		else
-			ReportUtil.addStep("Verify Title "+TestUtil.getStringValueinArray(OR, "SHP_AddRes_MathPractice_Header", "Value"), "Title incorrect", "Fail", null);*/
 
 		do{				
 			do {

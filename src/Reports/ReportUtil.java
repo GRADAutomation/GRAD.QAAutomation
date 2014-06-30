@@ -1,6 +1,11 @@
-package Reports;
+/*
+ * This is for generating customized functional reporting. The following three reports will be generated:
+ * 	a. Failed Cases Report - exclusively for failed cases
+ * 	b. Index.html Report - consolidate report that will have execution time and status of each test
+ * 	c. Detailed step-wise Report - One HTML page for each test case executed
+ */
 
-//This is for generating customized functional reporting
+package Reports;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -9,14 +14,12 @@ import java.util.Hashtable;
 import Utility.TestUtil;
 
 public class ReportUtil {
+	// Initialization
 	public static int scriptNumber=1;
 	public static String indexResultFilename;
 	public static String failedFilename;
 	public static String currentDir;
 	public static String currentSuiteName;
-	//public static int tcid;
-	//public static String currentSuitePath;
-	
 	public static double passNumber;
 	public static double failNumber;
 	public static boolean newTest=true;
@@ -25,7 +28,7 @@ public class ReportUtil {
 	public static ArrayList<String> teststatus=new ArrayList<String>();;
 	public static ArrayList<String> screenShotPath=new ArrayList<String>();;
 
-	
+	// To initialize all reporting aspects at the beginning of the testing
 	public static void startTesting(String filename,String testStartTime,String env,String rel)
 	  {
 		indexResultFilename = filename;
@@ -34,15 +37,15 @@ public class ReportUtil {
 		FileWriter fstream =null;
 		 BufferedWriter out =null;
 	      try{
+	    
 	    // Create file 
-	   
-	     fstream = new FileWriter(filename);
+	    fstream = new FileWriter(filename);
 	     out = new BufferedWriter(fstream);
 
         String RUN_DATE = TestUtil.now("dd.MMMMM.yyyy").toString();
 	    
-	    String ENVIRONMENT = env;//SeleniumServerTest.ConfigurationMap.getProperty("environment");
-	    String RELEASE = rel;//SeleniumServerTest.ConfigurationMap.getProperty("release");
+	    String ENVIRONMENT = env;
+	    String RELEASE = rel;
 	    
 	    out.newLine();
 	  
@@ -67,13 +70,12 @@ public class ReportUtil {
 	           out.write("<td width=150 align=left><FONT COLOR=#153E7E FACE=Arial SIZE=2.75><b>"+testStartTime+"</b></td>\n");
 	     out.write("</tr>\n");
 	     out.write("<tr>\n");
-	    // out.newLine();   
+  
 	           out.write("<td width=150 align= left  bgcolor=#153E7E><FONT COLOR=#E0E0E0 FACE= Arial  SIZE=2.75><b>Run EndTime</b></td>\n");
 	           out.write("<td width=150 align= left ><FONT COLOR=#153E7E FACE= Arial  SIZE=2.75><b>END_TIME</b></td>\n");
 	     out.write("</tr>\n");
 	     out.write("<tr>\n");
-	   //  out.newLine();
-	           
+         
 	           out.write("<td width=150 align= left  bgcolor=#153E7E><FONT COLOR=#E0E0E0 FACE= Arial  SIZE=2.75><b>Environment</b></td>\n");
 	           out.write("<td width=150 align= left ><FONT COLOR=#153E7E FACE= Arial  SIZE=2.75><b>"+ENVIRONMENT+"</b></td>\n");
 	     out.write("</tr>\n");
@@ -85,8 +87,7 @@ public class ReportUtil {
 
 	     out.write("</table>\n");
 
-	    //Close the output stream
-	    out.close();
+	     out.close();
 	    }catch (Exception e){//Catch exception if any
 	      System.err.println("Error: " + e.getMessage());
 	    }finally{
@@ -96,6 +97,7 @@ public class ReportUtil {
 	    }
 	  }
 	
+	// Set-up for Failed cases HTML Report
 	public static void startFailedTestReport(String filename, String env)
 	  {
 		failedFilename = filename;
@@ -105,8 +107,7 @@ public class ReportUtil {
 		 BufferedWriter out =null;
 		 String ENVIRONMENT = env;
 	      try{
-	    // Create file 
-	   
+   
 	     fstream = new FileWriter(filename);
 	     out = new BufferedWriter(fstream);
 
@@ -137,7 +138,6 @@ public class ReportUtil {
 
 	     out.write("</table>\n");
 
-	    //Close the output stream
 	    out.close();
 	    }catch (Exception e){//Catch exception if any
 	      System.err.println("Error: " + e.getMessage());
@@ -148,7 +148,7 @@ public class ReportUtil {
 	    }
 	  }
 	
-	
+	// Activities to be performed at the beginning of the suite
     public static void startSuite(String suiteName){
 
 	    FileWriter fstream =null;
@@ -240,6 +240,7 @@ public class ReportUtil {
 
     }
 	
+    //To keep add a test case once a particular test case is done
 	public static void addTestCase(String TCID, String testCaseName, String testCaseDescription, String testCaseStartTime,String testCaseEndTime,String status,String browser){
 		newTest=true;
 		FileWriter fstream=null;
@@ -373,7 +374,7 @@ public class ReportUtil {
 		newTest=false;
 	}
 	
-	
+	// Test steps during test cases - as many as possible : both pass and fail
 	public static void addStep(String desc,String key,String stat,String path){
 		
 		description.add(desc);
@@ -386,30 +387,21 @@ public class ReportUtil {
 	public static void updateEndTime(String endTime) {
 		StringBuffer buf = new StringBuffer();
 		try{
-		    // Open the file that is the first 
-		    // command line parameter
+
 		    FileInputStream fstream = new FileInputStream(indexResultFilename);
-		    // Get the object of DataInputStream
+
 		    DataInputStream in = new DataInputStream(fstream);
 		        BufferedReader br = new BufferedReader(new InputStreamReader(in));
 		    String strLine;
 		    
-		    
-		    
-		    //Read File Line By Line
-		    
 		    while ((strLine = br.readLine()) != null)   {
-		    	
-		    
-		    	
-		     if(strLine.indexOf("END_TIME") !=-1){
+		    	if(strLine.indexOf("END_TIME") !=-1){
 		    	 strLine=strLine.replace("END_TIME", endTime);
 		     }
-		     buf.append(strLine);
-		     
-		     
+		     buf.append(strLine);	     
 		    }
-		  //Close the input stream
+
+		    // Closing input streams
 		    in.close();
 		    System.out.println(buf);
 		    FileOutputStream fos=new FileOutputStream(indexResultFilename);
@@ -421,19 +413,7 @@ public class ReportUtil {
 		      System.err.println("Error: " + e.getMessage());
 		    }
 	
-		
-		
-		
-		
-		
-		
-		
 	}
-	
-	
-	
-
-	
 	
 
 }

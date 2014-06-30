@@ -1,5 +1,9 @@
+/*
+ * This utility file contains all Keyword based actions
+ * *********** Any methods with CUSTOM means that it works with XPATH identifier ONLY***********
+ */
+
 package Utility;
-//http://www.vogella.de/articles/JavaRegularExpressions/ar01s05.html
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
@@ -13,8 +17,6 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
-//import org.apache.commons.lang.StringUtils;
-
 
 
 import Utility.ErrorUtil;
@@ -617,7 +619,6 @@ public class Keywords extends DriverScript{
 			return keywordResult;
 	}
 	
-	//Added on 1/21	
 	//This method takes care of selecting a value from the selectlist - index instead of visibletext - need to input as parameter
 	public static String selectfromSelectListByIndex(String objName, int index) throws IOException{
 		dualOutput("Executing selectfromSelectListByIndex Keyword: ", objName);
@@ -821,28 +822,7 @@ public class Keywords extends DriverScript{
 		}
 		return keywordResult;
 	}
-	/* -- OLDER VERSION
-	public static Boolean elementDisplayed(String objName) throws IOException{
-		dualOutput("Verifying if object displayed: " + objName);
-	
-		try{
-			dualOutput(TestUtil.findElement(objName).isDisplayed());
-			dualOutput("Element with objectname -"+ objName + " - is displayed");
-		}catch(Throwable t){
-		// report error
-		dualOutput("Could not verify if object displayed or not -"+ objName + t.getMessage());
-		
-		//objName.replaceAll("*", "").replaceAll("//", "");
-		fileName=currentTCID.replaceAll(" ", "")+"_"+currentTestName.replaceAll(" ", "")+"_"+objName+".jpg";
-		TestUtil.takeScreenShot(fileName);
-		ReportUtil.addStep("Verify presence of: "+objName, "Element is not displayed", "Fail", screenshotPath+fileName);
-				
-		return false;
-	}
-	return true;
-}
-	*/
-	//Updating on 1/21 as it's not working as intended -- NEED to check for MCAT
+
 	//This method checks if an element exists on the given page
 	public static Boolean elementDisplayed(String objName) throws IOException{
 		dualOutput("Verifying if object displayed: ", objName);
@@ -1086,7 +1066,6 @@ public class Keywords extends DriverScript{
 				return keywordResult;
 		}
 		
-		//Added on 1/21
 		//This method verifies whether the page source contains the string in reference
 		public static boolean pageSourceContains(String identifier) throws IOException{
 			dualOutput("Verifying if the pagesource contain the identifier : ", identifier);
@@ -1100,7 +1079,6 @@ public class Keywords extends DriverScript{
 			} 
 		}	
 		
-		//Added on 1/21
 		//This method accepts Alerts when present, throws exception when not present
 		public static boolean acceptAlert() throws IOException{
 			dualOutput("Accept the Alert present", null);
@@ -1139,6 +1117,7 @@ public class Keywords extends DriverScript{
 			dualOutput(newFileName, null);			
 			return newFileName;					
 		}
+		
 		//This method takes care of outputting to APP LOG as well as System console		
 		public static void dualOutput(String textToPrint, String Parameter) throws IOException{
 			if((Parameter == null) || Parameter.equals("")) { //modified on 1/23

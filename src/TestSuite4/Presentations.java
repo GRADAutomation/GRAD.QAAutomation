@@ -1,3 +1,8 @@
+/* This JAVA file is designed to automate Workshops, Review Notes, Lessons on Demand sections
+ * Video file contents are not automatable and the pre-req for Workshops is to disable 
+ * the flash video add-on respective browsers * 
+ */
+
 package TestSuite4;
 
 import Database.Excel_Ops;
@@ -35,7 +40,7 @@ public class Presentations extends DriverScript{
 		public static String completeFlowTest(String sheetName) throws IOException, InterruptedException {
 
 			//Initializing
-			APPLICATION_LOGS.debug("Inside Suite 4 CompleteflowTest" + sheetName);
+			Keywords.dualOutput("Inside Suite 4 CompleteflowTest", sheetName);
 			classResult = "Pass"; String result = null; rwPgVerification = false; getQAText = false;
 			
 			//Since the code is common for Complete regression, get QA Text and general flow regression, the following initialization is done
@@ -65,7 +70,7 @@ public class Presentations extends DriverScript{
 			
 				//Proceed further only if MCAT Test Prep page is displayed
 				if (Keywords.verifyTitle(currentTestName)){
-					APPLICATION_LOGS.debug("MCAT All Resources page is launched");
+					Keywords.dualOutput("MCAT All Resources page is launched", null);
 					
 				int index = vc.strToDblToInt(AllRes.getCellData(currentProduct, "Index", AllRes.getFirstRowInstance(currentProduct, "TestName", currentTestName.trim())));
 				
@@ -87,7 +92,7 @@ public class Presentations extends DriverScript{
 					}
 					
 			   }else{
-				   APPLICATION_LOGS.debug("Error in loading MCAT All resources page");
+				   Keywords.dualOutput("Error in loading MCAT All resources page", null);
 				   result="fail";
 				   fileName=currentTCID.replaceAll(" ", "")+"_"+currentTestName.replaceAll(" ", "")+"_"+"AllResources.jpg";
 				   TestUtil.takeScreenShot(screenshotPath+fileName);
@@ -99,7 +104,7 @@ public class Presentations extends DriverScript{
 			return classResult;
 			} 	catch(Throwable t){
 				// error
-				APPLICATION_LOGS.debug("Error in MCATTest");
+				Keywords.dualOutput("Error in PRESENTATIONS ",null);
 				ReportUtil.addStep("Verify Presentations Test ", "Not Successful", "Fail", null);
 				classResult = "Fail"; methodResult = "Fail"; keywordResult = "Fail"; testUtilResult = "Fail"; submethodL1Result = "Fail"; submethodL2Result = "Fail";
 				
@@ -110,27 +115,24 @@ public class Presentations extends DriverScript{
 		
 		public static String mainMethod() throws IOException, InterruptedException{
 			methodResult = "Pass";
+			int Row = 2; int totalRows = d.getRowCount(currentDatasheet);
+			String chapName = ""; String reviewId = "";
 			
 			//Once Start Test Page is verified, click on Start button
 			methodResult = "Pass";
 			if (completeRegression ){
 
 				Keywords.clickButton("JspStart_Start_Button");
-				APPLICATION_LOGS.debug("Jasper Start Test Page is launched");
+				Keywords.dualOutput("Jasper Start Test Page is launched", null);
 				ReportUtil.addStep("MCAT "+currentDatasheet+" Exam Launch","Launch Exam page","Pass", null);
 				Thread.sleep(1000);
 			}
-			int Row = 2; int totalRows = d.getRowCount(currentDatasheet);
-			String chapName = ""; String reviewId = "";
 			
 			do {
 				Thread.sleep(500);
 
 				if (completeRegression ){
-					if(!(currentDataXL.contains("Workshops"))){ 
-						//TestUtil.verifyTestPageHeaders(d.getCellData(currentDatasheet, "PageTitle", Row),rwPgVerification);
-					}
-					
+
 					if(!(currentDataXL.contains("LessonsOnDemand")))
 						verifyTestPageFooters(Row);
 					else
@@ -147,7 +149,7 @@ public class Presentations extends DriverScript{
 				
 					Thread.sleep(1500);
 					String chapNamePath = "";
-					if (!(currentDataXL.contains("LessonsOnDemand"))){
+					if (!(currentDataXL.contains("LessonsOnDemand"))){ //blocking as this is not working per the functionality
 						//driver.switchTo().defaultContent();
 						//driver.switchTo().frame("testMode");
 					
@@ -197,7 +199,7 @@ public class Presentations extends DriverScript{
 				}
 				Row++;
 				System.out.println(Row);
-				APPLICATION_LOGS.debug("Row incremented to : "+Row);
+				Keywords.dualOutput("Row incremented to : " +Row, null);
 				
 			}while(Row <= totalRows);
 			
@@ -220,7 +222,7 @@ public class Presentations extends DriverScript{
 	
 
 		public static String verifyTestPageFooters(int rowNum) throws IOException, InterruptedException{
-			APPLICATION_LOGS.debug("Executing Test Page Footers");
+			Keywords.dualOutput("Executing Test Page Footers", null);
 			submethodL1Result = "Pass";	int noofMatches;
 				
 			noofMatches = d.getNoOfMatches(currentDatasheet, "Section", d.getCellData(currentDatasheet,"Section", rowNum));
@@ -286,7 +288,7 @@ public class Presentations extends DriverScript{
 		}
 		
 		public static String verifyLODPageFooters(int rowNum) throws IOException, InterruptedException{
-			APPLICATION_LOGS.debug("Executing Test Page Footers");
+			Keywords.dualOutput("Executing Test Page Footers", null);
 			System.out.println("Executing LOD Footers");
 			submethodL1Result = "Pass";	
 			
@@ -333,6 +335,9 @@ public class Presentations extends DriverScript{
 }
 
 
+/// Notes from browser validations...
+
+
 /*					//String cssPath = "#sequence"+String.valueOf(AllRes.getFirstRowInstance("Input", "TestName", currentTestName.trim())-2)+" > td:nth-of-type(2) > a";
 String cssPath = "html > body > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div > section > table > tbody > tr:nth-of-type("+String.valueOf(AllRes.getFirstRowInstance("Input", "TestName", currentTestName.trim())-1)+") > td:nth-of-type(2) > a";
 System.out.println(cssPath);
@@ -341,7 +346,7 @@ if(currentBrowser.contains("Chrome"))
 else 
 */
 
-/* Worde for Chrome				
+/* Works for Chrome				
 Thread.sleep(3000L);
 
 Keywords.frameSwitch("defaultContent");

@@ -1,20 +1,16 @@
+/* This JAVA class file is designed to test the Review Notes section first page
+ * where the list of contents (Review Notes) will displayed and user can select desired ones
+ * and create a play list to go through them
+ */
+
 package TestSuite4;
 
 import Database.Excel_Ops;
 import ParentClasses.DriverScript;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.*;
 import org.testng.annotations.Test;
-
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
-
 import Reports.ReportUtil;
-import TestSuite1.ReviewPg;
 import Utility.Keywords;
 import Utility.TestUtil;
 import Utility.Variable_Conversions;
@@ -38,7 +34,7 @@ public class ReviewNotesFirstPg extends DriverScript{
 		public static String completeFlowTest(String sheetName) throws IOException, InterruptedException {
 
 			//Initializing
-			APPLICATION_LOGS.debug("Inside Suite 4 CompleteflowTest" + sheetName);
+			Keywords.dualOutput("Inside Suite 4 CompleteflowTest", sheetName);
 			classResult = "Pass"; String result = null; rwPgVerification = false; getQAText = false;
 			
 			//Since the code is common for Complete regression, get QA Text and general flow regression, the following initialization is done
@@ -63,7 +59,7 @@ public class ReviewNotesFirstPg extends DriverScript{
 			
 				//Proceed further only if MCAT Test Prep page is displayed
 				if (Keywords.verifyTitle(currentTestName)){
-					APPLICATION_LOGS.debug("MCAT All Resources page is launched");
+					Keywords.dualOutput("MCAT All Resources page is launched", null);
 				
 					//Selecting MCAT Diagnostic Test
 					driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
@@ -79,15 +75,12 @@ public class ReviewNotesFirstPg extends DriverScript{
 						Keywords.clickbyXpath("html/body/div[1]/div[3]/div[2]/div[1]/div/section/table/tbody/tr["+String.valueOf(index+1)+"]/td[2]/a");
 					}
 					
-					//mainmethod is called for 
 					if(completeRegression || getQAText)
 						mainMethod();
-					//ReviewPage rw = new ReviewPage();
-					//rw.completeFlowTest(currentDatasheet);	
 					
 					
 			   }else{
-				   APPLICATION_LOGS.debug("Error in loading MCAT All resources page");
+				   Keywords.dualOutput("Error in loading MCAT All resources page", null);
 				   result="fail";
 				   fileName=currentTCID.replaceAll(" ", "")+"_"+currentTestName.replaceAll(" ", "")+"_"+"AllResources.jpg";
 				   TestUtil.takeScreenShot(screenshotPath+fileName);
@@ -95,11 +88,10 @@ public class ReviewNotesFirstPg extends DriverScript{
 			   }
 			
 			} // end of if loop of Login
-			//driver.quit();
 			return classResult;
 			} catch(Throwable t){
 				// error
-				APPLICATION_LOGS.debug("Error in MCATTest");
+				Keywords.dualOutput("Error in Reivew Notes First Page", null);
 				ReportUtil.addStep("Verify PBT Test ", "Not Successful", "Fail", null);
 				classResult = "Fail"; methodResult = "Fail"; keywordResult = "Fail"; testUtilResult = "Fail"; submethodL1Result = "Fail"; submethodL2Result = "Fail";
 				
@@ -111,7 +103,7 @@ public class ReviewNotesFirstPg extends DriverScript{
 		public static String mainMethod() throws IOException, InterruptedException{
 			methodResult = "Pass";
 			
-			APPLICATION_LOGS.debug("Topic Selection Page launched");
+			Keywords.dualOutput("Topic Selection Page launched", null);
 			ReportUtil.addStep(currentDatasheet+" Topic Selection Page ","","Pass", null);
 			
 			Thread.sleep(1000L);
@@ -119,7 +111,6 @@ public class ReviewNotesFirstPg extends DriverScript{
 			
 /*			Based on discussion with Imran and David, the following are not needed.
 			System.out.println(playList());
-
 			System.out.println(organize());
 			System.out.println(TestUtil.VerifyJasperFooter());
 			System.out.println(verifyHeader());
@@ -267,7 +258,7 @@ public class ReviewNotesFirstPg extends DriverScript{
 		}
 		
 		public static String verifyTestPageFooters(int rowNum) throws IOException{
-			APPLICATION_LOGS.debug("Executing Test Page Footers");
+			Keywords.dualOutput("Executing Test Page Footers", null);
 			submethodL1Result = "Pass";	int noofMatches;
 				
 			//noofMatches = d.getNoOfMatches(currentDatasheet, "Section", d.getCellData(currentDatasheet,"Section", rowNum));

@@ -1,3 +1,8 @@
+/* This class file is designed to take care of all excel related operations
+ * Just need to create an object for this class in the desired class file. 
+ */
+
+
 package Database;
 
 import org.apache.poi.hssf.usermodel.HSSFCellStyle;
@@ -34,11 +39,11 @@ public class Excel_Ops {
 			sheet = workbook.getSheetAt(0);
 			fis.close();
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} 
 		
 	}
+	
 	// returns the row count in a sheet
 	public int getRowCount(String sheetName){
 		
@@ -53,24 +58,8 @@ public class Excel_Ops {
 		}
 		
 	}
-	/*
-	// returns the row count in a given column in a sheet
-	public int getRowCountinColumn(String sheetName, String colName){
-		
-		int index = workbook.getSheetIndex(sheetName);
-		if(index==-1)
-			return 0;
-		else{
-		sheet = workbook.getSheetAt(index);
-		int number=sheet.getLastRowNum()+1;
 
-		return number;
-		}
-		
-	}	
-	*/
-	
-	// returns number of columns in a given row
+	// returns number of columns in a given row 
 		public int getColumnCount(String sheetName,int RowNum){
 			int index = workbook.getSheetIndex(sheetName);
 			if(index==-1){
@@ -295,10 +284,6 @@ public class Excel_Ops {
 		if (cell == null)
 	        cell = row.createCell(colNum);
 
-	    // cell style
-	    //CellStyle cs = workbook.createCellStyle();
-	    //cs.setWrapText(true);
-	    //cell.setCellStyle(cs);
 	    cell.setCellValue(data);
 	    
 	    fis.close();
@@ -320,7 +305,6 @@ public class Excel_Ops {
 	
 	// returns true if data is set successfully else false
 	public boolean setCellData(String sheetName,String colName,int rowNum, String data,String url){
-		//System.out.println("setCellData setCellData******************");
 		try{
 		fis = new FileInputStream(path); 
 		workbook = new XSSFWorkbook(fis);
@@ -335,10 +319,9 @@ public class Excel_Ops {
 		
 		
 		sheet = workbook.getSheetAt(index);
-		//System.out.println("A");
+
 		row=sheet.getRow(0);
 		for(int i=0;i<row.getLastCellNum();i++){
-			//System.out.println(row.getCell(i).getStringCellValue().trim());
 			if(row.getCell(i).getStringCellValue().trim().equalsIgnoreCase(colName))
 				colNum=i;
 		}
@@ -357,8 +340,6 @@ public class Excel_Ops {
 	    cell.setCellValue(data);
 	    XSSFCreationHelper createHelper = workbook.getCreationHelper();
 
-	    //cell style for hyperlinks
-	    //by default hypelrinks are blue and underlined
 	    CellStyle hlink_style = workbook.createCellStyle();
 	    XSSFFont hlink_font = workbook.createFont();
 	    hlink_font.setUnderline(XSSFFont.U_SINGLE);
@@ -421,9 +402,9 @@ public class Excel_Ops {
 		}
 		return true;
 	}
+	
 	// returns true if column is created successfully
 	public boolean addColumn(String sheetName,String colName){
-		//System.out.println("**************addColumn*********************");
 		
 		try{				
 			fis = new FileInputStream(path); 
@@ -441,10 +422,7 @@ public class Excel_Ops {
 		row = sheet.getRow(0);
 		if (row == null)
 			row = sheet.createRow(0);
-		
-		//cell = row.getCell();	
-		//if (cell == null)
-		//System.out.println(row.getLastCellNum());
+
 		if(row.getLastCellNum() == -1)
 			cell = row.createCell(0);
 		else
@@ -532,10 +510,10 @@ public class Excel_Ops {
 		
 		
 	}
+	
 	//String sheetName, String testCaseName,String keyword ,String URL,String message
 	public boolean addHyperLink(String sheetName,String screenShotColName,String testCaseName,int index,String url,String message){
-		//System.out.println("ADDING addHyperLink******************");
-		
+	
 		url=url.replace('\\', '/');
 		if(!isSheetExist(sheetName))
 			 return false;
@@ -553,6 +531,8 @@ public class Excel_Ops {
 
 		return true; 
 	}
+	
+	//returns the row number of matching cell in given column
 	public int getCellRowNum(String sheetName,String colName,String cellValue){
 		
 		int returnValue = -1;
@@ -563,58 +543,10 @@ public class Excel_Ops {
 	    	}
 	    }
 		return returnValue;
-		
-	/*	String breakControl = "Fail";
-		int i=2; int returnValue = -1;
-		do {
-			
-			if(getCellData(sheetName,colName , i).equalsIgnoreCase(cellValue)){
-	    		returnValue = i;
-	    		breakControl = "Pass";
-	    	}
-			i++;
-		} while (breakControl.equals("Fail"));
-	
-		return returnValue;
-		*/
-	}
-/*
-		//returns number of questions in a section in the spreadsheet
-	public int getNoOfMatches(String sheetName,String ColumnName,String ToBeMatched){
-			int rowNum = 0; int NoOfMatches = 0; 
-			int index = workbook.getSheetIndex(sheetName);
-			//System.out.println("Index is"+index);
-			int colIndex = getColumnPosition(sheetName,ColumnName);
-			//System.out.println("ColNum is"+colIndex);
-			if(index==-1){
-				System.out.println("The sheet with the name "+sheetName+" does not exist");
-				return 0;
-			}	
-			else{
-				sheet = workbook.getSheetAt(index);
 
-				int MaxRows = getRowCount(sheetName);
-				//System.out.println(MaxRows);
-				while(rowNum<MaxRows) {
-					//System.out.println("inside while");
-					row = sheet.getRow(rowNum);
-					cell = row.getCell(colIndex-1);
-					cell.setCellType(Cell.CELL_TYPE_STRING); //refer to getCellType to avoid this
-					//System.out.println(cell.getStringCellValue());
-	  		  		if (cell.getStringCellValue().equals(ToBeMatched)){
-	  		  			NoOfMatches++;
-	  		  			//System.out.println("NoofMatch: "+NoOfMatches);
-	  		  		}
-	  		  			
-	  		  		rowNum++;
-	  		  		//System.out.println("rowNum is: "+rowNum);
-				}
-				//System.out.println("NoOfMatches: "+NoOfMatches);
-			}
-			return NoOfMatches;
 	}
-	*/
-	//Modified - on 1/23/14
+	
+	//returns the number of matching cells (elements) in a given column
 	public int getNoOfMatches(String sheetName,String ColumnName,String ToBeMatched){
 		int rowNum = 0; int NoOfMatches = 0; 
 		int index = workbook.getSheetIndex(sheetName);
@@ -630,9 +562,9 @@ public class Excel_Ops {
 			sheet = workbook.getSheetAt(index);
 
 			int MaxRows = getRowCount(sheetName);
-			//System.out.println(MaxRows);
+
 			while(rowNum<MaxRows) {
-				//System.out.println("inside while");
+
 				row = sheet.getRow(rowNum);
 				cell = row.getCell(colIndex-1);
 				
@@ -642,22 +574,18 @@ public class Excel_Ops {
 					tempholder = cell.getStringCellValue();
 				else
 					tempholder = "";
-				
-				//cell.setCellType(Cell.CELL_TYPE_STRING); //refer to getCellType to avoid this
-				//System.out.println(cell.getStringCellValue());
+
   		  		if (tempholder.equals(ToBeMatched)){
   		  			NoOfMatches++;
-  		  			//System.out.println("NoofMatch: "+NoOfMatches);
   		  		}
   		  			
   		  		rowNum++;
-  		  		//System.out.println("rowNum is: "+rowNum);
 			}
-			//System.out.println("NoOfMatches: "+NoOfMatches);
 		}
 		return NoOfMatches;
-}
+	}
 	
+	//returns the given column number (order number) 
 	public int getColumnPosition(String sheetName,String Column){
 		
 		int rowNum = 0; int columnNum = 0; int position = 0;
@@ -721,6 +649,7 @@ public class Excel_Ops {
 			}
 		}
 	
+	//returns array list of distinct values in a columns
 	public ArrayList<String> getDistinctValues(String sheetName,String column) {
 		
 		int rowNum = 1;
@@ -753,6 +682,7 @@ public class Excel_Ops {
 		
 	}
 	
+	//returns cell type
 	public String getCellType(String sheetName,String colName,int rowNum){
 		try{
 

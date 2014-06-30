@@ -1,6 +1,8 @@
-/* This class file is for Test Suite 1 package Testcases : MCAT Diagnostic, Full length, Topical and other tests.
- * This is framework driven class file.  
- * Developed by Siva Vanapalli
+/* This class file is for automating practice tests of GMAT... this is 80% completed, only the review page is pending
+ * Sections where debug mode is present, correct answers have been extracted from it to achieve 100%; rest of the sections
+ * will just have random answers and hence can't do score comparison, unless entire question bank is given in a spreadsheet.
+ * Per Rehab and Oscar, generating such spreadsheet is not possible, while the alternative to extract the same from an XML
+ * file is a lengthy process.
  */
 
 package TestSuiteGMAT;
@@ -41,7 +43,7 @@ public class PracticeCAT extends DriverScript{
 	public static String completeFlowTest(String sheetName) throws IOException, InterruptedException {
 
 		//Initializing
-		APPLICATION_LOGS.debug("Inside Suite 1 CompleteflowTest" + sheetName);
+		Keywords.dualOutput("Inside Suite 1 CompleteflowTest", sheetName);
 		classResult = "Pass"; String result = null; rwPgVerification = false; getQAText = false;
 		
 		//Since the code is common for Complete regression, get QA Text and general flow regression, the following initialization is done
@@ -70,7 +72,7 @@ public class PracticeCAT extends DriverScript{
 		
 			//Proceed further only if MCAT Test Prep page is displayed
 			if (Keywords.verifyTitle(currentTestName)){
-				APPLICATION_LOGS.debug("MCAT All Resources page is launched");
+				Keywords.dualOutput("GMAT All Resources page is launched", null);
 			
 				//Selecting MCAT Diagnostic Test
 				
@@ -83,16 +85,11 @@ public class PracticeCAT extends DriverScript{
 					Keywords.clickLinkText(currentTestName.trim());
 				else
 					Keywords.clickbyXpath("//*[@id='sequence"+String.valueOf(index)+"']/td[2]/a");
-				
-				//mainmethod is for 
+
 				if(!getQAText)
 					mainMethod(index);
-			//	ReviewPg rw = new ReviewPg();
-			//	rw.completeFlowTest(currentDatasheet);	
 				
-				//Once review page validations are completed, bring the control back to this class
 				if(completeRegression || getQAText){
-					//click on first tab to bring control back
 					if(isDiagORFL || currentDatasheet.contains("SciAss"))
 						Keywords.clickbyXpath(TestUtil.getStringValueinArray(OR,"ItmRw_Sectiontab_Start","Key")+ d.getCellData(currentDatasheet, "Section", 2)+TestUtil.getStringValueinArray(OR,"ItmRw_Sectiontab_End","Key"));
 					if(Keywords.clickLink("ItmRw_QueTopic_First_"+currentTestSuite).equals("Pass")){
@@ -102,7 +99,7 @@ public class PracticeCAT extends DriverScript{
 					}
 				}
 		   }else{
-			   APPLICATION_LOGS.debug("Error in loading MCAT All resources page");
+			   Keywords.dualOutput("Error in loading GMAT All resources page", null);
 			   result="fail";
 			   fileName=currentTCID.replaceAll(" ", "")+"_"+currentTestName.replaceAll(" ", "")+"_"+"AllResources.jpg";
 			   TestUtil.takeScreenShot(fileName);
@@ -114,7 +111,7 @@ public class PracticeCAT extends DriverScript{
 		//driver.quit();
 		} catch(Throwable t){
 			// error
-			APPLICATION_LOGS.debug("Error in MCATTest");
+			Keywords.dualOutput("Error in GMAT PRACTICE TESTs", null);
 			ReportUtil.addStep("Verify MCATTest ", "Not Successful", "Fail", null);
 			classResult = "Fail"; methodResult = "Fail"; keywordResult = "Fail"; testUtilResult = "Fail"; submethodL1Result = "Fail"; submethodL2Result = "Fail";
 			

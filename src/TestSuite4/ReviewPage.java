@@ -1,7 +1,10 @@
+/* This JAVA file is designed to automate the REview page functionality of Workshops / LOD / Review Notes
+ * Most of the functions are copied from Reviews Note JAVA file of TestSuite1 * 
+ */
+
 package TestSuite4;
 
 /**
- * This is JUnit test case for testing MCAT Diagnostic Test REVIEW page functionality
  * @author Resmi
  *
  */
@@ -35,7 +38,7 @@ public class ReviewPage extends DriverScript{
 		methodResult = "Pass";
 		//Reading properties file in Java example
 			 
-		APPLICATION_LOGS.debug("Inside ReviewPageTest" + sheetName);
+		Keywords.dualOutput("Inside ReviewPageTest", sheetName);
 		d = new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\"+currentDataXL);
 		AllRes= new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\AllRes.xlsx");
 
@@ -50,27 +53,10 @@ public class ReviewPage extends DriverScript{
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		else
 			Thread.sleep(10000L);
-			//if (!currentBrowser.equals("IE") && !currentBrowser.equals("Chrome"))
-			//	driver.switchTo().frame("main"); // didnt work for firefox either
-		
+
 			//If MCAT 2012 Test Prep page proceed further
 			if (Keywords.verifyTitle(currentTestName)){
-				APPLICATION_LOGS.debug("MCAT All Resources page is launched");
-				//ReportUtil.addTestCase("Jasper Login", startTime, TestUtil.now("dd.MMMMM.yyyy hh.mm.ss aaa"), "Pass");
-			
-
-				//Selecting MCAT Diagnostic Test - Commenting as we are not logging again
-			//	if(!currentBrowser.contains("Safari"))
-			//		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-				/*
-				if(!currentBrowser.contains("Safari"))
-					Keywords.clickLinkText(currentTestName.trim());
-				else
-				*/
-				//Commenting as we are not logging again
-				//	Keywords.clickbyXpath("//*[@id='sequence"+String.valueOf(AllRes.getFirstRowInstance("Input", "TestName", currentTestName.trim())-2)+"']/td[2]/a");
-				
-				//Thread.sleep(2000L);
+				Keywords.dualOutput("MCAT All Resources page is launched", null);
 				
 				driver.switchTo().defaultContent();
 				driver.switchTo().frame("main");
@@ -84,13 +70,13 @@ public class ReviewPage extends DriverScript{
 					System.out.println(HeaderLinks());
 				
 		   }else{
-			   APPLICATION_LOGS.debug("MCATTest: ERROR in loading MCAT All resources page");
+			   Keywords.dualOutput("Review Page of Workshops / LOD: ERROR in loading MCAT All resources page", null);
 		}	
 	//	} // Loop of Login
 			
 		}catch(Throwable t){
 			// error
-			APPLICATION_LOGS.debug("Error in MCATTest");
+			Keywords.dualOutput("Error in Review page of Workshops / LOD", null);
 			ReportUtil.addStep("Verify MCATTest ", "Not Successful", "Fail", null);
 			classResult = "Fail"; methodResult = "Fail"; keywordResult = "Fail"; testUtilResult = "Fail"; submethodL1Result = "Fail"; submethodL2Result = "Fail";
 		}
@@ -174,11 +160,6 @@ public class ReviewPage extends DriverScript{
 			}
 						
 			driver.switchTo().defaultContent();
-				
-			//verify 1 of 30
-		//	int noofMatches = d.getNoOfMatches(currentDatasheet, "Section", d.getCellData(currentDatasheet,"Section", row));
-			//Keywords.verifyObjectTextWithParameter("TstPg_Footer_QueNum_Text",count + " of "+noofMatches);	
-			//driver.switchTo().frame("testMode");
 
 			Keywords.clickButton("VwPg_Footer_EndTest_Button");
 			Thread.sleep(1000L);

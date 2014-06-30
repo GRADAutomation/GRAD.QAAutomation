@@ -1,3 +1,7 @@
+/* This class file is desinged to test Paper based Tests
+ * All other tests will be carried out in MCATTest.java file
+ */
+
 package TestSuite1;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -56,11 +60,7 @@ public class PBT extends DriverScript{
 				else
 					Thread.sleep(5000L);
 				//Verify contents of Jasper Start Test Page and click Start button
-
-					if(currentDataXL.contains("RNC"))
-						TestUtil.VerifyJasperStartTestPg(d.getCellData(currentDatasheet, "Start_Title", 2));
-					else
-						TestUtil.VerifyJasperStartTestPg(currentTestName);
+					TestUtil.VerifyJasperStartTestPg(currentTestName);
 				
 				Keywords.clickButton("JspStart_Start_Button");
 				

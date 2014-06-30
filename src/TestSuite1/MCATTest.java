@@ -1,6 +1,5 @@
-/* This class file is for Test Suite 1 package Testcases : MCAT Diagnostic, Full length, Topical and other tests.
- * This is framework driven class file.  
- * Developed by Siva Vanapalli
+/* This class file is designed for Test Suite 1 package Test cases : 
+ * MCAT Diagnostic, Full length, Topical, Sectional and other all types of MCAT tests except PBT.
  */
 
 package TestSuite1;
@@ -87,7 +86,7 @@ public class MCATTest extends DriverScript{
 				else
 					Keywords.clickbyXpath("//*[@id='sequence"+String.valueOf(index)+"']/td[2]/a");
 				
-				//Run mainmethod except during getText mode
+				//Run mainmethod except during getText mode. Pre-req for getText is the given test is completed (could use auto- complete)
 				if(!getQAText)
 					mainMethod(index);
 				ReviewPg rw = new ReviewPg();
@@ -502,6 +501,7 @@ public class MCATTest extends DriverScript{
 		return submethodL1Result;
 	}
 	
+	//Verifies min-review page contents
 	public static String verifySecReviewPg(String section) throws IOException, InterruptedException{
 		submethodL1Result="Pass";
 		Keywords.dualOutput("Inside verifySecReviewPg of section: ", section);
@@ -575,6 +575,7 @@ public class MCATTest extends DriverScript{
 		return submethodL1Result;
 	}
 	
+	//Verifies buttons and links on mini-review page
 	public static String verifySecRwpgButtons(String section, String callingMethod) throws IOException, InterruptedException{ //callingMethod takes only the following: Incomplete, Marked, ReviewAll
 		Keywords.dualOutput("Inside verifySecRwPgButtons of section: ",section);
 		
@@ -652,6 +653,7 @@ public class MCATTest extends DriverScript{
 		return submethodL2Result;
 	}
 	
+	//Verifies the contents of mini review page answers
 	public static String verifySecRwpgAnswers(String section) throws IOException, InterruptedException{
 		Keywords.dualOutput("Inside verifySecRwpgAnswers of section: ",section);
 		submethodL2Result = "Pass";
@@ -768,7 +770,8 @@ public class MCATTest extends DriverScript{
 		
 		return submethodL1Result;
 	}
-
+	
+	//Verifies Time, Mark button, time remaining texts on page footer
 	public static String verifyAdditionalTestPageFooters() throws IOException{
 		submethodL1Result = "Pass";
 		
@@ -790,7 +793,8 @@ public class MCATTest extends DriverScript{
 		
 		return submethodL1Result;		
 	}
-
+	
+	// Verifies Review mode EXIT, feedback footers
 	public static String verifyAdditionalREVIEWFooters(int rowNum) throws IOException, InterruptedException{
 		submethodL1Result = "Pass";
 		
@@ -821,26 +825,7 @@ public class MCATTest extends DriverScript{
 			ReportUtil.addStep("Verify the following: EXIT button, Feedback text and email id", "Some issue w/functionality verified", "Fail", screenshotPath+fileName);
 		return submethodL1Result;		
 	}	
-	
-	public static String completeTrialSection() throws IOException{
-		Keywords.dualOutput("Inside completeTrialSection()", null);
-		submethodL1Result = "Pass";
-	
-		TestUtil.verifyTestPageHeaders(d.getCellData("Test_Directions", "Break_Title",d.getCellRowNum("Test_Directions", "Sheet_Name", currentDatasheet)),rwPgVerification);
-	Keywords.verifyObjectText("SecBrk_Body_Msg_Text"); // "BREAK for all while This is an authorized break." for others
-	//Keywords.checkContains("SecBrk_Body_NextSec_Button", "src", "NEXT Section button on Break Page"); - Not appearing on LF Tests
-	
-	//Reporting for complete regression mode
-	if(submethodL1Result.equals("Pass"))
-		ReportUtil.addStep("Verify Test break page: Title, Header, logo, message, button", "All functionality has been validated", "Pass", null);
-	else
-		ReportUtil.addStep("Verify Test break page: Title, Header, logo, message, button", "Some issue w/functionality verified", "Fail", screenshotPath+fileName);
-			
-	return submethodL1Result;
-}
-	
-	
-	
+		
 }
 
 

@@ -54,7 +54,7 @@ public class ReviewPg extends DriverScript{
 		return methodResult;
 	}
 	
-
+	//Verifies ITem Review page text
 	public String verifyItemReviewPgText() throws IOException {
 		submethodL1Result = "Pass";
 		if(isDiagORFL || currentDatasheet.contains("SciAss"))
@@ -68,7 +68,7 @@ public class ReviewPg extends DriverScript{
 		return submethodL1Result;
 	}
 	
-	
+	//Verifies different links present on header section of ITem Review page
 	public String HeaderLinks() throws IOException, InterruptedException{
 		submethodL1Result = "Pass";
 		
@@ -90,8 +90,8 @@ public class ReviewPg extends DriverScript{
 		
 		//Verify Item Review Page Performance Summary navigation link		
 		if(Keywords.clickLinkandVerify("ItmRw_Nav_Performance_Link", "Jsp_Header_Pgtxt").equals("Pass")){
-			//Keywords.clickLink("ItmRw_Nav_Performance_Link");
-			//TestUtil.gotoAllResandItemReview("ItmRw_Nav_AllRes_Link");
+			//Keywords.clickLink("ItmRw_Nav_Performance_Link"); // commenting as this seems to inconsistent in terms of loading
+			//TestUtil.gotoAllResandItemReview("ItmRw_Nav_AllRes_Link"); // commenting as this seems to inconsistent in terms of loading
 			//if(TestUtil.gotoAllResandItemReview("PS_Header_Logo").equals("Pass")) // change to PS_Header_Logo
 			if(Keywords.clickLinkandVerify("PS_Nav_Review_Link", "Jsp_Header_Pgtxt").equals("Pass"))
 				ReportUtil.addStep("Verify Performance Summary nav link", "Verified Successfully", "Pass", null);
@@ -99,12 +99,13 @@ public class ReviewPg extends DriverScript{
 				ReportUtil.addStep("Verify Item Review nav link", "Verification failed", "Fail", screenshotPath+fileName);
 		}
 		//Verify Item Review Page All Resources navigation link
-		//TestUtil.gotoAllResandItemReview("ItmRw_Nav_AllRes_Link");
+		//TestUtil.gotoAllResandItemReview("ItmRw_Nav_AllRes_Link"); // commenting as this seems to inconsistent in terms of loading
 	
 		return submethodL1Result;
 		
 	}
 	
+	//Verifies different section related tabs and scores on each one of them except trial / experimental section
 	public String VerifyScoresandTabs() throws IOException, InterruptedException{
 		//Verify Scores
 		submethodL1Result = "Pass";
@@ -150,6 +151,7 @@ public class ReviewPg extends DriverScript{
 		
 	}
 	
+	// Verifies passage questions 
 	public String VerifyPassageQuestions() throws IOException{
 		submethodL1Result = "Pass";
 		System.out.println("Inside VerifyPassageQuestion method");
@@ -234,7 +236,7 @@ public class ReviewPg extends DriverScript{
 		return submethodL1Result;
 	}
 	
-
+	// Just a quick translation needed during comparison 
 	public int determinetd(int rowNum){
 		
 		//d = new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\"+currentDataXL);

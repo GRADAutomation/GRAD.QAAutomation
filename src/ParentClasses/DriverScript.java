@@ -1,5 +1,11 @@
+/* ParentClasses package contain DriverScript class files that reads Object Repository
+ * and ControllerNew excels to drive the execution. OR excel will be read into JAVA
+ * arrays to make the execution quicker, although it takes few mins to load at the beginning.
+ * Once execution completes, Custom-Output folder will contain the output based on the date & time.
+ */
+
 package ParentClasses;
-//test
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -37,8 +43,7 @@ import Utility.TestUtil;
 import Database.Excel_Ops;
 
 public class DriverScript {
-	
-	//public static Properties config =null;
+	// All initialization
 	public static WebDriver driver = null;
 	public static EventFiringWebDriver evfw=null; 
 	public static Logger APPLICATION_LOGS = Logger.getLogger("devpinoyLogger"); //devpinoyLogger
@@ -66,7 +71,6 @@ public class DriverScript {
 	
 	public static String[][] OR;
 	
-	// From DriverClass
 	public static String currentTCID;
 	public static String currentTestName;
 	public static String currentTestSuite;
@@ -86,27 +90,24 @@ public class DriverScript {
 	
 	@BeforeSuite
 	public void initialize() throws IOException{
-		// loading all the configurations from a property file
+
 		APPLICATION_LOGS.debug("Starting the test suite");
 		APPLICATION_LOGS.debug("Loading config files");
 		
 		// load the object repository
-		APPLICATION_LOGS.debug("Loading Object XPATHS");
+		APPLICATION_LOGS.debug("Loading Object Repository");
 		objects=new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\ObjectRepository.xlsx");
 		OR=TestUtil.getExcelintoArray(objects,"OR");
 
-		// initialize Input Control sheet
+		// initialize Input Control sheet - ControllerNew, load environment and execution modes
 		controller=new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\ControllerNew.xlsm");
 		
 		environment = controller.getCellData("Settings", "Value", controller.getFirstRowInstance("Settings", "Parameter","Environment"));
 		execution_mode = controller.getCellData("Settings", "Value", controller.getFirstRowInstance("Settings", "Parameter","Execution_Mode"));
 		//currentProduct = controller.getCellData("Settings", "Value", controller.getFirstRowInstance("Settings", "Parameter","Product")); 
-		System.out.println(environment);
-		System.out.println(execution_mode);
-		//evfw.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS );		
 	}
 	
-	@BeforeClass // Activities to be performed prior to beginning the class
+	@BeforeClass // Activities to be performed prior to beginning the class : Initializing reporting aspects
 	public static void startTesting(){
 		String TimeNow = TestUtil.now("yyMMddHHmmss"); 
 		new File(System.getProperty("user.dir")+"//CustomOutput//"+TimeNow).mkdirs();
@@ -117,6 +118,7 @@ public class DriverScript {
 		System.out.println("StartTesting completed");
 	}
 	
+	//Dataprovider of TestNG reads browser related data from Settings sheet of Inputcontroller
 	@Test(dataProvider="getData")
 	public void testApp(String browser, String loginID, String password) throws ClassNotFoundException, InstantiationException, IllegalAccessException, NoSuchMethodException, SecurityException, IllegalArgumentException, InvocationTargetException, IOException, InterruptedException {
 		String startTime=null; currentBrowser = browser; currentLoginID = loginID; currentPassword = password;
@@ -133,6 +135,7 @@ public class DriverScript {
 		String returnValue = null;
 		System.out.println("Reflection method loaded");
 		
+		// Modified to read data from Consolidated sheet instead of going through each and every product sheet
 		for(int tcid=2; tcid<=controller.getRowCount("Consolidated");tcid++){
 			
 			currentProduct = controller.getCellData("Consolidated", "Product", tcid);
@@ -148,6 +151,7 @@ public class DriverScript {
 			currentMainTopic= controller.getCellData("Consolidated", "MainTopic", tcid);
 			tcBrowser= controller.getCellData("Consolidated", "Browser", tcid);
 			
+			// Full Length and Diagnosis test related data sheets are macro driven and hence .xlsm while others are all .xlsx
 			if(currentDataXL.contains("FL") || currentDataXL.contains("Diag"))
 				currentDataXL = currentDataXL + ".xlsm";
 			else
@@ -177,7 +181,8 @@ public class DriverScript {
 			if(controller.getCellData("Consolidated", "Run", tcid).equals("Y") && isRun){
 				startTime=TestUtil.now("dd.MMMMM.yyyy hh.mm.ss aaa");
 				APPLICATION_LOGS.debug("Executing the test "+ currentCaseName + " under the Test name " + currentTestName);
-				// Reflection API
+				
+				// Reflection API to ensure DriverScript holds controls while stub gets executed and hands-over control back to Driver
 				try {
 					myClass = myClassLoader.loadClass(currentPackage+"."+currentScriptName);
 					whatInstance = myClass.newInstance();
@@ -220,23 +225,23 @@ public class DriverScript {
 				ReportUtil.addTestCase(currentTCID, currentTestName, currentCaseDescription,TestUtil.now("dd.MMMMM.yyyy hh.mm.ss aaa"), TestUtil.now("dd.MMMMM.yyyy hh.mm.ss aaa"), testStatus, currentBrowser );
 			} // end of else
 			
-			//controller.setCellData("Consolidated", "Result", tcid, testStatus);
+			//controller.setCellData("Consolidated", "Result", tcid, testStatus); //blocking this as it is not mandatory since detailed reporting is available
 			testStatus=null; isRun = false;
-			
 		} // end of for loop
 		ReportUtil.endSuite();
 	} //end of class
 	
-	@DataProvider (parallel = false)
+	@DataProvider (parallel = false) // parallel = True ensure concurrent execution under multiple threads
 	public Object[][] getData(){
 		return TestUtil.getData(currentDatasheet);
 	}
 	
-	@AfterClass
+	@AfterClass // 
 	public static void endScript(){
 		
 		ReportUtil.updateEndTime(TestUtil.now("dd.MMMMM.yyyy hh.mm.ss aaa"));
 /*		
+ * ENACBLE THIS to trigger emailing
 		TestUtil.zip(System.getProperty("user.dir")+"\\CustomOutput");
     	String[] to={"Siva.Vanapalli@kaplan.com"};
         String[] cc={};

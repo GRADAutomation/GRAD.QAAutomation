@@ -1,7 +1,5 @@
 
-	/* This class file is for Test Suite 1 package Testcases : MCAT Diagnostic, Full length, Topical and other tests.
-	 * This is framework driven class file.  
-	 * Developed by Siva Vanapalli
+	/* This class file is for SHP test pages to test FlashCards under Additional Resources
 	 */
 
 	package SHP;
@@ -23,11 +21,7 @@ import Utility.Variable_Conversions;
 	public class SHPAddResFlashCards extends DriverScript{
 		
 		// All initialization
-		public static int currentSection; 
-		public static int noofSections;
 		public static Excel_Ops d = null;
-		public static Utility.Variable_Conversions vc = null;
-		public static boolean rwPgVerification = false; // Sets to true during review mode validations
 		public static boolean completeRegression = false; // Sets to true for complete regression testing option chosen by user (in ControllerNew.xlsx)
 		public static boolean  getQAText = false; // Sets to true to get text of question & answers when the option chosen by user (in ControllerNew.xlsx)
 		
@@ -37,8 +31,9 @@ import Utility.Variable_Conversions;
 		public static String completeFlowTest(String sheetName) throws IOException, InterruptedException {
 
 			//Initializing
-			APPLICATION_LOGS.debug("Inside SHP CompleteflowTest" + sheetName);
-			classResult = "Pass"; String result = null; rwPgVerification = false; getQAText = false;
+			Keywords.dualOutput("Inside SHP CompleteflowTest" + sheetName, null);
+			classResult = "Pass"; String result = null; getQAText = false;
+			d= new Excel_Ops(System.getProperty("user.dir")+"/src/Config/"+currentDataXL);
 			
 			//Since the code is common for Complete regression, 
 			//get QA Text and general flow regression, the following initialization is done
@@ -48,32 +43,27 @@ import Utility.Variable_Conversions;
 			if (currentCaseName.equals("getQAText"))
 				getQAText = true;
 			
-			//Initialize excel instance and variable conversion instance
-			d= new Excel_Ops(System.getProperty("user.dir")+"/src/Config/"+currentDataXL);
-			vc = new Variable_Conversions();
-			
 			//Start the test by logging into SHP
 			if (TestUtil.shpLogin().equals("Pass")) {
 				
 				driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);		
-				APPLICATION_LOGS.debug("Login successful through Student Home Page");
+				Keywords.dualOutput("Login successful through Student Home Page", null);
 				
 				//Clicking on the Course
 				Keywords.clickLinkText(currentMainTopic.trim());	
-				APPLICATION_LOGS.debug("SHP Course Syllabus Page is launched");
-				
-				if(completeRegression || getQAText)
-					mainMethod();
+				Keywords.dualOutput("SHP Course Syllabus Page is launched", null);
+
+				mainMethod();
 				
 			   }else{
-				   APPLICATION_LOGS.debug("Error in logging in through Student Home Page");
+				   Keywords.dualOutput("Error in logging in through Student Home Page", null);
 				   result="fail";
 				   fileName=currentTCID.replaceAll(" ", "")+"_"+currentTestName.replaceAll(" ", "")+"_"+"AllResources.jpg";
 				   TestUtil.takeScreenShot(screenshotPath+fileName);
 				   ReportUtil.addStep( "SHP Course Syllabus"+sheetName+" ", "Error loading page", result,screenshotPath+fileName);
 			   }
 			return classResult;
-		} // end of function
+		} // end of completeFlowTest
 		
 		//Method to spin through pages and perform different actions
 		public static String mainMethod() throws IOException, InterruptedException{
@@ -85,18 +75,12 @@ import Utility.Variable_Conversions;
 			TestUtil.VerifySHPHeader();		
 			//Verify shp footer
 			TestUtil.VerifySHPFooter();	
-			//Initializations
-			String titlePath; 
 		
 			Keywords.clickLink("SHP_Syllabus_Add_Res_Link");		
-			
 			Thread.sleep(500L);
 			String winHandleBefore = driver.getWindowHandle();	
 			
-			int count=1; int rowCount = 2; int conCount = 1;
-			
 			Keywords.clickLink("SHP_AddRes_FlashCards_Link");
-			
 			Thread.sleep(500L);
 					
 			//handling multiple windows
@@ -105,15 +89,8 @@ import Utility.Variable_Conversions;
 				System.out.println(winHandleNew);
 			}
 			
-			
 			Alert alert = driver.switchTo().alert();
 			alert.accept();
-						
-			/*Keywords.verifyObjectText("SHP_AddRes_MathPractice_Header");
-			if(keywordResult.equals("Pass"))
-				ReportUtil.addStep("Verify Title "+TestUtil.getStringValueinArray(OR, "SHP_AddRes_MathPractice_Header", "Value"), "Title verified", "Pass", null);
-			else
-				ReportUtil.addStep("Verify Title "+TestUtil.getStringValueinArray(OR, "SHP_AddRes_MathPractice_Header", "Value"), "Title incorrect", "Fail", null);*/
 			
 			if(Keywords.verifyTitle(TestUtil.getStringValueinArray(OR, "SHP_AddRes_FlashCards_Title", "Value"))){
 				ReportUtil.addStep("Verify Title "+TestUtil.getStringValueinArray(OR, "SHP_AddRes_FlashCards_Title", "Value"), "Title verified", "Pass", null);
@@ -123,11 +100,9 @@ import Utility.Variable_Conversions;
 			testFilters();
 			testSubjects("first");
 			//testGoToCards("Physics");
-			
 
-		//	}while(d.getCellData(currentDatasheet, "TOPIC", rowCount-1).equals(d.getCellData(currentDatasheet, "TOPIC", rowCount)));
-			//Closing new window
 			driver.close();
+			
 			//Switching control back to main window
 			driver.switchTo().window(winHandleBefore);
 			
@@ -138,9 +113,9 @@ import Utility.Variable_Conversions;
 				ReportUtil.addStep("Verify contents of Course Syllabus for "+currentTestName, "Contents are verified but something went wrong", "Fail", null);
 			
 			return methodResult;
-		} // end of function
+		} // end of mainMethod()
 		
-		
+		//Method to validate FlashCard headers
 		public static String FCHeaders() throws IOException, InterruptedException {
 			
 			submethodL1Result = "Pass";
@@ -167,6 +142,7 @@ import Utility.Variable_Conversions;
 			return submethodL1Result;
 		}
 		
+		//Method to test different flash card filters
 		public static String testFilters() throws IOException, InterruptedException {
 			
 			submethodL1Result = "Pass";
@@ -189,17 +165,15 @@ import Utility.Variable_Conversions;
 			Keywords.verifyObjectText("SHP_AddRes_Filter_Reset_Text");
 			Keywords.elementDisplayed("SHP_AddRes_Filter_Delete_Img");
 			
-			//Write reports here
-			
-			
+			//Write reporting here if needed
+				
 			//Reset History
 			Keywords.clickLink("SHP_AddRes_Filter_Reset_Text");
 			
-			
-			return submethodL1Result;
-			
-		}
+			return submethodL1Result;			
+		} // end of testFilters()
 		
+		// This method is to test subject wise flashcards
 		public static String testSubjects(String turn) throws IOException, InterruptedException {
 			
 			submethodL1Result = "Pass";
@@ -252,8 +226,8 @@ import Utility.Variable_Conversions;
 					}
 				}	
 				topicCount++;
-			}
-
+			} // end of while loop
+			
 			//Reset the checkboxes & GoToFunctionality
 			if (turn.equals("first")){
 				
@@ -282,7 +256,8 @@ import Utility.Variable_Conversions;
 			
 			return submethodL1Result;
 		}
-				
+		
+		//Method to test GoToCards based on section title
 		public static String testGoToCards(String currentTitle) throws IOException, InterruptedException {
 			
 			submethodL2Result = "Pass"; int fcCount = 1; int rowNum = 0; int tfcCount = 0; int rowLimit = 0;

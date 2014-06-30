@@ -1,3 +1,9 @@
+/* This JAVA file is designed to test Performance Summary page.
+ * Since performance summary page involves high charts which are not automatable, a screenshot of Diagnostic page 
+ * is taken for bit-wise image comparison. This can be extended for other full lenght tests as the functions are designed
+ * to capture screenshot in this file
+ */
+
 package TestSuite1;
 
 import org.testng.annotations.Test;
@@ -55,7 +61,6 @@ public class PerfSummary extends DriverScript{
 	@Test
 	public String completeFlowTest(String sheetName) throws IOException, InterruptedException {
 		methodResult = "Pass"; classResult = "Pass"; String result = null;
-		//Reading properties file in Java example
 			 
 		SimpleDateFormat sdf = new SimpleDateFormat("ddMMyyyy_hhmmss");  
 		Date curDate = new Date();  
@@ -75,8 +80,7 @@ public class PerfSummary extends DriverScript{
 			if (Keywords.verifyTitle(currentTestName)){
 				Keywords.dualOutput("MCAT All Resources page is launched",null);
 			
-				//Selecting MCAT Diagnostic Test
-				
+				//Selecting MCAT Diagnostic Test				
 				int index = vc.strToDblToInt(AllRes.getCellData(currentProduct, "Index", AllRes.getFirstRowInstance(currentProduct, "TestName", currentTestName.trim())));
 				
 				if(!currentBrowser.contains("Safari"))
@@ -154,8 +158,7 @@ public class PerfSummary extends DriverScript{
 			} 
 			else{ 
 				
-				// Once the band ,width & height matches, comparing the images. 
-
+				// Once the band ,width & height matches, comparing the images
 				search: for (int i = 0; i < ras1.getNumBands(); ++i) { 
 					for (int x = 0; x < ras1.getWidth(); ++x) { 
 						for (int y = 0; y < ras1.getHeight(); ++y) { 

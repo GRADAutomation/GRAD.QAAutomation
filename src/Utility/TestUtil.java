@@ -1,3 +1,8 @@
+/*
+ * This utility file takes care of generic functions that are not keyword driven (which are covered under Keywords file)
+ * and application specific functions
+ */
+
 package Utility;
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
@@ -44,7 +49,6 @@ import com.sun.jna.Platform;
 import Database.Excel_Ops;
 import ParentClasses.DriverScript;
 import Reports.ReportUtil;
-import TestSuiteMisc.KeywordDriven;
 import Utility.Keywords;
 
 //Updated on 12/30/13 to reflect GMAT product selection
@@ -379,7 +383,8 @@ public class TestUtil extends DriverScript{
 	    	}
    	
 	    }
-
+		
+		// WORKS with XPATH only
 		public static WebElement findCustomElement(String objName) throws IOException{
 			Keywords.dualOutput("Inside findCustomElememnt", objName);
 			driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
@@ -436,8 +441,6 @@ public class TestUtil extends DriverScript{
 	
 	// screenshots
 	public static void takeScreenShot(String fileName) throws IOException{
-		//File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-	    //FileUtils.copyFile(scrFile, new File(config.getProperty("screenShotsPath")+"\\"+fileName+".jpg"));
 		Keywords.dualOutput("Inside take screenshot", null);
 		
 	    try {
@@ -548,6 +551,7 @@ public class TestUtil extends DriverScript{
 		return testUtilResult;
 	}
 	
+	// For Jasper login
 	public static String jasperLogin() throws IOException {
 		testUtilResult = "Pass";
 		
@@ -632,14 +636,14 @@ public class TestUtil extends DriverScript{
 		return "Pass";
 	}
 	
-
+	// Verifies Jasper header links
 	public static String VerifyJasperHeader(String pageText) throws IOException{
 		testUtilResult = "Pass";
 		// Verify Header Logo
 		Keywords.verifyObjectText("Jsp_Header_Logo");
 		
 		// Verify Header page title
-		Keywords.verifyObjectTextWithParameter("Jsp_Header_Pgtxt",pageText); //changed from ItmRw_Header_ItmRw to Jsp_Header_Pgtext
+		Keywords.verifyObjectTextWithParameter("Jsp_Header_Pgtxt",pageText); 
 		
 		// Verify 'Powered by Text'
 		Keywords.verifyObjectText("Jsp_Header_PoweredBy_Text");
@@ -657,7 +661,7 @@ public class TestUtil extends DriverScript{
 		// No need to add to ReportUtil as this method will be called from another
 	}
 
-	//Modified -- Siva @12/7
+	// Verifies Jasper Start page contents
 	public static String VerifyJasperStartTestPg(String pageTitle) throws IOException{
 		
 		VerifyJasperFooter();
@@ -697,7 +701,7 @@ public class TestUtil extends DriverScript{
 		return testUtilResult;
 	}
 	
-
+	// Verifies contents of JAsper Test Directions page
 	public static String VerifyJasperTestDirectionsPg() throws IOException{
 		Keywords.dualOutput("Executing Jasper Test Direction Page contents", null);
 		
@@ -748,7 +752,7 @@ public class TestUtil extends DriverScript{
 		return testUtilResult;
 	}
 
-
+	// Verifies contents of Jasper Section beginning page
 	public static String VerifyJasperSecStartPg(int secCounter) throws IOException{
 
 		testUtilResult = "Pass";
@@ -778,6 +782,7 @@ public class TestUtil extends DriverScript{
 		return testUtilResult;
 	}
 	
+	// Verifies the hearder links and titles of MCAT Test pages
 	public static String verifyTestPageHeaders(String title, boolean rwMode) throws IOException{
 		Keywords.dualOutput("Executing TestUtil - Test Page Headers method", null);
 		submethodL1Result = "Pass";
@@ -793,6 +798,7 @@ public class TestUtil extends DriverScript{
 		return submethodL1Result;		
 	}
 	
+	//Verifies MCAT Jasper footer links and buttons
 	public static String VerifyJasperFooter() throws IOException{
 		methodResult = "Pass";
 		//Verify Jasper Footer Logo
@@ -816,6 +822,7 @@ public class TestUtil extends DriverScript{
 		return methodResult;
 	}
 	
+	// Returns TRUE if the test being executed is either Diagnostic or Full length
 	public static boolean isDiagORFL(){
 		if (currentTestName.contains("Diagnostic") || currentTestName.contains("Full-Length"))
 			return true;
@@ -1043,9 +1050,6 @@ public class TestUtil extends DriverScript{
 			return testUtilResult;
 			
 			// No need to add to ReportUtil as this method will be called from another
-		}
-	
-	
-	
+		}	
 	
 }

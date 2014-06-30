@@ -1,6 +1,4 @@
-/* This class file is for Test Suite 1 package Testcases : MCAT Diagnostic, Full length, Topical and other tests.
- * This is framework driven class file.  
- * Developed by Siva Vanapalli
+/* This class file is for SHP test pages to test Fast Fact Videos under Additional Resources tab
  */
 
 package SHP;
@@ -20,11 +18,7 @@ import Utility.Variable_Conversions;
 public class SHPAddResFastFactVideos extends DriverScript{
 	
 	// All initialization
-	public static int currentSection; 
-	public static int noofSections;
 	public static Excel_Ops d = null;
-	public static Utility.Variable_Conversions vc = null;
-	public static boolean rwPgVerification = false; // Sets to true during review mode validations
 	public static boolean completeRegression = false; // Sets to true for complete regression testing option chosen by user (in ControllerNew.xlsx)
 	public static boolean  getQAText = false; // Sets to true to get text of question & answers when the option chosen by user (in ControllerNew.xlsx)
 	
@@ -35,46 +29,41 @@ public class SHPAddResFastFactVideos extends DriverScript{
 
 		//Initializing
 		APPLICATION_LOGS.debug("Inside SHP CompleteflowTest" + sheetName);
-		classResult = "Pass"; String result = null; rwPgVerification = false; getQAText = false;
+		classResult = "Pass"; String result = null; getQAText = false;
+		d= new Excel_Ops(System.getProperty("user.dir")+"/src/Config/"+currentDataXL);
 		
-		//Since the code is common for Complete regression, 
-		//get QA Text and general flow regression, the following initialization is done
+		//Since the code is common for Complete regression, getQAText and general flow regression, the following initialization is done
 		//to ensure right test will be carried out
 		if (currentCaseName.equals("Complete_Regression"))
 			completeRegression = true;
 		if (currentCaseName.equals("getQAText"))
 			getQAText = true;
-		
-		//Initialize excel instance and variable conversion instance
-		d= new Excel_Ops(System.getProperty("user.dir")+"/src/Config/"+currentDataXL);
-		vc = new Variable_Conversions();
-		
+	
 		//Start the test by logging into SHP
 		if (TestUtil.shpLogin().equals("Pass")) {
 			
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);		
-			APPLICATION_LOGS.debug("Login successful through Student Home Page");
+			Keywords.dualOutput("Login successful through Student Home Page", null);
 			
 			//Clicking on the Course
 			Keywords.clickLinkText(currentMainTopic.trim());	
-			APPLICATION_LOGS.debug("SHP Course Syllabus Page is launched");
-			
-			if(completeRegression || getQAText)
-				mainMethod();
+			Keywords.dualOutput("SHP Course Syllabus Page is launched", null);
+
+			mainMethod();
 			
 		   }else{
-			   APPLICATION_LOGS.debug("Error in logging in through Student Home Page");
+			   Keywords.dualOutput("Error in logging in through Student Home Page", null);
 			   result="fail";
 			   fileName=currentTCID.replaceAll(" ", "")+"_"+currentTestName.replaceAll(" ", "")+"_"+"AllResources.jpg";
 			   TestUtil.takeScreenShot(screenshotPath+fileName);
 			   ReportUtil.addStep( "SHP Course Syllabus"+sheetName+" ", "Error loading page", result,screenshotPath+fileName);
 		   }
 		return classResult;
-	} // end of function
+	} // end of completeFlowTest
 	
 	//Method to spin through pages and perform different actions
 	public static String mainMethod() throws IOException, InterruptedException{
-		methodResult = "Pass";
+		methodResult = "Pass"; String titlePath; int count=1; int rowCount = 2; 
 		
 		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);		
 	
@@ -82,18 +71,12 @@ public class SHPAddResFastFactVideos extends DriverScript{
 		TestUtil.VerifySHPHeader();		
 		//Verify shp footer
 		TestUtil.VerifySHPFooter();	
-		//Initializations
-		String titlePath; 
-	
+		
 		Keywords.clickLink("SHP_Syllabus_Add_Res_Link");		
-		
 		Thread.sleep(500L);
+		
 		String winHandleBefore = driver.getWindowHandle();	
-		
-		int count=1; int rowCount = 2; int conCount = 1;
-		
 		Keywords.clickLink("SHP_AddRes_FastFactVideos");
-		
 		Thread.sleep(500L);
 				
 		//handling multiple windows
@@ -110,6 +93,7 @@ public class SHPAddResFastFactVideos extends DriverScript{
 		do{								
 				titlePath = TestUtil.getStringValueinArray(OR, "SHP_FastFact_Title_Start", "Key") + count + TestUtil.getStringValueinArray(OR, "SHP_FastFact_Title_End", "Key");
 				Thread.sleep(500L);
+				
 				if (getQAText){
 					d.setCellData(currentDatasheet, "TITLE", rowCount, Keywords.getCustomObjectText(titlePath));
 				}
@@ -144,6 +128,7 @@ public class SHPAddResFastFactVideos extends DriverScript{
 		}while(d.getCellData(currentDatasheet, "TOPIC", rowCount-1).equals(d.getCellData(currentDatasheet, "TOPIC", rowCount)));
 		//Closing new window
 		driver.close();
+		
 		//Switching control back to main window
 		driver.switchTo().window(winHandleBefore);
 		
@@ -154,6 +139,6 @@ public class SHPAddResFastFactVideos extends DriverScript{
 			ReportUtil.addStep("Verify contents of Course Syllabus for "+currentTestName, "Contents are verified but something went wrong", "Fail", null);
 		
 		return methodResult;
-	} // end of function
+	} // end of method
 	
 }

@@ -1,3 +1,8 @@
+/*
+ * This is designed to test the Question bank page of MCAT
+ * 
+ */
+
 package TestSuiteMisc;
 
 import org.testng.annotations.Test;
@@ -25,7 +30,7 @@ public class QuizBank extends DriverScript {
 	@Test
 	public static String completeFlowTest(String sheetName) throws IOException, InterruptedException{
 		
-		APPLICATION_LOGS.debug("Inside QB");
+		Keywords.dualOutput("Inside QB", null);
 		d= new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\"+currentDataXL);
 		AllRes= new Excel_Ops(System.getProperty("user.dir")+"//src//Config//AllRes.xlsx");
 		vc = new Variable_Conversions();
@@ -34,10 +39,6 @@ public class QuizBank extends DriverScript {
 		if (TestUtil.jasperLogin().equals("Pass")) {
 			
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-			
-		//	if (!currentBrowser.equals("IE") && !currentBrowser.equals("Chrome"))
-		//		Keywords.frameSwitch("main");
-			
 			driver.manage().timeouts().pageLoadTimeout(180, TimeUnit.SECONDS);
 			
 			int index = vc.strToDblToInt(AllRes.getCellData(currentProduct, "Index", AllRes.getFirstRowInstance(currentProduct, "TestName", currentTestName.trim())));
@@ -57,47 +58,47 @@ public class QuizBank extends DriverScript {
 			
 			//Labels method verifies all text on the page
 			if(verifyLabels().equals("Pass")){
-				APPLICATION_LOGS.debug("QuizBank first page: All labels/ fields text is validated successfully");
+				Keywords.dualOutput("QuizBank first page: All labels/ fields text is validated successfully", null);
 				ReportUtil.addStep("QuizBank first page: Verify all labels", "Validation successful", "Pass", null);
 			} else {
-				APPLICATION_LOGS.debug("QuizBank first page: Some / all the labels/ fields text is NOT correct");
+				Keywords.dualOutput("QuizBank first page: Some / all the labels/ fields text is NOT correct", null);
 				ReportUtil.addStep("QuizBank first page: Verify all labels", "NOT appeared as expected", "Fail", null);
 			}
 			
 			//Check the functionality of Test Section 
 			if(selectAll("Test Section").equals("Pass")){
-				APPLICATION_LOGS.debug("All checkboxes under Test Section are functioning as expected");
+				Keywords.dualOutput("All checkboxes under Test Section are functioning as expected", null);
 				ReportUtil.addStep("Verify QuizBank checkbox functionality: names, id's and Select All", "Functioning as expected", "Pass", null);
 			} else {
-				APPLICATION_LOGS.debug("All / some checkboxes under Test Section are NOT functioning as expected");
+				Keywords.dualOutput("All / some checkboxes under Test Section are NOT functioning as expected", null);
 				ReportUtil.addStep("Verify QuizBank checkbox functionality: names, id's and Select All", "NOT functioning as expected", "Fail", null);
 			}
 				
 			//Check the functionality of Question Type 
 			if(selectAll("Question Type").equals("Pass")){
-				APPLICATION_LOGS.debug("All checkboxes under Question Type are functioning as expected");
+				Keywords.dualOutput("All checkboxes under Question Type are functioning as expected", null);
 				ReportUtil.addStep("Verify QuizBank checkbox functionality: names, id's and Select All", "Functioning as expected", "Pass", null);
 			} else {
-				APPLICATION_LOGS.debug("All / some checkboxes under Question Type are NOT functioning as expected");
+				Keywords.dualOutput("All / some checkboxes under Question Type are NOT functioning as expected", null);
 				ReportUtil.addStep("Verify QuizBank checkbox functionality: names, id's and Select All", "NOT functioning as expected", "Fail", null);
 			}
 			
 			//Validate correct # of questions on each sub-category - Takes input from QB spreadsheet 
 			if(validateNofQuestions().equals("Pass")){
-				APPLICATION_LOGS.debug("Available no of questions on each sub-category is correct");
+				Keywords.dualOutput("Available no of questions on each sub-category is correct", null);
 				ReportUtil.addStep("Validate # of questions on each sub-category listed", "All are correct", "Pass", null);
 			} else {
-				APPLICATION_LOGS.debug("No of questions of some/ all sub-category sections are incorrect per QuizBank spreadsheet");
+				Keywords.dualOutput("No of questions of some/ all sub-category sections are incorrect per QuizBank spreadsheet", null);
 				ReportUtil.addStep("Validate # of questions on each sub-category listed", "Some/all incorrect", "Fail", null);
 			}
 			
 			// THIS IS NOT NEEDED AS THE NUMBER OF QUESTIONS FUNCTIONALITY IS NOT WORKING CORRECTLY
 			//User selections method - Takes input from QB spreadsheet 
 /*			if(userSelections().equals("Pass")){
-				APPLICATION_LOGS.debug("All selections have been made as per QuizBank spreadsheet");
+				Keywords.dualOutput("All selections have been made as per QuizBank spreadsheet", null);
 				ReportUtil.addStep("Select options on QuizBank page as per data sheet", "All selections are made", "Pass", null);
 			} else {
-				APPLICATION_LOGS.debug("Some/ all selections are NOT made as per QuizBank spreadsheet");
+				Keywords.dualOutput("Some/ all selections are NOT made as per QuizBank spreadsheet", null);
 				ReportUtil.addStep("Select options on QuizBank page as per data sheet", "Some/all selections are not made", "Fail", null);
 			}
 */		
@@ -132,9 +133,9 @@ public class QuizBank extends DriverScript {
 			
 			//verify if checkbox is selected
 			if(Keywords.isCheckBoxCheckedWithParameters("id", id, "", "", ""))
-				APPLICATION_LOGS.debug("Checkbox with id# "+id+" is selected as expected");
+				Keywords.dualOutput("Checkbox with id# "+id+" is selected as expected", null);
 			else{
-				APPLICATION_LOGS.debug("Checkbox with id# "+id+" is NOT selected which is a defect");
+				Keywords.dualOutput("Checkbox with id# "+id+" is NOT selected which is a defect", null);
 				
 				methodResult = "Fail";
 				fileName=currentTCID.replaceAll(" ", "")+"_"+currentTestName.replaceAll(" ", "")+"_id"+id+".jpg";
@@ -158,7 +159,7 @@ public class QuizBank extends DriverScript {
 	
 	public static String userSelections() throws IOException{
 		methodResult = "Pass"; 
-		APPLICATION_LOGS.debug("Inside userSelections");
+		Keywords.dualOutput("Inside userSelections", null);
 		int rowNum; String type; String objName; String id; String response;
 		
 		for (rowNum = 2; rowNum <= (d.getRowCount(currentDatasheet)); rowNum++) {
@@ -185,7 +186,7 @@ public class QuizBank extends DriverScript {
 				}	
 			}	 // end of if
 		} //end of for
-		APPLICATION_LOGS.debug("Completed the method: userSelections");
+		Keywords.dualOutput("Completed the method: userSelections", null);
 		
 		return methodResult;
 	}
@@ -271,9 +272,9 @@ public class QuizBank extends DriverScript {
 				Keywords.clickButton("QB_FS_Calculate_Button");
 				queNum = vc.strToDblToStr(d.getCellData(currentDatasheet, "Questions", rowNum));
 				if (Keywords.verifyObjectTextWithParameter("QB_FS_AvailQueBottom_Text", "AVAILABLE QUESTIONS: "+queNum).equals("Pass"))
-					APPLICATION_LOGS.debug("Sub-category ID# "+id+" with name- "+subCategory+" has correct # of questions");
+					Keywords.dualOutput("Sub-category ID# "+id+" with name- "+subCategory+" has correct # of questions", null);
 				else{
-					APPLICATION_LOGS.debug("Sub-category ID# "+id+" with name- "+subCategory+" does NOT have correct # of questions");
+					Keywords.dualOutput("Sub-category ID# "+id+" with name- "+subCategory+" does NOT have correct # of questions", null);
 					fileName=currentTCID.replaceAll(" ", "")+"_"+currentTestName.replaceAll(" ", "")+"_id"+id+".jpg";
 					TestUtil.takeScreenShot(screenshotPath+fileName);
 					ReportUtil.addStep("Verify if Sub-category ID# "+id+" with name- "+subCategory+" has correct # of questions", "Incorrect # of questions", "Fail", screenshotPath+fileName);

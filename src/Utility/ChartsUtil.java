@@ -1,3 +1,9 @@
+/*
+ * This file is designed to test high charts functionality. 
+ * Although all the functions listed here do work, some additional support is needed from code stand point
+ * to automate high charts under TRENDS page. So, this file is just reference and not used anywhere else
+ */
+
 package Utility;
 
 import org.openqa.selenium.By;

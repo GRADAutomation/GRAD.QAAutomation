@@ -1,3 +1,9 @@
+/* This JAVA file is designed to test Test Opportunities
+ * Since this page involves lot of logic in terms of displaying appropriate opportunites, it was determined to 
+ * not to automate that complex logic, as it involves numerous effort and duplicate of existing logic.
+ * This file just verifies pre-existing sections based on the current scoring given in the data sheet
+ */
+
 package TestSuite1;
 
 /**
@@ -52,7 +58,7 @@ public class TopOpportunities extends DriverScript{
 		methodResult = "Pass"; classResult = "Pass"; String result = null;
 		//Reading properties file in Java example
 			 
-		APPLICATION_LOGS.debug("Inside ReviewPageTest" + sheetName);
+		Keywords.dualOutput("Inside ReviewPageTest",sheetName);
 		d = new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\"+currentDataXL);
 		vc = new Variable_Conversions();
 		
@@ -87,7 +93,7 @@ public class TopOpportunities extends DriverScript{
 			Keywords.verifyCustomObjectText(TestUtil.getStringValueinArray(OR, "PerfSummary_RecNextStep_2", "Key"), TestUtil.getStringValueinArray(OR, "PerfSummary_RecNextStep_3", "Value"));
 
 		   }else{
-			   APPLICATION_LOGS.debug("Error in loading MCAT All resources page");
+			   Keywords.dualOutput("Error in loading MCAT All resources page", null);
 			   result="fail";
 			   fileName=currentTCID.replaceAll(" ", "")+"_"+currentTestName.replaceAll(" ", "")+"_"+"AllResources.jpg";
 			   TestUtil.takeScreenShot(screenshotPath+fileName);
@@ -97,7 +103,7 @@ public class TopOpportunities extends DriverScript{
 		return classResult;
 		} catch(Throwable t){
 			// error
-			APPLICATION_LOGS.debug("Error in MCATTest");
+			Keywords.dualOutput("Error in Top Opportunites", null);
 			ReportUtil.addStep("Verify Top Opportunities Test ", "Not Successful", "Fail", null);
 			classResult = "Fail"; methodResult = "Fail"; keywordResult = "Fail"; testUtilResult = "Fail"; submethodL1Result = "Fail"; submethodL2Result = "Fail";
 			

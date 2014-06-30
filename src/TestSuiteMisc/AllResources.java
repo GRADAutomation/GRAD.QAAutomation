@@ -1,3 +1,8 @@
+/*
+ * This file is designed to test the links and contents of All Resources pages of GMAT and MCAT
+ * Links where LOD's are present, scripts takes a while as some of the elements are missing 
+ */
+
 package TestSuiteMisc;
 
 import java.io.FileInputStream;
@@ -34,7 +39,7 @@ public class AllResources extends DriverScript{
 	public static boolean  getQAText = false; // Sets to true to get text of question & answers when the option chosen by user (in ControllerNew.xlsx)
 
 	public static String completeFlowTest(String sheetName) throws IOException, InterruptedException{
-		APPLICATION_LOGS.debug("Inside QB");
+		Keywords.dualOutput("Inside All Resources page", null);
 		d= new Excel_Ops(System.getProperty("user.dir")+"\\src\\Config\\"+currentDataXL);
 		vc = new Variable_Conversions();
 		classResult = "Pass";
@@ -86,10 +91,10 @@ public class AllResources extends DriverScript{
 			
 				//Validate the rest of the links
 				driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-				APPLICATION_LOGS.debug(validateAllItemLinks());
-				APPLICATION_LOGS.debug(validateTopicLinks("TestArea"));
-				APPLICATION_LOGS.debug(validateTopicLinks("MainTopic"));
-				APPLICATION_LOGS.debug(validateTopicLinks("SubTopic"));
+				Keywords.dualOutput(validateAllItemLinks(), null);
+				Keywords.dualOutput(validateTopicLinks("TestArea"), null);
+				Keywords.dualOutput(validateTopicLinks("MainTopic"), null);
+				Keywords.dualOutput(validateTopicLinks("SubTopic"), null);
 			}
 		}
 			
@@ -174,9 +179,8 @@ public class AllResources extends DriverScript{
 				Keywords.verifyCustomObjectText(lengthPath2, length);
 			else
 				Keywords.verifyCustomObjectText(lengthPath, length);
-			
-			System.out.println("Validation Completed for : "+rowID);
-			APPLICATION_LOGS.debug("Validation Completed for : "+rowID);
+
+			Keywords.dualOutput("Validation Completed for : "+ rowID, null);
 			
 			//if (rowID > 48 && rowID < 122) // this if is only for GMAT
 			//	rowID++;
@@ -231,9 +235,8 @@ public class AllResources extends DriverScript{
 					Keywords.verifyCustomObjectText(lengthPath2, length);
 				else
 					Keywords.verifyCustomObjectText(lengthPath, length);
-			
-				System.out.println("Validation Completed for : "+rowID);
-				APPLICATION_LOGS.debug("----------Validation Completed for : "+rowID+"------------------");
+
+				Keywords.dualOutput("----------Validation Completed for : "+rowID+"------------------", null);
 			}
 			
 			//if (rowID > 48 && rowID < 122) // this if is only for GMAT
